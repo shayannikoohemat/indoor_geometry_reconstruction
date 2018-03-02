@@ -98,7 +98,29 @@ DataBoundsLaser ShrinkDBounds(const DataBoundsLaser &bounds, double shrinking_si
 }
 
 ObjectPoints ScaleRectangle (ObjectPoints &corners, LineTopology &edges, double scalefactor){
-    if (IsClockWise(corners)) RevertNodeOrder();
+
+    //if (!edges.IsClockWise (corners)) edges.MakeClockWise (corners);
+    /// calcualte the centroid of the rectangle
+    Position2D centroid2D;
+    centroid2D = edges.CalculateCentroid (corners);
+    /// convert it to 3D point
+    Position3D centroid3D;
+    centroid3D.X () = centroid2D.X ();
+    centroid3D.Y () = centroid2D.Y ();
+    centroid3D.Z () = corners.begin ()->Z (); // just set the Z of one of the corners to the center
+
+    /// rescale the rectangle about the centroid -> affine transformation
+    ObjectPoints new_corners;
+    for (auto &corner : corners){
+        ObjectPoint new_corner;
+        new_corner.X () = scalefactor * (corner.X () - centroid3D.X()) + centroid3D.X ();
+        new_corner.Y () = scalefactor * (corner.Y () - centroid3D.Y()) + centroid3D.Y ();
+        new_corner.Z () = corner.Z (); /// we don't scale the Z value
+        new_corner.Number() = corner.Number (); /// number sequence of the corners
+        new_corners.push_back (new_corner);
+    }
+
+    return new_corners;
 }
 
 

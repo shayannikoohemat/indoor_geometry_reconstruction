@@ -51,6 +51,10 @@ std::vector<LaserPoints> PartitionLpByTag(LaserPoints const& lp, LaserPointTag i
 DataBoundsLaser EnlargeDBounds(const DataBoundsLaser &bounds, double enlargement_size);
 /// shrink bounding box of the data by the given size
 DataBoundsLaser ShrinkDBounds(const DataBoundsLaser &bounds, double shrinking_size);
+/// rescale a rectangle by the given scale factor/ affine transformation
+/// e.g. scalefactor = 0.98 makes the rectangle around 5 cm smaller
+/// e.g. scalefactor = 1.-2 makes the rectangle around 5 cm bigger
+ObjectPoints ScaleRectangle (ObjectPoints &corners, LineTopology &edges, double scalefactor);
 
 bool OverlapXY1(const DataBoundsLaser &bounds1, const DataBoundsLaser &bounds2);
 

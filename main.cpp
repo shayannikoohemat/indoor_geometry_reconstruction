@@ -112,29 +112,88 @@ int main(int argc, char *argv[]) {
     planes_edges.Write("E:/Laser_data/ETH_dataset/penthouse/out/plane_edges.top", false);*/
 
     /* testing boost geometry library for intersecting minimum rectangles
-     *
+     * testing EnclosingRectangle and ScaleRectangle functions
      * */
     LaserPoints segments_lp;
-    segments_lp.Read ("E:/Laser_data/ETH_dataset/penthouse/floor_ceil.laser");
+    segments_lp.Read ("E:/Laser_data/ETH_dataset/penthouse/intersection_problem.laser");    //floor_ceil.laser //intersection_problem
 
     vector<LaserPoints> segments;
     segments = PartitionLpByTag (segments_lp, SegmentNumberTag);
 
     vector <ObjectPoints> corners_vec ;
     vector <LineTopology> edges_vec;
+    ObjectPoints corners;
+    LineTopology edges;
+    LineTopologies rectangles;
+    int next_number; /// the next_number is the number after the last number in the corners file
     for (auto &segment : segments){
-        ObjectPoints corners;
-        LineTopology edges;
+        /// derive databounds and derivetin for calculating the EnclosingRectangle
         DataBoundsLaser db = segment.DeriveDataBounds (0);
         segment.DeriveTIN ();
-        segment.EnclosingRectangle (1.0, corners, edges);
+        /// EnclosingRectangle function handles the numbering of the corners for many segments
+        /// corners and edges of the rectangle are the output of the function
+        segment.EnclosingRectangle(0.2, corners, edges);
+        /// get the numbering of corners for updating the Z value of the corners
+        if (corners.empty()) next_number = 4; /// later next_number-4 =0
+        else next_number = (corners.end() - 1)->Number() + 1;
+        /// add z values to the 4 new corners
+        for (int i=next_number-4; i < next_number ; i++){
+            corners[i].Z() = (db.Maximum().GetZ() + db.Minimum ().GetZ ()) / 2;
+        }
+/*        edges.push_back(PointNumber(next_number)); // close the polygon // clockwise
+        edges.MakeClockWise(corners);*/
+        edges.SetAttribute (BuildingPartNumberTag, 1);
+        rectangles.push_back (edges);
+
         corners_vec.push_back (corners);
         edges_vec.push_back (edges);
     }
+    corners.Write("E:/Laser_data/ETH_dataset/penthouse/out/min_rectangles.objpts");
+    rectangles.Write("E:/Laser_data/ETH_dataset/penthouse/out/min_rectangles.top", false);
 
+    vector <ObjectPoints> new_corners_vec ;
+    vector <LineTopology> new_edges_vec;
+    ObjectPoints scaled_corners;
+    LineTopologies new_rectangles;
+    for (int i =0; i < corners_vec.size (); i++){
+
+        scaled_corners = ScaleRectangle (corners_vec[i], edges_vec[i], 0.98);
+        edges_vec[i].SetAttribute (BuildingPartNumberTag, 3);
+        new_rectangles.push_back (edges_vec[i]);
+
+        new_corners_vec.push_back (scaled_corners);
+        new_edges_vec.push_back (edges_vec[i]);
+    }
+/*    new_corners_vec[0].Write("E:/Laser_data/ETH_dataset/penthouse/out/scaled_rectangles0.objpts");
+    LineTopologies new_rectangles0; new_rectangles0.push_back (new_edges_vec[0]);
+    new_rectangles0.Write("E:/Laser_data/ETH_dataset/penthouse/out/scaled_rectangles0.top", false);
+
+    new_corners_vec[1].Write("E:/Laser_data/ETH_dataset/penthouse/out/scaled_rectangles1.objpts");
+    LineTopologies new_rectangles1; new_rectangles1.push_back (new_edges_vec[1]);
+    new_rectangles1.Write("E:/Laser_data/ETH_dataset/penthouse/out/scaled_rectangles1.top", false);
+
+    new_corners_vec[2].Write("E:/Laser_data/ETH_dataset/penthouse/out/scaled_rectangles2.objpts");
+    LineTopologies new_rectangles2; new_rectangles2.push_back (new_edges_vec[2]);
+    new_rectangles2.Write("E:/Laser_data/ETH_dataset/penthouse/out/scaled_rectangles2.top", false);
+
+    new_corners_vec[3].Write("E:/Laser_data/ETH_dataset/penthouse/out/scaled_rectangles3.objpts");
+    LineTopologies new_rectangles3; new_rectangles3.push_back (new_edges_vec[3]);
+    new_rectangles3.Write("E:/Laser_data/ETH_dataset/penthouse/out/scaled_rectangles3.top", false);
+
+    new_corners_vec[4].Write("E:/Laser_data/ETH_dataset/penthouse/out/scaled_rectangles4.objpts");
+    LineTopologies new_rectangles4; new_rectangles4.push_back (new_edges_vec[4]);
+    new_rectangles4.Write("E:/Laser_data/ETH_dataset/penthouse/out/scaled_rectangles4.top", false);*/
+
+    scaled_corners.Write("E:/Laser_data/ETH_dataset/penthouse/out/scaled_rectangles.objpts");
+    /// topology file is the same as before scale
+    new_rectangles.Write("E:/Laser_data/ETH_dataset/penthouse/out/scaled_rectangles.top", false);
+
+    /*
+     * test boost geometry for making polygons from objectpoints and intersect them
+     * */
     //ObjectPoints corners1, corners2;
-    std::deque<boost_polygon> poly_out;
-    poly_out = intersect_polygons (corners_vec[0], corners_vec[1]);
+    //std::deque<boost_polygon> poly_out;
+    //poly_out = intersect_polygons (corners_vec[0], corners_vec[1]);
 
     /*        {
         //get the databounds from the ls TO visualize
