@@ -22,6 +22,7 @@ include_directories(D:/Mapping/Library/Buildings/include)
 include_directories(D:/Mapping/Library/LaserScan/include)
 include_directories(D:/Mapping/Foreign/ANN/include/ANN)
 include_directories(D:/Mapping/Foreign/ANN/src)
+include_directories(D:/Mapping/Tools/visualization_tools)
 #include_directories(D:/Mapping/Tools/building_modelling/pcm/include)
 #link_directories(D:/Mapping/Library/lib64)
 link_directories(${MAPPING_LIB_DIR})
@@ -30,5 +31,8 @@ link_libraries(-lLaserScan -lPhotogrammetry -lBuildings -lEispack -lLinpack -lAN
 
 set(SOURCE_FILES main.cpp indoorTopology.cpp setConsoleColor.cpp segment_refinement.cpp FilterSegmentsByTime.cpp
           Buffer.cpp Buffers.h GenerateWallPatches.cpp occlusion_test.cpp ReadAscii.cpp Laservoxel.cpp
-        Laserpoint2ScanningPosition.cpp DepthMap.cpp WallAccuracy.cpp indoor_reconstruction.h MLS_preprocessing.cpp)
+        Laserpoint2ScanningPosition.cpp DepthMap.cpp WallAccuracy.cpp indoor_reconstruction.h MLS_preprocessing.cpp
+        post_processing.cpp post_processing.h ../visualization_tools/VisualizePlane3D.cpp
+        ../visualization_tools/MinimumRectangle3D.cpp LAtexTest.tex indoorTopology_v1_old.cpp)
 add_executable(indoor_reconstruction ${SOURCE_FILES} indoor_reconstruction.h)
+target_link_libraries(indoor_reconstruction ${Boost_LIBRARIES})

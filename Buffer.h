@@ -58,8 +58,8 @@ double SegmentWidth(LaserPoints seg_lpoints, Plane seg_plane)
                 distances_unsigend.push_back(pdistplane);
             }
         }
-        // TODO: change it to signed values and get the front and back valueof the distances
-        // we dont need to different vetors for negative nad positive
+        // TODO: change it to signed values and get the front and back value of the distances
+        // we dont need two different vectors for negative and positive
         std::sort(distances_signed.begin(), distances_signed.end()); // negative values
         std::sort(distances_unsigend.begin(), distances_unsigend.end()); // positive values
 

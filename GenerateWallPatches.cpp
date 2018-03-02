@@ -9,6 +9,9 @@
 #include "LaserPoints.h"
 #include "Buffer.h"
 #include "Buffers.h"
+#include "indoor_reconstruction.h"
+#include "LineTopology.h"
+
 
 bool comparesize (const LaserPoints &lp1, const LaserPoints &lp2)
 { return lp1.size() > lp2.size(); }
@@ -62,6 +65,43 @@ DataBoundsLaser EnlargeDBounds(const DataBoundsLaser &bounds, double enlargement
     return enlargedbounds;
 }
 
+DataBoundsLaser ShrinkDBounds(const DataBoundsLaser &bounds, double shrinking_size){
+
+    DataBoundsLaser shrinkedbounds;
+    shrinkedbounds = bounds;
+
+    /// enlarge min and max X
+    if (bounds.MinimumXIsSet()) {
+        shrinkedbounds.Minimum().SetX(bounds.Minimum().GetX() + shrinking_size);
+    }
+    if (bounds.MaximumXIsSet()) {
+        shrinkedbounds.Maximum().SetX(bounds.Maximum().GetX() - shrinking_size);
+    }
+
+    /// enlarge min and max Y
+    if (bounds.MinimumYIsSet()) {
+        shrinkedbounds.Minimum().SetY(bounds.Minimum().GetY() + shrinking_size);
+    }
+    if (bounds.MaximumYIsSet()) {
+        shrinkedbounds.Maximum().SetY(bounds.Maximum().GetY() - shrinking_size);
+    }
+
+    /// set Z without change
+    if (bounds.MinimumZIsSet()) {
+        shrinkedbounds.Minimum().SetZ(bounds.Minimum().GetZ());
+    }
+    if (bounds.MaximumZIsSet()) {
+        shrinkedbounds.Maximum().SetZ(bounds.Maximum().GetZ());
+    }
+
+    return shrinkedbounds;
+}
+
+ObjectPoints ScaleRectangle (ObjectPoints &corners, LineTopology &edges, double scalefactor){
+    if (IsClockWise(corners)) RevertNodeOrder();
+}
+
+
 LaserPoints segment_refinement(LaserPoints lp, int min_segment_size, double maxdistincomponent);
 
 LaserPoints Project_points_to_Plane(LaserPoints lp, Plane plane)
@@ -80,14 +120,14 @@ LaserPoints Project_points_to_Plane(LaserPoints lp, Plane plane)
     return projected_points;
 }
 
-Buffers GenerateWallPatches(LaserPoints lp, double dist, double angle, double dist_along_twosegments) {
+Buffers GenerateWallPatches(LaserPoints lp, double dist, double angle, double dist_along_twosegments, char* root) {
 
     std::clock_t start;
     double duration;
     start = std::clock();
 
     char str_root[500];
-    char *root = (char*) "D://test//indoor_reconstruction//";
+    //root = (char*) "D://test//indoor_reconstruction//";
     strcpy (str_root,root); // initialize the str_root with root string
 
     bool verbose = false;
@@ -245,7 +285,6 @@ Buffers GenerateWallPatches(LaserPoints lp, double dist, double angle, double di
             mergedbuffers.push_back(*buffers_it);
         }
     }
-
 
     /* renumber segmentation of merged buffers
      **/

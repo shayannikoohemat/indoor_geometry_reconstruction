@@ -71,8 +71,9 @@ inline const int& get_elem(const vector<int>& m_, size_t i_, size_t j_, size_t k
     return m_[i_*N*P + j_*P + k_];
 }
 
-void occlusion_test(LaserPoints laserpoints, LaserPoints surfacepoints,
-                    LaserPoints trajpoints, Buffers segment_buffers, double closeness_to_surface_threshold) {
+void occlusion_test(LaserPoints laserpoints, const LaserPoints &surfacepoints,
+                    LaserPoints trajpoints, Buffers segment_buffers,
+                    double closeness_to_surface_threshold, char *root) {
 
     bool verbose =0;
     bool read_traj_ascii=0;
@@ -89,7 +90,7 @@ void occlusion_test(LaserPoints laserpoints, LaserPoints surfacepoints,
     char str_root[500];
     //char *root = (char*) "D://test//indoor_reconstruction//";
     //char *root = (char*) "E://BR_data//ZebR//out//occlusion_test//";
-    char *root = (char *) "E://BR_data//Diemen//process//out//occlusion_test//";
+    //char *root = (char *) "E://BR_data//Diemen//process//out//occlusion_test//";
     strcpy (str_root,root); // initialize the str_root with root string
     //char *strout;
     //strout = strcat (str_root, "FBr_3rdfloor_122k_nofloorceiling2.laser");
