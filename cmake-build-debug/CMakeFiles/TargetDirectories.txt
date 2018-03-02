@@ -1,0 +1,3 @@
+D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/indoor_reconstruction.dir
+D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/rebuild_cache.dir

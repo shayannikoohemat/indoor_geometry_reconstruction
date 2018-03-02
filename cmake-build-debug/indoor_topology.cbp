@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="indoor_topology"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/DEVCPP~1.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/DEVCPP~1.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/DEVCPP~1.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/DEVCPP~1.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="indoor_topology">
+				<Option output="D:/Mapping/Tools/indoor_topology/Debug/indoor_topology.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Mapping/Tools/indoor_topology/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mapping/Library/Photogrammetry/include"/>
+					<Add directory="D:/Mapping/Library/Buildings/include"/>
+					<Add directory="D:/Mapping/Library/LaserScan/include"/>
+					<Add directory="D:/Mapping/Foreign/ANN/include/ANN"/>
+					<Add directory="D:/Mapping/Foreign/ANN/src"/>
+					<Add directory="c:\program files\devcpp5.4.0_gcc4.7.1\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include"/>
+					<Add directory="c:\program files\devcpp5.4.0_gcc4.7.1\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../include"/>
+					<Add directory="c:\program files\devcpp5.4.0_gcc4.7.1\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include-fixed"/>
+					<Add directory="c:\program files\devcpp5.4.0_gcc4.7.1\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="c:\program files\devcpp5.4.0_gcc4.7.1\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++"/>
+					<Add directory="c:\program files\devcpp5.4.0_gcc4.7.1\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="c:\program files\devcpp5.4.0_gcc4.7.1\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/DEVCPP~1.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/Makefile&quot;  VERBOSE=1 indoor_topology"/>
+					<CompileFile command="C:/PROGRA~1/DEVCPP~1.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/DEVCPP~1.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/DEVCPP~1.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="indoor_topology/fast">
+				<Option output="D:/Mapping/Tools/indoor_topology/Debug/indoor_topology.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Mapping/Tools/indoor_topology/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Mapping/Library/Photogrammetry/include"/>
+					<Add directory="D:/Mapping/Library/Buildings/include"/>
+					<Add directory="D:/Mapping/Library/LaserScan/include"/>
+					<Add directory="D:/Mapping/Foreign/ANN/include/ANN"/>
+					<Add directory="D:/Mapping/Foreign/ANN/src"/>
+					<Add directory="c:\program files\devcpp5.4.0_gcc4.7.1\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include"/>
+					<Add directory="c:\program files\devcpp5.4.0_gcc4.7.1\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../include"/>
+					<Add directory="c:\program files\devcpp5.4.0_gcc4.7.1\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include-fixed"/>
+					<Add directory="c:\program files\devcpp5.4.0_gcc4.7.1\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="c:\program files\devcpp5.4.0_gcc4.7.1\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++"/>
+					<Add directory="c:\program files\devcpp5.4.0_gcc4.7.1\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="c:\program files\devcpp5.4.0_gcc4.7.1\dev-cpp\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/DEVCPP~1.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/Makefile&quot;  VERBOSE=1 indoor_topology/fast"/>
+					<CompileFile command="C:/PROGRA~1/DEVCPP~1.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/DEVCPP~1.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/DEVCPP~1.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/DEVCPP~1.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/DEVCPP~1.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/DEVCPP~1.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/DEVCPP~1.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/DEVCPP~1.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/DEVCPP~1.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/DEVCPP~1.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/DEVCPP~1.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Mapping/Tools/indoor_geometry_reocnstruction/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

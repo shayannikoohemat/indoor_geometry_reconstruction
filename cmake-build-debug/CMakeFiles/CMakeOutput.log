@@ -1,0 +1,498 @@
+The system is: Windows - 6.1.7601 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe" "cmTC_c9fb9/fast"
+D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f CMakeFiles\cmTC_c9fb9.dir\build.make CMakeFiles/cmTC_c9fb9.dir/build
+mingw32-make.exe[1]: Entering directory `D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9fb9.dir/testCCompiler.c.obj
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\gcc.exe    -o CMakeFiles\cmTC_c9fb9.dir\testCCompiler.c.obj   -c D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_c9fb9.exe
+"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c9fb9.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_c9fb9.dir/objects.a
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\ar.exe cr CMakeFiles\cmTC_c9fb9.dir/objects.a @CMakeFiles\cmTC_c9fb9.dir\objects1.rsp
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_c9fb9.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c9fb9.exe -Wl,--out-implib,libcmTC_c9fb9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_c9fb9.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory `D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe" "cmTC_5593e/fast"
+D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f CMakeFiles\cmTC_5593e.dir\build.make CMakeFiles/cmTC_5593e.dir/build
+mingw32-make.exe[1]: Entering directory `D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5593e.dir/CMakeCCompilerABI.c.obj
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\gcc.exe    -o CMakeFiles\cmTC_5593e.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTC_5593e.exe
+"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_5593e.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_5593e.dir/objects.a
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\ar.exe cr CMakeFiles\cmTC_5593e.dir/objects.a @CMakeFiles\cmTC_5593e.dir\objects1.rsp
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_5593e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_5593e.exe -Wl,--out-implib,libcmTC_5593e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\gcc.exe
+COLLECT_LTO_WRAPPER=d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.1/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../src/gcc-4.7.1/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=c,c++,fortran,objc,obj-c++ --enable-libgomp --enable-lto --enable-libstdcxx-debug --enable-version-specific-runtime-libs --enable-fully-dynamic-string --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: win32
+gcc version 4.7.1 (tdm64-1) 
+COMPILER_PATH=d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.1/;d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../libexec/gcc/;d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/;d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/;d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib/;d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../lib/;d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/;d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5593e.exe' '-mtune=generic' '-march=x86-64'
+ d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.1/collect2.exe -m i386pep -Bdynamic -o cmTC_5593e.exe d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1 -Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc -Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../lib -Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib -Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../.. --whole-archive CMakeFiles\cmTC_5593e.dir/objects.a --no-whole-archive --out-implib libcmTC_5593e.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o
+mingw32-make.exe[1]: Leaving directory `D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe" "cmTC_5593e/fast"]
+  ignore line: [D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f CMakeFiles\cmTC_5593e.dir\build.make CMakeFiles/cmTC_5593e.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory `D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_5593e.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\gcc.exe    -o CMakeFiles\cmTC_5593e.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_5593e.exe]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_5593e.dir\link.txt --verbose=1]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_5593e.dir/objects.a]
+  ignore line: [D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\ar.exe cr CMakeFiles\cmTC_5593e.dir/objects.a @CMakeFiles\cmTC_5593e.dir\objects1.rsp]
+  ignore line: [D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_5593e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_5593e.exe -Wl,--out-implib,libcmTC_5593e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.1/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../../src/gcc-4.7.1/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=c,c++,fortran,objc,obj-c++ --enable-libgomp --enable-lto --enable-libstdcxx-debug --enable-version-specific-runtime-libs --enable-fully-dynamic-string --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.7.1 (tdm64-1) ]
+  ignore line: [COMPILER_PATH=d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.1/]
+  ignore line: [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../libexec/gcc/]
+  ignore line: [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/]
+  ignore line: [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/]
+  ignore line: [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../lib/]
+  ignore line: [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5593e.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.1/collect2.exe -m i386pep -Bdynamic -o cmTC_5593e.exe d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1 -Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc -Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../lib -Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib -Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../.. --whole-archive CMakeFiles\cmTC_5593e.dir/objects.a --no-whole-archive --out-implib libcmTC_5593e.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o]
+    arg [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.1/collect2.exe] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5593e.exe] ==> ignore
+    arg [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o] ==> ignore
+    arg [-Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1] ==> dir [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1]
+    arg [-Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc] ==> dir [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc]
+    arg [-Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../lib] ==> dir [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../lib]
+    arg [-Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib] ==> dir [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib]
+    arg [-Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../..] ==> dir [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_5593e.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_5593e.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o] ==> ignore
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse library dir [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1] ==> [D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.7.1]
+  collapse library dir [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc] ==> [D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/lib/gcc]
+  collapse library dir [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib] ==> [D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib]
+  collapse library dir [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../lib] ==> [D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/lib]
+  collapse library dir [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib] ==> [D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib]
+  collapse library dir [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../..] ==> [D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex]
+  implicit dirs: [D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.7.1;D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/lib/gcc;D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib;D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe" "cmTC_96108/fast"
+D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f CMakeFiles\cmTC_96108.dir\build.make CMakeFiles/cmTC_96108.dir/build
+mingw32-make.exe[1]: Entering directory `D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96108.dir/feature_tests.c.obj
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_96108.dir\feature_tests.c.obj   -c D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_96108.exe
+"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_96108.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_96108.dir/objects.a
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\ar.exe cr CMakeFiles\cmTC_96108.dir/objects.a @CMakeFiles\cmTC_96108.dir\objects1.rsp
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_96108.dir/objects.a -Wl,--no-whole-archive  -o cmTC_96108.exe -Wl,--out-implib,libcmTC_96108.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_96108.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory `D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe" "cmTC_e3fdf/fast"
+D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f CMakeFiles\cmTC_e3fdf.dir\build.make CMakeFiles/cmTC_e3fdf.dir/build
+mingw32-make.exe[1]: Entering directory `D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3fdf.dir/feature_tests.c.obj
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_e3fdf.dir\feature_tests.c.obj   -c D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_e3fdf.exe
+"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e3fdf.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_e3fdf.dir/objects.a
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\ar.exe cr CMakeFiles\cmTC_e3fdf.dir/objects.a @CMakeFiles\cmTC_e3fdf.dir\objects1.rsp
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_e3fdf.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e3fdf.exe -Wl,--out-implib,libcmTC_e3fdf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e3fdf.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory `D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe" "cmTC_21a05/fast"
+D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f CMakeFiles\cmTC_21a05.dir\build.make CMakeFiles/cmTC_21a05.dir/build
+mingw32-make.exe[1]: Entering directory `D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21a05.dir/feature_tests.c.obj
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_21a05.dir\feature_tests.c.obj   -c D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_21a05.exe
+"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_21a05.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_21a05.dir/objects.a
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\ar.exe cr CMakeFiles\cmTC_21a05.dir/objects.a @CMakeFiles\cmTC_21a05.dir\objects1.rsp
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_21a05.dir/objects.a -Wl,--no-whole-archive  -o cmTC_21a05.exe -Wl,--out-implib,libcmTC_21a05.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_21a05.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory `D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe" "cmTC_abcc5/fast"
+D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f CMakeFiles\cmTC_abcc5.dir\build.make CMakeFiles/cmTC_abcc5.dir/build
+mingw32-make.exe[1]: Entering directory `D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_abcc5.dir/testCXXCompiler.cxx.obj
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe     -o CMakeFiles\cmTC_abcc5.dir\testCXXCompiler.cxx.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_abcc5.exe
+"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_abcc5.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_abcc5.dir/objects.a
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\ar.exe cr CMakeFiles\cmTC_abcc5.dir/objects.a @CMakeFiles\cmTC_abcc5.dir\objects1.rsp
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_abcc5.dir/objects.a -Wl,--no-whole-archive  -o cmTC_abcc5.exe -Wl,--out-implib,libcmTC_abcc5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_abcc5.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory `D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe" "cmTC_07297/fast"
+D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f CMakeFiles\cmTC_07297.dir\build.make CMakeFiles/cmTC_07297.dir/build
+mingw32-make.exe[1]: Entering directory `D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_07297.dir/CMakeCXXCompilerABI.cpp.obj
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe     -o CMakeFiles\cmTC_07297.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_07297.exe
+"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_07297.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_07297.dir/objects.a
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\ar.exe cr CMakeFiles\cmTC_07297.dir/objects.a @CMakeFiles\cmTC_07297.dir\objects1.rsp
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_07297.dir/objects.a -Wl,--no-whole-archive  -o cmTC_07297.exe -Wl,--out-implib,libcmTC_07297.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe
+COLLECT_LTO_WRAPPER=d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.1/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../src/gcc-4.7.1/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=c,c++,fortran,objc,obj-c++ --enable-libgomp --enable-lto --enable-libstdcxx-debug --enable-version-specific-runtime-libs --enable-fully-dynamic-string --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: win32
+gcc version 4.7.1 (tdm64-1) 
+COMPILER_PATH=d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.1/;d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../libexec/gcc/;d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/;d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/;d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib/;d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../lib/;d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/;d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_07297.exe' '-mtune=generic' '-march=x86-64'
+ d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.1/collect2.exe -m i386pep -Bdynamic -o cmTC_07297.exe d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1 -Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc -Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../lib -Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib -Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../.. --whole-archive CMakeFiles\cmTC_07297.dir/objects.a --no-whole-archive --out-implib libcmTC_07297.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o
+mingw32-make.exe[1]: Leaving directory `D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe" "cmTC_07297/fast"]
+  ignore line: [D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f CMakeFiles\cmTC_07297.dir\build.make CMakeFiles/cmTC_07297.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory `D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_07297.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe     -o CMakeFiles\cmTC_07297.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTC_07297.exe]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_07297.dir\link.txt --verbose=1]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_07297.dir/objects.a]
+  ignore line: [D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\ar.exe cr CMakeFiles\cmTC_07297.dir/objects.a @CMakeFiles\cmTC_07297.dir\objects1.rsp]
+  ignore line: [D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_07297.dir/objects.a -Wl,--no-whole-archive  -o cmTC_07297.exe -Wl,--out-implib,libcmTC_07297.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.1/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../../src/gcc-4.7.1/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=c,c++,fortran,objc,obj-c++ --enable-libgomp --enable-lto --enable-libstdcxx-debug --enable-version-specific-runtime-libs --enable-fully-dynamic-string --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.7.1 (tdm64-1) ]
+  ignore line: [COMPILER_PATH=d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.1/]
+  ignore line: [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../libexec/gcc/]
+  ignore line: [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/]
+  ignore line: [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/]
+  ignore line: [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../lib/]
+  ignore line: [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_07297.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.1/collect2.exe -m i386pep -Bdynamic -o cmTC_07297.exe d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1 -Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc -Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../lib -Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib -Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../.. --whole-archive CMakeFiles\cmTC_07297.dir/objects.a --no-whole-archive --out-implib libcmTC_07297.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o]
+    arg [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.1/collect2.exe] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_07297.exe] ==> ignore
+    arg [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o] ==> ignore
+    arg [-Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1] ==> dir [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1]
+    arg [-Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc] ==> dir [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc]
+    arg [-Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../lib] ==> dir [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../lib]
+    arg [-Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib] ==> dir [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib]
+    arg [-Ld:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../..] ==> dir [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_07297.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_07297.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-Bstatic] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-Bdynamic] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o] ==> ignore
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse library dir [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1] ==> [D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.7.1]
+  collapse library dir [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc] ==> [D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/lib/gcc]
+  collapse library dir [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib/../lib] ==> [D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib]
+  collapse library dir [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../lib] ==> [D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/lib]
+  collapse library dir [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../../../x86_64-w64-mingw32/lib] ==> [D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib]
+  collapse library dir [d:/devcpp5.4.0_gcc4.7.1/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.7.1/../../..] ==> [D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/lib]
+  implicit libs: [stdc++;mingw32;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex]
+  implicit dirs: [D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.7.1;D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/lib/gcc;D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib;D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe" "cmTC_64f4c/fast"
+D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f CMakeFiles\cmTC_64f4c.dir\build.make CMakeFiles/cmTC_64f4c.dir/build
+mingw32-make.exe[1]: Entering directory `D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_64f4c.dir/feature_tests.cxx.obj
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe    -std=c++11 -o CMakeFiles\cmTC_64f4c.dir\feature_tests.cxx.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_64f4c.exe
+"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_64f4c.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_64f4c.dir/objects.a
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\ar.exe cr CMakeFiles\cmTC_64f4c.dir/objects.a @CMakeFiles\cmTC_64f4c.dir\objects1.rsp
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_64f4c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_64f4c.exe -Wl,--out-implib,libcmTC_64f4c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_64f4c.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory `D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe" "cmTC_a6ae4/fast"
+D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f CMakeFiles\cmTC_a6ae4.dir\build.make CMakeFiles/cmTC_a6ae4.dir/build
+mingw32-make.exe[1]: Entering directory `D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a6ae4.dir/feature_tests.cxx.obj
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe    -std=c++98 -o CMakeFiles\cmTC_a6ae4.dir\feature_tests.cxx.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_a6ae4.exe
+"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a6ae4.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_a6ae4.dir/objects.a
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\ar.exe cr CMakeFiles\cmTC_a6ae4.dir/objects.a @CMakeFiles\cmTC_a6ae4.dir\objects1.rsp
+D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_a6ae4.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a6ae4.exe -Wl,--out-implib,libcmTC_a6ae4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a6ae4.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory `D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
