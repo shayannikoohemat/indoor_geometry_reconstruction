@@ -97,6 +97,8 @@ DataBoundsLaser ShrinkDBounds(const DataBoundsLaser &bounds, double shrinking_si
     return shrinkedbounds;
 }
 
+/// shirnk or enlarge the minimum enclosing rectangle or any other polygon
+/// the scalefactor is the percentage of original size: e.g. 0.98, e.g. 1.02
 ObjectPoints ScaleRectangle (ObjectPoints &corners, LineTopology &edges, double scalefactor){
 
     //if (!edges.IsClockWise (corners)) edges.MakeClockWise (corners);
@@ -120,6 +122,7 @@ ObjectPoints ScaleRectangle (ObjectPoints &corners, LineTopology &edges, double 
         new_corners.push_back (new_corner);
     }
 
+    /// new_edges are the same as edges becasue the order and topology of vertices are not changed
     return new_corners;
 }
 

@@ -48,7 +48,7 @@ int main(int argc, char *argv[]) {
     //file_lp = (char*) "E://BR_data//ZebR//cc_sub2mil_basement_crop_seg10cm.laser";
     //file_lp  = (char *) "E://BR_data//Diemen//process//block3_seg05cm_1-7mil_seg10cm_label0.laser" ; //tworooms_labeled0.laser"
     //file_lp  = (char *) "D:/test/zebrevo_ahmed/Revo_cloud_thinned_seg10cm.laser" ; //Revo_cloud_crop.laser" ; //
-    file_lp = (char*) "E:/Laser_data/ETH_dataset/penthouse/sample_collection_furniture.laser" ;   //slantedwalls.laser" ;  //penthouse_seg8cm_oneblock.laser" ;
+    file_lp = (char*) "E:/Laser_data/ETH_dataset/penthouse/two_rooms.laser"; //penthouse_ConnectComp_01_seg8cm_2mil.laser";//penthouse_seg8cm_2mil_crop.laser";  //sample_collection_furniture.laser";  //slantedwalls.laser" ;  //penthouse_seg8cm_oneblock.laser" ;
     //lpoints.Read(file_lp);
     //traj_lp.Read("E://BR_data//ZebR//traj_basement_crop.laser");
     //traj_lp.Read("E://BR_data//Diemen//process//traj_diemen1_s_rec.laser");
@@ -66,7 +66,7 @@ int main(int argc, char *argv[]) {
 
     //auto *root = (char*) "D:/test/zebrevo_ahmed/out/";
     auto *root = (char*) "E:/Laser_data/ETH_dataset/penthouse/out/" ;
-    //indoorTopology(file_lp, 100, root, false);
+    indoorTopology(file_lp, 100, root, false);
     Buffers bfs;
     //traj_lp.Read("D:/test/zebrevo_ahmed/Revo_Trajectory.laser");
     //surfpoints.Read("D:/test/zebrevo_ahmed/out/indoortopology_nobuffer/walls.laser");
@@ -114,7 +114,7 @@ int main(int argc, char *argv[]) {
     /* testing boost geometry library for intersecting minimum rectangles
      * testing EnclosingRectangle and ScaleRectangle functions
      * */
-    LaserPoints segments_lp;
+/*    LaserPoints segments_lp;
     segments_lp.Read ("E:/Laser_data/ETH_dataset/penthouse/intersection_problem.laser");    //floor_ceil.laser //intersection_problem
 
     vector<LaserPoints> segments;
@@ -140,8 +140,8 @@ int main(int argc, char *argv[]) {
         for (int i=next_number-4; i < next_number ; i++){
             corners[i].Z() = (db.Maximum().GetZ() + db.Minimum ().GetZ ()) / 2;
         }
-/*        edges.push_back(PointNumber(next_number)); // close the polygon // clockwise
-        edges.MakeClockWise(corners);*/
+*//*        edges.push_back(PointNumber(next_number)); // close the polygon // clockwise
+        edges.MakeClockWise(corners);*//*
         edges.SetAttribute (BuildingPartNumberTag, 1);
         rectangles.push_back (edges);
 
@@ -163,7 +163,7 @@ int main(int argc, char *argv[]) {
 
         new_corners_vec.push_back (scaled_corners);
         new_edges_vec.push_back (edges_vec[i]);
-    }
+    }*/
 /*    new_corners_vec[0].Write("E:/Laser_data/ETH_dataset/penthouse/out/scaled_rectangles0.objpts");
     LineTopologies new_rectangles0; new_rectangles0.push_back (new_edges_vec[0]);
     new_rectangles0.Write("E:/Laser_data/ETH_dataset/penthouse/out/scaled_rectangles0.top", false);
@@ -184,9 +184,9 @@ int main(int argc, char *argv[]) {
     LineTopologies new_rectangles4; new_rectangles4.push_back (new_edges_vec[4]);
     new_rectangles4.Write("E:/Laser_data/ETH_dataset/penthouse/out/scaled_rectangles4.top", false);*/
 
-    scaled_corners.Write("E:/Laser_data/ETH_dataset/penthouse/out/scaled_rectangles.objpts");
+    //scaled_corners.Write("E:/Laser_data/ETH_dataset/penthouse/out/scaled_rectangles.objpts");
     /// topology file is the same as before scale
-    new_rectangles.Write("E:/Laser_data/ETH_dataset/penthouse/out/scaled_rectangles.top", false);
+    //new_rectangles.Write("E:/Laser_data/ETH_dataset/penthouse/out/scaled_rectangles.top", false);
 
     /*
      * test boost geometry for making polygons from objectpoints and intersect them

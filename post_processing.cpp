@@ -189,20 +189,138 @@ std::deque<boost_polygon> intersect_polygons(ObjectPoints const &poly1_corners, 
     }
 
     //! display it
-    std::cout << "generated polygons:" << std::endl;
+/*    std::cout << "generated polygons:" << std::endl;
     std::cout << bg::wkt<boost_polygon>(rectangle1) << std::endl;
-    std::cout << bg::wkt<boost_polygon>(rectangle2) << std::endl;
+    std::cout << bg::wkt<boost_polygon>(rectangle2) << std::endl;*/
 
+    /// make sure both rectangles are closed and ordered correctly
+    bg::correct (rectangle1);
+    bg::correct (rectangle2);
+    /// intersection function of boost
     std::deque<boost_polygon> intersected_poly;
     boost::geometry::intersection(rectangle1, rectangle2, intersected_poly);
 
-    int i = 0;
+    /// area function
+/*    int i = 0;
     std::cout << "poly1 && poly2:" << std::endl;
     BOOST_FOREACH(boost_polygon const& p, intersected_poly)
     {
         std::cout << i++ << ": " << boost::geometry::area(p) << std::endl;
-    }
+    }*/
     return intersected_poly;
+}
+
+/* loop through almost horizontal segments and check if their oriented bbox overlap, if yes then check their
+ * minimum bounding rectangle (MBR) intersect/overlap or not. For saftey of intersection on adjacent segments
+ * we resize the MBR to a saller size of 0.98 of original size.
+ * If intersection check is positive then the lower segments
+ * would be excluded from the list of candidate ceilings.
+ * NOTE: there is no check if the minimum bounding rectangle is not null.
+ */
+vector<LaserPoints> filter_ceil_by_intersection(map<int, double> &horizon_segmetns_centroidheight_map,
+                                                vector<LaserPoints> &candidate_ceil_segment_vec,
+                                                const vector<pair<ObjectPoints, LineTopology>> &min_rectangle_ceil,
+                                                vector<int> &not_ceiling_segments_nr_output,
+                                                LaserPoints &not_ceiling_segments_lp_output,
+                                                bool is_floor) {
+
+    for (int i=0; i < candidate_ceil_segment_vec.size (); i++) {
+        /// get the bbox bounds
+        DataBoundsLaser db1_original, db1;
+        db1_original = candidate_ceil_segment_vec[i].DeriveDataBounds (0);
+        db1 = ShrinkDBounds (db1_original, 0.05);
+        /// get the segment number
+        int ceil1_segment_nr;
+        ceil1_segment_nr = candidate_ceil_segment_vec[i][0].SegmentNumber ();
+        /// check if the segment is already excluded or not
+        std::vector<int>::iterator it1;
+        it1 = find(not_ceiling_segments_nr_output.begin (), not_ceiling_segments_nr_output.end (), ceil1_segment_nr);
+        if(it1 !=not_ceiling_segments_nr_output.end ()) continue; //if it1 found in the vector continue with the next segment
+        //printf("ceiling candidate1: %d \n", ceil1_segment_nr); // debug
+        /// get the centroid height
+        double ceil1_centroid_height;
+        ceil1_centroid_height = horizon_segmetns_centroidheight_map.find (ceil1_segment_nr)->second;
+        /// get the next segment in the list
+        for (int j=i+1; j < candidate_ceil_segment_vec.size (); j++){
+            /// get the bbox bounds
+            DataBoundsLaser db2_original, db2;
+            db2_original = candidate_ceil_segment_vec[j].DeriveDataBounds (0);
+            db2 = ShrinkDBounds (db2_original, 0.05); // 5cm shrink
+            ///get the segment number
+            int ceil2_segment_nr;
+            ceil2_segment_nr = candidate_ceil_segment_vec[j][0].SegmentNumber ();
+            /// check if it is already excluded or not
+            std::vector<int>::iterator it2;
+            it2 = find(not_ceiling_segments_nr_output.begin (), not_ceiling_segments_nr_output.end (), ceil1_segment_nr);
+            if(it2 !=not_ceiling_segments_nr_output.end ()) continue; // if it2 fount in the vector continue with the next segment
+            /// get the segment centroid height
+            double ceil2_centroid_height;
+            ceil2_centroid_height = horizon_segmetns_centroidheight_map.find (ceil2_segment_nr)->second;
+            /// check if they have overlap, if yes then exclude the lower segment from the ceiling candidates
+            if(OverlapXY (db1, db2)){
+                /// check if their minimum bounding rectangles also intersect
+                ObjectPoints mbr1_corners, mbr2_corners;
+                LineTopology mbr1_edges, mbr2_edges;
+                /// derive corners
+                mbr1_corners = min_rectangle_ceil[i].first;
+                mbr2_corners = min_rectangle_ceil[j].first;
+                /// derive edges
+                mbr1_edges = min_rectangle_ceil[i].second;
+                mbr2_edges = min_rectangle_ceil[j].second;
+                /// first we shrink their size
+                ObjectPoints mbr1_shrinked_corners, mbr2_shrinked_corners;
+                mbr1_shrinked_corners = ScaleRectangle (mbr1_corners, mbr1_edges, 0.98); // 98% of original size
+                mbr2_shrinked_corners = ScaleRectangle (mbr2_corners, mbr2_edges, 0.98);
+                /// then we check for their intersection in XY plane using boost geometry
+                deque<boost_polygon> intersected_polygon;
+                intersected_polygon = intersect_polygons (mbr1_shrinked_corners, mbr2_shrinked_corners);
+                /// NOTE: there is no check for the correctness of the intersection
+                if(!intersected_polygon.empty ()){
+                    /// find and remove the lower segment
+                    if((ceil2_centroid_height < ceil1_centroid_height) &&
+                       (candidate_ceil_segment_vec[j].size () < candidate_ceil_segment_vec[i].size ())){
+                        not_ceiling_segments_nr_output.push_back (ceil2_segment_nr);
+                        //printf("ceiling candidate2 excluded: %d \n", ceil2_segment_nr); //debug
+                    }
+                    if((ceil1_centroid_height < ceil2_centroid_height) &&
+                       (candidate_ceil_segment_vec[i].size () < candidate_ceil_segment_vec[j].size ())){
+                        not_ceiling_segments_nr_output.push_back (ceil1_segment_nr);
+                        //printf("ceiling candidate2 excluded: %d \n", ceil2_segment_nr); //debug
+                    }
+
+                    /// if we are checking for the floor we remove the upper segment
+                    if(is_floor){
+                        if((ceil2_centroid_height > ceil1_centroid_height) &&
+                           (candidate_ceil_segment_vec[j].size () < candidate_ceil_segment_vec[i].size ())){
+                            not_ceiling_segments_nr_output.push_back (ceil2_segment_nr);
+                            //printf("floor candidate2 excluded: %d \n", ceil2_segment_nr); //debug
+                        }
+                        if((ceil1_centroid_height > ceil2_centroid_height) &&
+                           (candidate_ceil_segment_vec[i].size () < candidate_ceil_segment_vec[j].size ())){
+                            not_ceiling_segments_nr_output.push_back (ceil1_segment_nr);
+                            //printf("floor candidate2 excluded: %d \n", ceil2_segment_nr); //debug
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    vector <LaserPoints> ceil_segment_filterbyintersect_vec;
+    LaserPoints ceil_segment_lp_filterbyintersect;
+    for (auto &ceil : candidate_ceil_segment_vec){
+
+        std::vector<int>::iterator it;
+        it = find(not_ceiling_segments_nr_output.begin (), not_ceiling_segments_nr_output.end (), ceil[0].SegmentNumber ());
+        if(it != not_ceiling_segments_nr_output.end ()){ /// if ceil found in not_ceiling_segments_nr
+            not_ceiling_segments_lp_output.AddPoints (ceil);
+        }else{ //// if not found add the ceil to the final ceilings
+            ceil_segment_filterbyintersect_vec.push_back (ceil);
+            //if(verbose) ceil_segment_lp_filterbyintersect.AddPoints (ceil);
+        }
+    }
+
+    return ceil_segment_filterbyintersect_vec;
 }
 
 

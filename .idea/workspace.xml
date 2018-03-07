@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/indoorTopology.cpp" line="459" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/indoorTopology.cpp" line="828" />
-    <bookmark url="file://$PROJECT_DIR$/indoorTopology.cpp" line="615" />
+    <bookmark url="file://$PROJECT_DIR$/indoorTopology.cpp" line="831" />
+    <bookmark url="file://$PROJECT_DIR$/indoorTopology.cpp" line="617" />
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
@@ -17,10 +16,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a004ce8a-5497-416d-a744-b05d103d0ec7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Debug/indoor_reconstruction.exe" afterPath="$PROJECT_DIR$/Debug/indoor_reconstruction.exe" />
       <change beforePath="$PROJECT_DIR$/GenerateWallPatches.cpp" afterPath="$PROJECT_DIR$/GenerateWallPatches.cpp" />
-      <change beforePath="$PROJECT_DIR$/indoor_reconstruction.h" afterPath="$PROJECT_DIR$/indoor_reconstruction.h" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/indoor_reconstruction.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/indoor_reconstruction.dir/CXX.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/indoor_reconstruction.dir/GenerateWallPatches.cpp.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/indoor_reconstruction.dir/GenerateWallPatches.cpp.obj" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/indoor_reconstruction.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/indoor_reconstruction.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/indoor_reconstruction.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/indoor_reconstruction.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.obj" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/indoor_reconstruction.dir/main.cpp.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/indoor_reconstruction.dir/main.cpp.obj" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/indoor_reconstruction.dir/objects.a" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/indoor_reconstruction.dir/objects.a" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/indoor_reconstruction.dir/post_processing.cpp.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/indoor_reconstruction.dir/post_processing.cpp.obj" />
+      <change beforePath="$PROJECT_DIR$/indoorTopology.cpp" afterPath="$PROJECT_DIR$/indoorTopology.cpp" />
       <change beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
+      <change beforePath="$PROJECT_DIR$/post_processing.cpp" afterPath="$PROJECT_DIR$/post_processing.cpp" />
+      <change beforePath="$PROJECT_DIR$/post_processing.h" afterPath="$PROJECT_DIR$/post_processing.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +49,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="114" column="62" lean-forward="true" selection-start-line="114" selection-start-column="62" selection-end-line="114" selection-end-column="62" />
+            <state relative-caret-position="315">
+              <caret line="93" column="50" lean-forward="false" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
                 <element signature="e#219#414#0" expanded="true" />
@@ -52,9 +62,28 @@
       <file leaf-file-name="indoorTopology.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/indoorTopology.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="693" column="60" lean-forward="true" selection-start-line="693" selection-start-column="60" selection-end-line="693" selection-end-column="60" />
-              <folding />
+            <state relative-caret-position="4263">
+              <caret line="203" column="15" lean-forward="false" selection-start-line="203" selection-start-column="11" selection-end-line="203" selection-end-column="15" />
+              <folding>
+                <element signature="e#47#66#0" expanded="true" />
+                <marker date="1520442783978" expanded="false" signature="5170:7470" ph="..." />
+                <marker date="1520442783978" expanded="true" signature="8439:13041" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MLS_preprocessing.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MLS_preprocessing.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="26" />
+              <folding>
+                <element signature="e#46#65#0" expanded="true" />
+                <element signature="e#204#378#0" expanded="true" />
+                <element signature="e#380#536#0" expanded="true" />
+                <element signature="e#826#3015#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,19 +91,11 @@
       <file leaf-file-name="indoor_reconstruction.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/indoor_reconstruction.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="55" column="66" lean-forward="false" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Buildings.cc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Library/Buildings/src/Buildings.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="70" column="17" lean-forward="false" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="1302">
+              <caret line="62" column="24" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="24" />
+              <folding>
+                <element signature="e#238#257#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,26 +103,22 @@
       <file leaf-file-name="GenerateWallPatches.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GenerateWallPatches.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="111" column="73" lean-forward="false" selection-start-line="111" selection-start-column="73" selection-end-line="111" selection-end-column="73" />
+            <state relative-caret-position="2121">
+              <caret line="101" column="19" lean-forward="false" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="19" />
               <folding>
                 <element signature="e#46#66#0" expanded="true" />
+                <element signature="e#3103#4463#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LineTopology.cc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Library/Photogrammetry/src/LineTopology.cc">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
-              <caret line="2052" column="54" lean-forward="false" selection-start-line="2052" selection-start-column="54" selection-end-line="2052" selection-end-column="54" />
-              <folding>
-                <element signature="e#57272#58353#0" expanded="true" />
-                <element signature="e#58355#58703#0" expanded="true" />
-                <element signature="e#58705#59039#0" expanded="true" />
-                <element signature="e#67946#69245#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="735">
+              <caret line="35" column="94" lean-forward="false" selection-start-line="35" selection-start-column="94" selection-end-line="35" selection-end-column="94" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,21 +126,20 @@
       <file leaf-file-name="post_processing.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/post_processing.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="171" column="51" lean-forward="false" selection-start-line="171" selection-start-column="51" selection-end-line="171" selection-end-column="51" />
+            <state relative-caret-position="6573">
+              <caret line="313" column="48" lean-forward="false" selection-start-line="313" selection-start-column="18" selection-end-line="313" selection-end-column="48" />
               <folding>
                 <element signature="e#48#67#0" expanded="true" />
-                <element signature="e#8201#9599#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LaserPoints.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Library/LaserScan/include/LaserPoints.h">
+      <file leaf-file-name="post_processing.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/post_processing.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="2161" column="9" lean-forward="false" selection-start-line="2161" selection-start-column="9" selection-end-line="2161" selection-end-column="9" />
+            <state relative-caret-position="483">
+              <caret line="23" column="67" lean-forward="false" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -132,7 +148,7 @@
       <file leaf-file-name="SegmentOutlines.cc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../Library/LaserScan/src/SegmentOutlines.cc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
+            <state relative-caret-position="11382">
               <caret line="542" column="70" lean-forward="false" selection-start-line="542" selection-start-column="70" selection-end-line="542" selection-end-column="70" />
               <folding />
             </state>
@@ -142,7 +158,7 @@
       <file leaf-file-name="MinimumRectangle3D.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../visualization_tools/MinimumRectangle3D.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
+            <state relative-caret-position="840">
               <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
@@ -153,36 +169,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>databound</find>
-      <find>maxima</find>
-      <find>segment_nr2</find>
-      <find>OverlapXY1</find>
-      <find>almost_horizontal_segments</find>
-      <find>segments_3db</find>
-      <find>DataBounds3D</find>
-      <find>horizon_segments_vec</find>
-      <find>horizon_segment_sizep_map</find>
-      <find>OverlapXY</find>
-      <find>erase</find>
-      <find>modified_laserpoints</find>
-      <find>EnlargeDBounds</find>
-      <find>ceiling_z</find>
-      <find>databoundslaser</find>
-      <find>enclosi</find>
-      <find>affine</find>
-      <find>EnclosingRectangle</find>
-      <find>MinimumXIsSet</find>
-      <find>MakeClockWise</find>
-      <find>MakeCounterClockWise</find>
-      <find>IsClockWise</find>
-      <find>slanted</find>
-      <find>mid</find>
-      <find>centroid</find>
-      <find>corners</find>
-      <find>polygon_line</find>
-      <find>rect_topology</find>
-      <find>next_number</find>
       <find>part</find>
+      <find>minimum</find>
+      <find>pending_walls</find>
+      <find>indoor</find>
+      <find>min_rectangle_ceil</find>
+      <find>ceiling_points</find>
+      <find>min_rectangle_floor</find>
+      <find>not_ceiling_segments_nr</find>
+      <find>not_ceil_floor_byheight_seg_nr</find>
+      <find>segment_laserpoints</find>
+      <find>final_floor_segment_vec</find>
+      <find>final</find>
+      <find>ceil_segment_vec</find>
+      <find>candidate_ceil_segment_vec</find>
+      <find>not_ceiling_segments_nr_output</find>
+      <find>unknown_points</find>
+      <find>support</find>
+      <find>debug</find>
+      <find>laserFile</find>
+      <find>number of</find>
+      <find>not_floor_ceiling_all</find>
+      <find>not_ceil_floor_byheight_lp</find>
+      <find>horizon_segmens_databounds_map</find>
+      <find>horizon_segments_centroidheight_map</find>
+      <find>PartitionLpByTag</find>
+      <find>relabeled</find>
+      <find>ceiling height</find>
+      <find>sort_segments</find>
+      <find>error</find>
+      <find>sort</find>
     </findStrings>
     <replaceStrings>
       <replace>indoor_reconstruction</replace>
@@ -228,12 +244,12 @@
         <option value="$PROJECT_DIR$/MLS_preprocessing.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/indoorTopology_v1_old.cpp" />
-        <option value="$PROJECT_DIR$/post_processing.h" />
-        <option value="$PROJECT_DIR$/post_processing.cpp" />
-        <option value="$PROJECT_DIR$/indoorTopology.cpp" />
         <option value="$PROJECT_DIR$/indoor_reconstruction.h" />
         <option value="$PROJECT_DIR$/../visualization_tools/MinimumRectangle3D.cpp" />
         <option value="$PROJECT_DIR$/GenerateWallPatches.cpp" />
+        <option value="$PROJECT_DIR$/post_processing.h" />
+        <option value="$PROJECT_DIR$/post_processing.cpp" />
+        <option value="$PROJECT_DIR$/indoorTopology.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -461,25 +477,24 @@
     <supportedVersion>125</supportedVersion>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1170" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18826018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18984663" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26613703" sideWeight="0.8161121" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18470705" sideWeight="0.49474606" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2519774" sideWeight="0.18388791" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42502484" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22045681" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22045681" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.48161122" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28003973" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30840045" sideWeight="0.8161121" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42502484" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -496,17 +511,17 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/GenerateWallPatches.cpp</url>
-          <line>529</line>
+          <line>532</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/GenerateWallPatches.cpp</url>
-          <line>456</line>
+          <line>459</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/GenerateWallPatches.cpp</url>
-          <line>288</line>
+          <line>291</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -516,7 +531,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/GenerateWallPatches.cpp</url>
-          <line>262</line>
+          <line>265</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -571,12 +586,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/indoorTopology.cpp</url>
-          <line>610</line>
+          <line>613</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/indoorTopology.cpp</url>
-          <line>625</line>
+          <line>628</line>
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -601,16 +616,16 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/GenerateWallPatches.cpp</url>
-          <line>113</line>
+          <line>115</line>
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>139</line>
-          <option name="timeStamp" value="90" />
+          <url>file://$PROJECT_DIR$/indoorTopology.cpp</url>
+          <line>384</line>
+          <option name="timeStamp" value="93" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="91" />
+      <option name="time" value="94" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
@@ -627,34 +642,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../coordinate_transform/pix2cam/pix2cam.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../indoor3D_reconstruction/grammar/annotator/Makefile.win">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="27" column="628" lean-forward="false" selection-start-line="27" selection-start-column="628" selection-end-line="27" selection-end-column="628" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../point_cloud_conversion/hokuyo2laser/hokuyo2laser_cpp.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6762">
-          <caret line="322" column="26" lean-forward="false" selection-start-line="322" selection-start-column="26" selection-end-line="322" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.tex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LAtexTest" />
     <entry file="file://$PROJECT_DIR$/LAtexTest.tex">
       <provider selected="true" editor-type-id="text-editor">
@@ -768,13 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MLS_preprocessing.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-698">
-          <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Library/Photogrammetry/include/LineTopologies.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-80">
@@ -822,7 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="87" column="39" lean-forward="false" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -847,14 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="35" column="94" lean-forward="false" selection-start-line="35" selection-start-column="94" selection-end-line="35" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../visualization_tools/VisualizePlane3D.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -874,7 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="57" column="19" lean-forward="false" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -885,38 +855,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Library/LaserScan/include/DataBoundsLaser.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3906">
-          <caret line="186" column="22" lean-forward="false" selection-start-line="186" selection-start-column="9" selection-end-line="186" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/indoorTopology_v1_old.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="463">
           <caret line="498" column="39" lean-forward="true" selection-start-line="498" selection-start-column="39" selection-end-line="498" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post_processing.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post_processing.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="171" column="51" lean-forward="false" selection-start-line="171" selection-start-column="51" selection-end-line="171" selection-end-column="51" />
-          <folding>
-            <element signature="e#48#67#0" expanded="true" />
-            <element signature="e#8201#9599#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -924,20 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-57">
           <caret line="2052" column="54" lean-forward="false" selection-start-line="2052" selection-start-column="54" selection-end-line="2052" selection-end-column="54" />
-          <folding>
-            <element signature="e#57272#58353#0" expanded="true" />
-            <element signature="e#58355#58703#0" expanded="true" />
-            <element signature="e#58705#59039#0" expanded="true" />
-            <element signature="e#67946#69245#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Library/LaserScan/include/LaserPoints.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="2161" column="9" lean-forward="false" selection-start-line="2161" selection-start-column="9" selection-end-line="2161" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -945,7 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
           <caret line="628" column="24" lean-forward="true" selection-start-line="628" selection-start-column="24" selection-end-line="628" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -953,13 +880,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
           <caret line="70" column="17" lean-forward="false" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../Library/LaserScan/src/SegmentOutlines.cc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
+        <state relative-caret-position="11382">
           <caret line="542" column="70" lean-forward="false" selection-start-line="542" selection-start-column="70" selection-end-line="542" selection-end-column="70" />
           <folding />
         </state>
@@ -967,42 +893,130 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../visualization_tools/MinimumRectangle3D.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
+        <state relative-caret-position="840">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/algorithms/detail/intersection/interface.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/algorithms/area.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="41" column="71" lean-forward="true" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/bits/algorithmfwd.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15771">
+          <caret line="758" column="4" lean-forward="false" selection-start-line="758" selection-start-column="4" selection-end-line="758" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/DevCpp5.4.0_gcc4.7.1/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++/bits/stl_deque.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="1199" column="6" lean-forward="false" selection-start-line="1199" selection-start-column="6" selection-end-line="1199" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Library/LaserScan/include/DataBoundsLaser.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="72" column="6" lean-forward="false" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post_processing.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="67" lean-forward="false" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post_processing.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6573">
+          <caret line="313" column="48" lean-forward="false" selection-start-line="313" selection-start-column="18" selection-end-line="313" selection-end-column="48" />
+          <folding>
+            <element signature="e#48#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Library/LaserScan/include/LaserPoints.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="122" column="4" lean-forward="false" selection-start-line="122" selection-start-column="4" selection-end-line="122" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenerateWallPatches.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2121">
+          <caret line="101" column="19" lean-forward="false" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="19" />
+          <folding>
+            <element signature="e#46#66#0" expanded="true" />
+            <element signature="e#3103#4463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="35" column="94" lean-forward="false" selection-start-line="35" selection-start-column="94" selection-end-line="35" selection-end-column="94" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/indoor_reconstruction.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="55" column="66" lean-forward="false" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
-          <folding />
+        <state relative-caret-position="1302">
+          <caret line="62" column="24" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="24" />
+          <folding>
+            <element signature="e#238#257#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GenerateWallPatches.cpp">
+    <entry file="file://$PROJECT_DIR$/MLS_preprocessing.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="111" column="73" lean-forward="false" selection-start-line="111" selection-start-column="73" selection-end-line="111" selection-end-column="73" />
+        <state relative-caret-position="231">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="26" />
           <folding>
-            <element signature="e#46#66#0" expanded="true" />
+            <element signature="e#46#65#0" expanded="true" />
+            <element signature="e#204#378#0" expanded="true" />
+            <element signature="e#380#536#0" expanded="true" />
+            <element signature="e#826#3015#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/indoorTopology.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="693" column="60" lean-forward="true" selection-start-line="693" selection-start-column="60" selection-end-line="693" selection-end-column="60" />
-          <folding />
+        <state relative-caret-position="4263">
+          <caret line="203" column="15" lean-forward="false" selection-start-line="203" selection-start-column="11" selection-end-line="203" selection-end-column="15" />
+          <folding>
+            <element signature="e#47#66#0" expanded="true" />
+            <marker date="1520442783978" expanded="false" signature="5170:7470" ph="..." />
+            <marker date="1520442783978" expanded="true" signature="8439:13041" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="114" column="62" lean-forward="true" selection-start-line="114" selection-start-column="62" selection-end-line="114" selection-end-column="62" />
+        <state relative-caret-position="315">
+          <caret line="93" column="50" lean-forward="false" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
             <element signature="e#219#414#0" expanded="true" />
