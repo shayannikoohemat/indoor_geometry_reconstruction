@@ -6,6 +6,7 @@
 #include "Buffers.h"
 #include "indoor_reconstruction.h"
 #include "post_processing.h"
+#include "PlaneFittingResidual.h"
 
 using namespace std;
 
@@ -48,7 +49,9 @@ int main(int argc, char *argv[]) {
     //file_lp = (char*) "E://BR_data//ZebR//cc_sub2mil_basement_crop_seg10cm.laser";
     //file_lp  = (char *) "E://BR_data//Diemen//process//block3_seg05cm_1-7mil_seg10cm_label0.laser" ; //tworooms_labeled0.laser"
     //file_lp  = (char *) "D:/test/zebrevo_ahmed/Revo_cloud_thinned_seg10cm.laser" ; //Revo_cloud_crop.laser" ; //
-    file_lp = (char*) "E:/Laser_data/ETH_dataset/penthouse/two_rooms.laser"; //penthouse_ConnectComp_01_seg8cm_2mil.laser";//penthouse_seg8cm_2mil_crop.laser";  //sample_collection_furniture.laser";  //slantedwalls.laser" ;  //penthouse_seg8cm_oneblock.laser" ;
+    file_lp = (char*) "E:/Laser_data/ETH_dataset/penthouse/penthouse_ConnectComp_01_segGV_1-4mil_crop.laser";//sample_collection_furniture.laser";  //slantedwalls.laser" ;  //penthouse_seg8cm_oneblock.laser" ;
+    //file_lp = (char*) "E:/Laser_data/Kadaster/test_data/level2_kadaster_crop2_newsegmentation.laser";
+    //file_lp = (char*) "D:/test/sims3d/test_seri2/ceiling_floor_test.laser";       //firebrigade_3rdfloor.laser";
     //lpoints.Read(file_lp);
     //traj_lp.Read("E://BR_data//ZebR//traj_basement_crop.laser");
     //traj_lp.Read("E://BR_data//Diemen//process//traj_diemen1_s_rec.laser");
@@ -66,7 +69,9 @@ int main(int argc, char *argv[]) {
 
     //auto *root = (char*) "D:/test/zebrevo_ahmed/out/";
     auto *root = (char*) "E:/Laser_data/ETH_dataset/penthouse/out/" ;
-    indoorTopology(file_lp, 100, root, false);
+    //auto *root = (char*) "E:/Laser_data/Kadaster/test_data/out/";
+    //auto *root = (char*) "D:/test/sims3d/test_seri2/out/";
+    //indoorTopology(file_lp, 100, root, false);
     Buffers bfs;
     //traj_lp.Read("D:/test/zebrevo_ahmed/Revo_Trajectory.laser");
     //surfpoints.Read("D:/test/zebrevo_ahmed/out/indoortopology_nobuffer/walls.laser");
@@ -233,6 +238,38 @@ int main(int argc, char *argv[]) {
         bounding_box.insert(bounding_box.end(), rect_topology);
         bounding_box.Write("E:/Laser_data/ETH_dataset/penthouse/out/min_rectangle.top", false);
     }*/
+
+
+    /*
+     * function planefittingresidual test
+     * */
+    //LaserPoints lp;
+    //lp.Read("D:/test/reflection_removal/reflection_data/wall_glass_reflection_balcon_2.laser");   //wall_reflection_balcon_1.laser"
+    //lp.Read("D:/test/indoor_reconstruction/final_segmentation.laser");
+    //root = (char*) "D:/test/indoor_reconstruction/";
+    //planefittingresidual_test (lp, root);
+
+
+    /*
+     * test reflection removal and reflection reconstruction
+     * */
+    LaserPoints lp, trajectory;
+    //lp.Read("D:/test/laserpoints_partitioning/3rdFloor_2mil_thinned.laser");
+    //trajectory.Read("D:/test/laserpoints_partitioning/trajectory_balcon.laser");
+
+    char *out;
+    out = (char*) "D:/test/laserpoints_partitioning/out/";
+    PartitionByTime_test_function (lp, trajectory, out, true);
+
+/*   LaserPoints glass_lp, reflection_lp, trajectory_lp;
+    glass_lp.Read("D:/test/reflection_removal/reflection_data/glass.laser");
+    reflection_lp.Read("D:/test/reflection_removal/reflection_data/reflection.laser");
+    trajectory_lp.Read("D:/test/reflection_removal/reflection_data/traj_wall_reflection_balcon_1.laser");
+    out = (char*) "D:/test/reflection_removal/reflection_data/";*/
+    //mirror_PointsToPlane (glass_lp, reflection_lp);
+
+    /// visulize the reflection lines for few points
+    //mirror_PointsToPlane_test_function (glass_lp, reflection_lp, trajectory_lp, out);
 
 
     std::cout << "Press ENTER to continue...";

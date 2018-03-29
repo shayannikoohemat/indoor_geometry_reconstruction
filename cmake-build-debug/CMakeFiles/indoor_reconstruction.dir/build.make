@@ -60,15 +60,15 @@ CMakeFiles/indoor_reconstruction.dir/main.cpp.obj: CMakeFiles/indoor_reconstruct
 CMakeFiles/indoor_reconstruction.dir/main.cpp.obj: CMakeFiles/indoor_reconstruction.dir/includes_CXX.rsp
 CMakeFiles/indoor_reconstruction.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/indoor_reconstruction.dir/main.cpp.obj"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\main.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\main.cpp
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\main.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\main.cpp
 
 CMakeFiles/indoor_reconstruction.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indoor_reconstruction.dir/main.cpp.i"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\main.cpp > CMakeFiles\indoor_reconstruction.dir\main.cpp.i
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\main.cpp > CMakeFiles\indoor_reconstruction.dir\main.cpp.i
 
 CMakeFiles/indoor_reconstruction.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indoor_reconstruction.dir/main.cpp.s"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\main.cpp -o CMakeFiles\indoor_reconstruction.dir\main.cpp.s
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\main.cpp -o CMakeFiles\indoor_reconstruction.dir\main.cpp.s
 
 CMakeFiles/indoor_reconstruction.dir/main.cpp.obj.requires:
 
@@ -85,15 +85,15 @@ CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.obj: CMakeFiles/indoor_r
 CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.obj: CMakeFiles/indoor_reconstruction.dir/includes_CXX.rsp
 CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.obj: ../indoorTopology.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.obj"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\indoorTopology.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\indoorTopology.cpp
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\indoorTopology.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\indoorTopology.cpp
 
 CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.i"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\indoorTopology.cpp > CMakeFiles\indoor_reconstruction.dir\indoorTopology.cpp.i
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\indoorTopology.cpp > CMakeFiles\indoor_reconstruction.dir\indoorTopology.cpp.i
 
 CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.s"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\indoorTopology.cpp -o CMakeFiles\indoor_reconstruction.dir\indoorTopology.cpp.s
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\indoorTopology.cpp -o CMakeFiles\indoor_reconstruction.dir\indoorTopology.cpp.s
 
 CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.obj.requires:
 
@@ -110,15 +110,15 @@ CMakeFiles/indoor_reconstruction.dir/setConsoleColor.cpp.obj: CMakeFiles/indoor_
 CMakeFiles/indoor_reconstruction.dir/setConsoleColor.cpp.obj: CMakeFiles/indoor_reconstruction.dir/includes_CXX.rsp
 CMakeFiles/indoor_reconstruction.dir/setConsoleColor.cpp.obj: ../setConsoleColor.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/indoor_reconstruction.dir/setConsoleColor.cpp.obj"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\setConsoleColor.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\setConsoleColor.cpp
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\setConsoleColor.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\setConsoleColor.cpp
 
 CMakeFiles/indoor_reconstruction.dir/setConsoleColor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indoor_reconstruction.dir/setConsoleColor.cpp.i"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\setConsoleColor.cpp > CMakeFiles\indoor_reconstruction.dir\setConsoleColor.cpp.i
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\setConsoleColor.cpp > CMakeFiles\indoor_reconstruction.dir\setConsoleColor.cpp.i
 
 CMakeFiles/indoor_reconstruction.dir/setConsoleColor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indoor_reconstruction.dir/setConsoleColor.cpp.s"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\setConsoleColor.cpp -o CMakeFiles\indoor_reconstruction.dir\setConsoleColor.cpp.s
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\setConsoleColor.cpp -o CMakeFiles\indoor_reconstruction.dir\setConsoleColor.cpp.s
 
 CMakeFiles/indoor_reconstruction.dir/setConsoleColor.cpp.obj.requires:
 
@@ -135,15 +135,15 @@ CMakeFiles/indoor_reconstruction.dir/segment_refinement.cpp.obj: CMakeFiles/indo
 CMakeFiles/indoor_reconstruction.dir/segment_refinement.cpp.obj: CMakeFiles/indoor_reconstruction.dir/includes_CXX.rsp
 CMakeFiles/indoor_reconstruction.dir/segment_refinement.cpp.obj: ../segment_refinement.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/indoor_reconstruction.dir/segment_refinement.cpp.obj"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\segment_refinement.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\segment_refinement.cpp
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\segment_refinement.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\segment_refinement.cpp
 
 CMakeFiles/indoor_reconstruction.dir/segment_refinement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indoor_reconstruction.dir/segment_refinement.cpp.i"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\segment_refinement.cpp > CMakeFiles\indoor_reconstruction.dir\segment_refinement.cpp.i
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\segment_refinement.cpp > CMakeFiles\indoor_reconstruction.dir\segment_refinement.cpp.i
 
 CMakeFiles/indoor_reconstruction.dir/segment_refinement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indoor_reconstruction.dir/segment_refinement.cpp.s"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\segment_refinement.cpp -o CMakeFiles\indoor_reconstruction.dir\segment_refinement.cpp.s
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\segment_refinement.cpp -o CMakeFiles\indoor_reconstruction.dir\segment_refinement.cpp.s
 
 CMakeFiles/indoor_reconstruction.dir/segment_refinement.cpp.obj.requires:
 
@@ -160,15 +160,15 @@ CMakeFiles/indoor_reconstruction.dir/FilterSegmentsByTime.cpp.obj: CMakeFiles/in
 CMakeFiles/indoor_reconstruction.dir/FilterSegmentsByTime.cpp.obj: CMakeFiles/indoor_reconstruction.dir/includes_CXX.rsp
 CMakeFiles/indoor_reconstruction.dir/FilterSegmentsByTime.cpp.obj: ../FilterSegmentsByTime.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/indoor_reconstruction.dir/FilterSegmentsByTime.cpp.obj"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\FilterSegmentsByTime.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\FilterSegmentsByTime.cpp
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\FilterSegmentsByTime.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\FilterSegmentsByTime.cpp
 
 CMakeFiles/indoor_reconstruction.dir/FilterSegmentsByTime.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indoor_reconstruction.dir/FilterSegmentsByTime.cpp.i"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\FilterSegmentsByTime.cpp > CMakeFiles\indoor_reconstruction.dir\FilterSegmentsByTime.cpp.i
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\FilterSegmentsByTime.cpp > CMakeFiles\indoor_reconstruction.dir\FilterSegmentsByTime.cpp.i
 
 CMakeFiles/indoor_reconstruction.dir/FilterSegmentsByTime.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indoor_reconstruction.dir/FilterSegmentsByTime.cpp.s"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\FilterSegmentsByTime.cpp -o CMakeFiles\indoor_reconstruction.dir\FilterSegmentsByTime.cpp.s
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\FilterSegmentsByTime.cpp -o CMakeFiles\indoor_reconstruction.dir\FilterSegmentsByTime.cpp.s
 
 CMakeFiles/indoor_reconstruction.dir/FilterSegmentsByTime.cpp.obj.requires:
 
@@ -185,15 +185,15 @@ CMakeFiles/indoor_reconstruction.dir/Buffer.cpp.obj: CMakeFiles/indoor_reconstru
 CMakeFiles/indoor_reconstruction.dir/Buffer.cpp.obj: CMakeFiles/indoor_reconstruction.dir/includes_CXX.rsp
 CMakeFiles/indoor_reconstruction.dir/Buffer.cpp.obj: ../Buffer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/indoor_reconstruction.dir/Buffer.cpp.obj"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\Buffer.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\Buffer.cpp
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\Buffer.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\Buffer.cpp
 
 CMakeFiles/indoor_reconstruction.dir/Buffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indoor_reconstruction.dir/Buffer.cpp.i"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\Buffer.cpp > CMakeFiles\indoor_reconstruction.dir\Buffer.cpp.i
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\Buffer.cpp > CMakeFiles\indoor_reconstruction.dir\Buffer.cpp.i
 
 CMakeFiles/indoor_reconstruction.dir/Buffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indoor_reconstruction.dir/Buffer.cpp.s"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\Buffer.cpp -o CMakeFiles\indoor_reconstruction.dir\Buffer.cpp.s
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\Buffer.cpp -o CMakeFiles\indoor_reconstruction.dir\Buffer.cpp.s
 
 CMakeFiles/indoor_reconstruction.dir/Buffer.cpp.obj.requires:
 
@@ -210,15 +210,15 @@ CMakeFiles/indoor_reconstruction.dir/GenerateWallPatches.cpp.obj: CMakeFiles/ind
 CMakeFiles/indoor_reconstruction.dir/GenerateWallPatches.cpp.obj: CMakeFiles/indoor_reconstruction.dir/includes_CXX.rsp
 CMakeFiles/indoor_reconstruction.dir/GenerateWallPatches.cpp.obj: ../GenerateWallPatches.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/indoor_reconstruction.dir/GenerateWallPatches.cpp.obj"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\GenerateWallPatches.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\GenerateWallPatches.cpp
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\GenerateWallPatches.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\GenerateWallPatches.cpp
 
 CMakeFiles/indoor_reconstruction.dir/GenerateWallPatches.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indoor_reconstruction.dir/GenerateWallPatches.cpp.i"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\GenerateWallPatches.cpp > CMakeFiles\indoor_reconstruction.dir\GenerateWallPatches.cpp.i
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\GenerateWallPatches.cpp > CMakeFiles\indoor_reconstruction.dir\GenerateWallPatches.cpp.i
 
 CMakeFiles/indoor_reconstruction.dir/GenerateWallPatches.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indoor_reconstruction.dir/GenerateWallPatches.cpp.s"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\GenerateWallPatches.cpp -o CMakeFiles\indoor_reconstruction.dir\GenerateWallPatches.cpp.s
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\GenerateWallPatches.cpp -o CMakeFiles\indoor_reconstruction.dir\GenerateWallPatches.cpp.s
 
 CMakeFiles/indoor_reconstruction.dir/GenerateWallPatches.cpp.obj.requires:
 
@@ -235,15 +235,15 @@ CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: CMakeFiles/indoor_r
 CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: CMakeFiles/indoor_reconstruction.dir/includes_CXX.rsp
 CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: ../occlusion_test.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\occlusion_test.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\occlusion_test.cpp
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\occlusion_test.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\occlusion_test.cpp
 
 CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.i"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\occlusion_test.cpp > CMakeFiles\indoor_reconstruction.dir\occlusion_test.cpp.i
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\occlusion_test.cpp > CMakeFiles\indoor_reconstruction.dir\occlusion_test.cpp.i
 
 CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.s"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\occlusion_test.cpp -o CMakeFiles\indoor_reconstruction.dir\occlusion_test.cpp.s
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\occlusion_test.cpp -o CMakeFiles\indoor_reconstruction.dir\occlusion_test.cpp.s
 
 CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj.requires:
 
@@ -260,15 +260,15 @@ CMakeFiles/indoor_reconstruction.dir/ReadAscii.cpp.obj: CMakeFiles/indoor_recons
 CMakeFiles/indoor_reconstruction.dir/ReadAscii.cpp.obj: CMakeFiles/indoor_reconstruction.dir/includes_CXX.rsp
 CMakeFiles/indoor_reconstruction.dir/ReadAscii.cpp.obj: ../ReadAscii.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/indoor_reconstruction.dir/ReadAscii.cpp.obj"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\ReadAscii.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\ReadAscii.cpp
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\ReadAscii.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\ReadAscii.cpp
 
 CMakeFiles/indoor_reconstruction.dir/ReadAscii.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indoor_reconstruction.dir/ReadAscii.cpp.i"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\ReadAscii.cpp > CMakeFiles\indoor_reconstruction.dir\ReadAscii.cpp.i
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\ReadAscii.cpp > CMakeFiles\indoor_reconstruction.dir\ReadAscii.cpp.i
 
 CMakeFiles/indoor_reconstruction.dir/ReadAscii.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indoor_reconstruction.dir/ReadAscii.cpp.s"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\ReadAscii.cpp -o CMakeFiles\indoor_reconstruction.dir\ReadAscii.cpp.s
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\ReadAscii.cpp -o CMakeFiles\indoor_reconstruction.dir\ReadAscii.cpp.s
 
 CMakeFiles/indoor_reconstruction.dir/ReadAscii.cpp.obj.requires:
 
@@ -285,15 +285,15 @@ CMakeFiles/indoor_reconstruction.dir/Laservoxel.cpp.obj: CMakeFiles/indoor_recon
 CMakeFiles/indoor_reconstruction.dir/Laservoxel.cpp.obj: CMakeFiles/indoor_reconstruction.dir/includes_CXX.rsp
 CMakeFiles/indoor_reconstruction.dir/Laservoxel.cpp.obj: ../Laservoxel.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/indoor_reconstruction.dir/Laservoxel.cpp.obj"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\Laservoxel.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\Laservoxel.cpp
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\Laservoxel.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\Laservoxel.cpp
 
 CMakeFiles/indoor_reconstruction.dir/Laservoxel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indoor_reconstruction.dir/Laservoxel.cpp.i"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\Laservoxel.cpp > CMakeFiles\indoor_reconstruction.dir\Laservoxel.cpp.i
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\Laservoxel.cpp > CMakeFiles\indoor_reconstruction.dir\Laservoxel.cpp.i
 
 CMakeFiles/indoor_reconstruction.dir/Laservoxel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indoor_reconstruction.dir/Laservoxel.cpp.s"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\Laservoxel.cpp -o CMakeFiles\indoor_reconstruction.dir\Laservoxel.cpp.s
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\Laservoxel.cpp -o CMakeFiles\indoor_reconstruction.dir\Laservoxel.cpp.s
 
 CMakeFiles/indoor_reconstruction.dir/Laservoxel.cpp.obj.requires:
 
@@ -310,15 +310,15 @@ CMakeFiles/indoor_reconstruction.dir/Laserpoint2ScanningPosition.cpp.obj: CMakeF
 CMakeFiles/indoor_reconstruction.dir/Laserpoint2ScanningPosition.cpp.obj: CMakeFiles/indoor_reconstruction.dir/includes_CXX.rsp
 CMakeFiles/indoor_reconstruction.dir/Laserpoint2ScanningPosition.cpp.obj: ../Laserpoint2ScanningPosition.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/indoor_reconstruction.dir/Laserpoint2ScanningPosition.cpp.obj"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\Laserpoint2ScanningPosition.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\Laserpoint2ScanningPosition.cpp
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\Laserpoint2ScanningPosition.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\Laserpoint2ScanningPosition.cpp
 
 CMakeFiles/indoor_reconstruction.dir/Laserpoint2ScanningPosition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indoor_reconstruction.dir/Laserpoint2ScanningPosition.cpp.i"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\Laserpoint2ScanningPosition.cpp > CMakeFiles\indoor_reconstruction.dir\Laserpoint2ScanningPosition.cpp.i
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\Laserpoint2ScanningPosition.cpp > CMakeFiles\indoor_reconstruction.dir\Laserpoint2ScanningPosition.cpp.i
 
 CMakeFiles/indoor_reconstruction.dir/Laserpoint2ScanningPosition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indoor_reconstruction.dir/Laserpoint2ScanningPosition.cpp.s"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\Laserpoint2ScanningPosition.cpp -o CMakeFiles\indoor_reconstruction.dir\Laserpoint2ScanningPosition.cpp.s
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\Laserpoint2ScanningPosition.cpp -o CMakeFiles\indoor_reconstruction.dir\Laserpoint2ScanningPosition.cpp.s
 
 CMakeFiles/indoor_reconstruction.dir/Laserpoint2ScanningPosition.cpp.obj.requires:
 
@@ -335,15 +335,15 @@ CMakeFiles/indoor_reconstruction.dir/DepthMap.cpp.obj: CMakeFiles/indoor_reconst
 CMakeFiles/indoor_reconstruction.dir/DepthMap.cpp.obj: CMakeFiles/indoor_reconstruction.dir/includes_CXX.rsp
 CMakeFiles/indoor_reconstruction.dir/DepthMap.cpp.obj: ../DepthMap.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/indoor_reconstruction.dir/DepthMap.cpp.obj"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\DepthMap.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\DepthMap.cpp
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\DepthMap.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\DepthMap.cpp
 
 CMakeFiles/indoor_reconstruction.dir/DepthMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indoor_reconstruction.dir/DepthMap.cpp.i"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\DepthMap.cpp > CMakeFiles\indoor_reconstruction.dir\DepthMap.cpp.i
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\DepthMap.cpp > CMakeFiles\indoor_reconstruction.dir\DepthMap.cpp.i
 
 CMakeFiles/indoor_reconstruction.dir/DepthMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indoor_reconstruction.dir/DepthMap.cpp.s"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\DepthMap.cpp -o CMakeFiles\indoor_reconstruction.dir\DepthMap.cpp.s
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\DepthMap.cpp -o CMakeFiles\indoor_reconstruction.dir\DepthMap.cpp.s
 
 CMakeFiles/indoor_reconstruction.dir/DepthMap.cpp.obj.requires:
 
@@ -360,15 +360,15 @@ CMakeFiles/indoor_reconstruction.dir/WallAccuracy.cpp.obj: CMakeFiles/indoor_rec
 CMakeFiles/indoor_reconstruction.dir/WallAccuracy.cpp.obj: CMakeFiles/indoor_reconstruction.dir/includes_CXX.rsp
 CMakeFiles/indoor_reconstruction.dir/WallAccuracy.cpp.obj: ../WallAccuracy.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/indoor_reconstruction.dir/WallAccuracy.cpp.obj"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\WallAccuracy.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\WallAccuracy.cpp
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\WallAccuracy.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\WallAccuracy.cpp
 
 CMakeFiles/indoor_reconstruction.dir/WallAccuracy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indoor_reconstruction.dir/WallAccuracy.cpp.i"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\WallAccuracy.cpp > CMakeFiles\indoor_reconstruction.dir\WallAccuracy.cpp.i
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\WallAccuracy.cpp > CMakeFiles\indoor_reconstruction.dir\WallAccuracy.cpp.i
 
 CMakeFiles/indoor_reconstruction.dir/WallAccuracy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indoor_reconstruction.dir/WallAccuracy.cpp.s"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\WallAccuracy.cpp -o CMakeFiles\indoor_reconstruction.dir\WallAccuracy.cpp.s
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\WallAccuracy.cpp -o CMakeFiles\indoor_reconstruction.dir\WallAccuracy.cpp.s
 
 CMakeFiles/indoor_reconstruction.dir/WallAccuracy.cpp.obj.requires:
 
@@ -385,15 +385,15 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: CMakeFiles/indoo
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: CMakeFiles/indoor_reconstruction.dir/includes_CXX.rsp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: ../MLS_preprocessing.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\MLS_preprocessing.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\MLS_preprocessing.cpp
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\MLS_preprocessing.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\MLS_preprocessing.cpp
 
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.i"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\MLS_preprocessing.cpp > CMakeFiles\indoor_reconstruction.dir\MLS_preprocessing.cpp.i
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\MLS_preprocessing.cpp > CMakeFiles\indoor_reconstruction.dir\MLS_preprocessing.cpp.i
 
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.s"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\MLS_preprocessing.cpp -o CMakeFiles\indoor_reconstruction.dir\MLS_preprocessing.cpp.s
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\MLS_preprocessing.cpp -o CMakeFiles\indoor_reconstruction.dir\MLS_preprocessing.cpp.s
 
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj.requires:
 
@@ -410,15 +410,15 @@ CMakeFiles/indoor_reconstruction.dir/post_processing.cpp.obj: CMakeFiles/indoor_
 CMakeFiles/indoor_reconstruction.dir/post_processing.cpp.obj: CMakeFiles/indoor_reconstruction.dir/includes_CXX.rsp
 CMakeFiles/indoor_reconstruction.dir/post_processing.cpp.obj: ../post_processing.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/indoor_reconstruction.dir/post_processing.cpp.obj"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\post_processing.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\post_processing.cpp
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\post_processing.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\post_processing.cpp
 
 CMakeFiles/indoor_reconstruction.dir/post_processing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indoor_reconstruction.dir/post_processing.cpp.i"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\post_processing.cpp > CMakeFiles\indoor_reconstruction.dir\post_processing.cpp.i
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\post_processing.cpp > CMakeFiles\indoor_reconstruction.dir\post_processing.cpp.i
 
 CMakeFiles/indoor_reconstruction.dir/post_processing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indoor_reconstruction.dir/post_processing.cpp.s"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\post_processing.cpp -o CMakeFiles\indoor_reconstruction.dir\post_processing.cpp.s
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\post_processing.cpp -o CMakeFiles\indoor_reconstruction.dir\post_processing.cpp.s
 
 CMakeFiles/indoor_reconstruction.dir/post_processing.cpp.obj.requires:
 
@@ -435,15 +435,15 @@ CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/Visual
 CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: CMakeFiles/indoor_reconstruction.dir/includes_CXX.rsp
 CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\D_\Mapping\Tools\visualization_tools\VisualizePlane3D.cpp.obj -c D:\Mapping\Tools\visualization_tools\VisualizePlane3D.cpp
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\D_\Mapping\Tools\visualization_tools\VisualizePlane3D.cpp.obj -c D:\Mapping\Tools\visualization_tools\VisualizePlane3D.cpp
 
 CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.i"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\visualization_tools\VisualizePlane3D.cpp > CMakeFiles\indoor_reconstruction.dir\D_\Mapping\Tools\visualization_tools\VisualizePlane3D.cpp.i
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\visualization_tools\VisualizePlane3D.cpp > CMakeFiles\indoor_reconstruction.dir\D_\Mapping\Tools\visualization_tools\VisualizePlane3D.cpp.i
 
 CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.s"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\visualization_tools\VisualizePlane3D.cpp -o CMakeFiles\indoor_reconstruction.dir\D_\Mapping\Tools\visualization_tools\VisualizePlane3D.cpp.s
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\visualization_tools\VisualizePlane3D.cpp -o CMakeFiles\indoor_reconstruction.dir\D_\Mapping\Tools\visualization_tools\VisualizePlane3D.cpp.s
 
 CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj.requires:
 
@@ -460,15 +460,15 @@ CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/Minimu
 CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/MinimumRectangle3D.cpp.obj: CMakeFiles/indoor_reconstruction.dir/includes_CXX.rsp
 CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/MinimumRectangle3D.cpp.obj: D:/Mapping/Tools/visualization_tools/MinimumRectangle3D.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/MinimumRectangle3D.cpp.obj"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\D_\Mapping\Tools\visualization_tools\MinimumRectangle3D.cpp.obj -c D:\Mapping\Tools\visualization_tools\MinimumRectangle3D.cpp
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\D_\Mapping\Tools\visualization_tools\MinimumRectangle3D.cpp.obj -c D:\Mapping\Tools\visualization_tools\MinimumRectangle3D.cpp
 
 CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/MinimumRectangle3D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/MinimumRectangle3D.cpp.i"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\visualization_tools\MinimumRectangle3D.cpp > CMakeFiles\indoor_reconstruction.dir\D_\Mapping\Tools\visualization_tools\MinimumRectangle3D.cpp.i
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\visualization_tools\MinimumRectangle3D.cpp > CMakeFiles\indoor_reconstruction.dir\D_\Mapping\Tools\visualization_tools\MinimumRectangle3D.cpp.i
 
 CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/MinimumRectangle3D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/MinimumRectangle3D.cpp.s"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\visualization_tools\MinimumRectangle3D.cpp -o CMakeFiles\indoor_reconstruction.dir\D_\Mapping\Tools\visualization_tools\MinimumRectangle3D.cpp.s
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\visualization_tools\MinimumRectangle3D.cpp -o CMakeFiles\indoor_reconstruction.dir\D_\Mapping\Tools\visualization_tools\MinimumRectangle3D.cpp.s
 
 CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/MinimumRectangle3D.cpp.obj.requires:
 
@@ -485,15 +485,15 @@ CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: CMakeFiles/i
 CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: CMakeFiles/indoor_reconstruction.dir/includes_CXX.rsp
 CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: ../indoorTopology_v1_old.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\indoorTopology_v1_old.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\indoorTopology_v1_old.cpp
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\indoorTopology_v1_old.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\indoorTopology_v1_old.cpp
 
 CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.i"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\indoorTopology_v1_old.cpp > CMakeFiles\indoor_reconstruction.dir\indoorTopology_v1_old.cpp.i
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\indoorTopology_v1_old.cpp > CMakeFiles\indoor_reconstruction.dir\indoorTopology_v1_old.cpp.i
 
 CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.s"
-	D:\DevCpp5.4.0_gcc4.7.1\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\indoorTopology_v1_old.cpp -o CMakeFiles\indoor_reconstruction.dir\indoorTopology_v1_old.cpp.s
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\indoorTopology_v1_old.cpp -o CMakeFiles\indoor_reconstruction.dir\indoorTopology_v1_old.cpp.s
 
 CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj.requires:
 
@@ -504,6 +504,31 @@ CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj.provides: CMa
 .PHONY : CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj.provides
 
 CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj.provides.build: CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj
+
+
+CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.obj: CMakeFiles/indoor_reconstruction.dir/flags.make
+CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.obj: CMakeFiles/indoor_reconstruction.dir/includes_CXX.rsp
+CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.obj: ../PlaneFittingResidual.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.obj"
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\indoor_reconstruction.dir\PlaneFittingResidual.cpp.obj -c D:\Mapping\Tools\indoor_geometry_reocnstruction\PlaneFittingResidual.cpp
+
+CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.i"
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Mapping\Tools\indoor_geometry_reocnstruction\PlaneFittingResidual.cpp > CMakeFiles\indoor_reconstruction.dir\PlaneFittingResidual.cpp.i
+
+CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.s"
+	C:\PROGRA~1\DEVCPP~1.1\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Mapping\Tools\indoor_geometry_reocnstruction\PlaneFittingResidual.cpp -o CMakeFiles\indoor_reconstruction.dir\PlaneFittingResidual.cpp.s
+
+CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.obj.requires:
+
+.PHONY : CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.obj.requires
+
+CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.obj.provides: CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\indoor_reconstruction.dir\build.make CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.obj.provides.build
+.PHONY : CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.obj.provides
+
+CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.obj.provides.build: CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.obj
 
 
 # Object files for target indoor_reconstruction
@@ -525,7 +550,8 @@ indoor_reconstruction_OBJECTS = \
 "CMakeFiles/indoor_reconstruction.dir/post_processing.cpp.obj" \
 "CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj" \
 "CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/MinimumRectangle3D.cpp.obj" \
-"CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj"
+"CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj" \
+"CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.obj"
 
 # External object files for target indoor_reconstruction
 indoor_reconstruction_EXTERNAL_OBJECTS =
@@ -548,6 +574,7 @@ indoor_reconstruction_EXTERNAL_OBJECTS =
 ../Debug/indoor_reconstruction.exe: CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj
 ../Debug/indoor_reconstruction.exe: CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/MinimumRectangle3D.cpp.obj
 ../Debug/indoor_reconstruction.exe: CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj
+../Debug/indoor_reconstruction.exe: CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.obj
 ../Debug/indoor_reconstruction.exe: CMakeFiles/indoor_reconstruction.dir/build.make
 ../Debug/indoor_reconstruction.exe: C:/Program\ Files/boost_gcc4.7/lib/libboost_system-mgw47-mt-d-1_64.a
 ../Debug/indoor_reconstruction.exe: C:/Program\ Files/boost_gcc4.7/lib/libboost_filesystem-mgw47-mt-d-1_64.a
@@ -555,7 +582,7 @@ indoor_reconstruction_EXTERNAL_OBJECTS =
 ../Debug/indoor_reconstruction.exe: CMakeFiles/indoor_reconstruction.dir/linklibs.rsp
 ../Debug/indoor_reconstruction.exe: CMakeFiles/indoor_reconstruction.dir/objects1.rsp
 ../Debug/indoor_reconstruction.exe: CMakeFiles/indoor_reconstruction.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable ..\Debug\indoor_reconstruction.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Mapping\Tools\indoor_geometry_reocnstruction\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable ..\Debug\indoor_reconstruction.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\indoor_reconstruction.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -581,6 +608,7 @@ CMakeFiles/indoor_reconstruction.dir/requires: CMakeFiles/indoor_reconstruction.
 CMakeFiles/indoor_reconstruction.dir/requires: CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj.requires
 CMakeFiles/indoor_reconstruction.dir/requires: CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/MinimumRectangle3D.cpp.obj.requires
 CMakeFiles/indoor_reconstruction.dir/requires: CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj.requires
+CMakeFiles/indoor_reconstruction.dir/requires: CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.obj.requires
 
 .PHONY : CMakeFiles/indoor_reconstruction.dir/requires
 

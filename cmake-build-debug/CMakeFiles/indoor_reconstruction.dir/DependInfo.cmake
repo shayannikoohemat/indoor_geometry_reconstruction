@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Mapping/Tools/indoor_geometry_reocnstruction/Laserpoint2ScanningPosition.cpp" "D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/indoor_reconstruction.dir/Laserpoint2ScanningPosition.cpp.obj"
   "D:/Mapping/Tools/indoor_geometry_reocnstruction/Laservoxel.cpp" "D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/indoor_reconstruction.dir/Laservoxel.cpp.obj"
   "D:/Mapping/Tools/indoor_geometry_reocnstruction/MLS_preprocessing.cpp" "D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj"
+  "D:/Mapping/Tools/indoor_geometry_reocnstruction/PlaneFittingResidual.cpp" "D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.obj"
   "D:/Mapping/Tools/indoor_geometry_reocnstruction/ReadAscii.cpp" "D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/indoor_reconstruction.dir/ReadAscii.cpp.obj"
   "D:/Mapping/Tools/indoor_geometry_reocnstruction/WallAccuracy.cpp" "D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/indoor_reconstruction.dir/WallAccuracy.cpp.obj"
   "D:/Mapping/Tools/indoor_geometry_reocnstruction/indoorTopology.cpp" "D:/Mapping/Tools/indoor_geometry_reocnstruction/cmake-build-debug/CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.obj"

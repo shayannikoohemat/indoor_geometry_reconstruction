@@ -1368,6 +1368,82 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj
  D:/Mapping/Library/Photogrammetry/include/vRecord.tcc
  D:/Mapping/Library/Photogrammetry/include/viff.h
  D:/Mapping/Tools/indoor_geometry_reocnstruction/MLS_preprocessing.cpp
+CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.obj
+ D:/Mapping/Library/LaserScan/include/BNF_io.h
+ D:/Mapping/Library/LaserScan/include/DataBoundsLaser.h
+ D:/Mapping/Library/LaserScan/include/ImagedData.h
+ D:/Mapping/Library/LaserScan/include/LaserDataFiles.h
+ D:/Mapping/Library/LaserScan/include/LaserDataTypes.h
+ D:/Mapping/Library/LaserScan/include/LaserMetaFile.h
+ D:/Mapping/Library/LaserScan/include/LaserPatch.h
+ D:/Mapping/Library/LaserScan/include/LaserPatches.h
+ D:/Mapping/Library/LaserScan/include/LaserPoint.h
+ D:/Mapping/Library/LaserScan/include/LaserPoints.h
+ D:/Mapping/Library/LaserScan/include/LaserPointsInfo.h
+ D:/Mapping/Library/LaserScan/include/LaserScanner.h
+ D:/Mapping/Library/LaserScan/include/LaserScannerCalibration.h
+ D:/Mapping/Library/LaserScan/include/LaserScannerOrientation.h
+ D:/Mapping/Library/LaserScan/include/OutliningParameters.h
+ D:/Mapping/Library/LaserScan/include/SegmentationParameters.h
+ D:/Mapping/Library/Photogrammetry/include/AttributeTypes.h
+ D:/Mapping/Library/Photogrammetry/include/Circle2D.h
+ D:/Mapping/Library/Photogrammetry/include/Covariance2D.h
+ D:/Mapping/Library/Photogrammetry/include/Covariance3D.h
+ D:/Mapping/Library/Photogrammetry/include/DataBounds2D.h
+ D:/Mapping/Library/Photogrammetry/include/DataBounds3D.h
+ D:/Mapping/Library/Photogrammetry/include/DataGrid.h
+ D:/Mapping/Library/Photogrammetry/include/Database4Cpp.h
+ D:/Mapping/Library/Photogrammetry/include/ExteriorOrientation.h
+ D:/Mapping/Library/Photogrammetry/include/FeatureNumber.h
+ D:/Mapping/Library/Photogrammetry/include/Histogram.h
+ D:/Mapping/Library/Photogrammetry/include/HoughSpace.h
+ D:/Mapping/Library/Photogrammetry/include/Image.h
+ D:/Mapping/Library/Photogrammetry/include/ImageGrid.h
+ D:/Mapping/Library/Photogrammetry/include/ImagePoint.h
+ D:/Mapping/Library/Photogrammetry/include/ImagePointPlain.h
+ D:/Mapping/Library/Photogrammetry/include/ImagePoints.h
+ D:/Mapping/Library/Photogrammetry/include/LSStructs.h
+ D:/Mapping/Library/Photogrammetry/include/Line2D.h
+ D:/Mapping/Library/Photogrammetry/include/Line3D.h
+ D:/Mapping/Library/Photogrammetry/include/LineNumber.h
+ D:/Mapping/Library/Photogrammetry/include/LineSegment3D.h
+ D:/Mapping/Library/Photogrammetry/include/LineSegments3D.h
+ D:/Mapping/Library/Photogrammetry/include/LineTopologies.h
+ D:/Mapping/Library/Photogrammetry/include/LineTopology.h
+ D:/Mapping/Library/Photogrammetry/include/Matrix3.h
+ D:/Mapping/Library/Photogrammetry/include/MeshNumber.h
+ D:/Mapping/Library/Photogrammetry/include/ObjectPoint.h
+ D:/Mapping/Library/Photogrammetry/include/ObjectPoints.h
+ D:/Mapping/Library/Photogrammetry/include/Orientation3D.h
+ D:/Mapping/Library/Photogrammetry/include/PixelPosition.h
+ D:/Mapping/Library/Photogrammetry/include/Plane.h
+ D:/Mapping/Library/Photogrammetry/include/Planes.h
+ D:/Mapping/Library/Photogrammetry/include/Point3D.h
+ D:/Mapping/Library/Photogrammetry/include/Point3DPlain.h
+ D:/Mapping/Library/Photogrammetry/include/PointNumber.h
+ D:/Mapping/Library/Photogrammetry/include/PointNumberList.h
+ D:/Mapping/Library/Photogrammetry/include/PointNumberLists.h
+ D:/Mapping/Library/Photogrammetry/include/Position2D.h
+ D:/Mapping/Library/Photogrammetry/include/Position3D.h
+ D:/Mapping/Library/Photogrammetry/include/Positions2D.h
+ D:/Mapping/Library/Photogrammetry/include/Positions3D.h
+ D:/Mapping/Library/Photogrammetry/include/Rotation2D.h
+ D:/Mapping/Library/Photogrammetry/include/Rotation3D.h
+ D:/Mapping/Library/Photogrammetry/include/TIN.h
+ D:/Mapping/Library/Photogrammetry/include/TINEdgeSet.h
+ D:/Mapping/Library/Photogrammetry/include/TINEdges.h
+ D:/Mapping/Library/Photogrammetry/include/TINMesh.h
+ D:/Mapping/Library/Photogrammetry/include/Vector2D.h
+ D:/Mapping/Library/Photogrammetry/include/Vector3D.h
+ D:/Mapping/Library/Photogrammetry/include/VectorPoint.h
+ D:/Mapping/Library/Photogrammetry/include/digphot_arch.h
+ D:/Mapping/Library/Photogrammetry/include/file_id.h
+ D:/Mapping/Library/Photogrammetry/include/sortStruct.h
+ D:/Mapping/Library/Photogrammetry/include/vMatrix.h
+ D:/Mapping/Library/Photogrammetry/include/vMatrix.tcc
+ D:/Mapping/Library/Photogrammetry/include/vRecord.tcc
+ D:/Mapping/Library/Photogrammetry/include/viff.h
+ D:/Mapping/Tools/indoor_geometry_reocnstruction/PlaneFittingResidual.cpp
 CMakeFiles/indoor_reconstruction.dir/ReadAscii.cpp.obj
  D:/Mapping/Library/LaserScan/include/BNF_io.h
  D:/Mapping/Library/LaserScan/include/DataBoundsLaser.h
@@ -5405,6 +5481,7 @@ CMakeFiles/indoor_reconstruction.dir/main.cpp.obj
  D:/Mapping/Library/Photogrammetry/include/viff.h
  D:/Mapping/Tools/indoor_geometry_reocnstruction/Buffer.h
  D:/Mapping/Tools/indoor_geometry_reocnstruction/Buffers.h
+ D:/Mapping/Tools/indoor_geometry_reocnstruction/PlaneFittingResidual.h
  D:/Mapping/Tools/indoor_geometry_reocnstruction/indoor_reconstruction.h
  D:/Mapping/Tools/indoor_geometry_reocnstruction/main.cpp
  D:/Mapping/Tools/indoor_geometry_reocnstruction/post_processing.h

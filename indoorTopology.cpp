@@ -111,8 +111,8 @@ void indoorTopology(char* laserFile, int minsizesegment, char* root, bool verbos
     double                  PI;
     PI                      = 3.14159;
     double                  flat_angle, vertical_angle;
-    flat_angle              = 50.01; //50.0;   //45.00; //39.99; // //10.0 ;
-    vertical_angle          = 39.99; //10.0;  //45.00; //50.01; // //10.0;
+    flat_angle              = 39.99; //50.01; //50.0;   //45.00; //
+    vertical_angle          = 50.01; //39.99; //10.0;  //45.00; //
     double                  max_intersection_dist;
     max_intersection_dist   = 0.10;
 
@@ -243,7 +243,7 @@ void indoorTopology(char* laserFile, int minsizesegment, char* root, bool verbos
                 ObjectPoint segment_centroid;
                 //if (verbose) {
                 segment_angle = Angle (plane.Normal (), Vector3D (0, 0, 1)) * 180.0 / PI;
-                if (segment_angle > 90.0) segment_angle = 180.0 - segment_angle; //// not sure if this is correct
+                if (segment_angle > 90.0) segment_angle = 180.0 - segment_angle;
                 //}
                 segment_centroid = laserpoints.Centroid (point_list, segment_number);
                 fprintf (segments_infofile, "%d,%d,%.2f,%.2f \n",
@@ -289,7 +289,10 @@ void indoorTopology(char* laserFile, int minsizesegment, char* root, bool verbos
     sort(horizon_segments_vec.begin (), horizon_segments_vec.end (), compare_lp_size); // descending
     /// select 10% of big horizontal segments to check their height distribution
     int count_subset_horizon_segments; /// count of 10% to 20% of horizontal segments
-    count_subset_horizon_segments = static_cast<int> (horizon_segments_vec.size () * 0.10);
+    if(horizon_segments_vec.size () > 20){ /// if the size is less then 20 then we use all of the segments for min and max height
+        count_subset_horizon_segments = static_cast<int> (horizon_segments_vec.size () * 0.10);
+    } else count_subset_horizon_segments = horizon_segments_vec.size ();
+
     printf(" 10 percent count of horizontal segments are : %d \n", count_subset_horizon_segments); //debug
     /// this file is for analysiing the almost_horizontal segments with the bigger size, to estimate the floor and ceiling height
     FILE *almost_horizon_subset_infofile;
@@ -337,6 +340,9 @@ void indoorTopology(char* laserFile, int minsizesegment, char* root, bool verbos
         printf("Floor Height estimation: %.2f \n", floor_z);
         SetColor (GRAY);
     }
+
+    //ceiling_z = 2.04;
+    //floor_z = -0.82;
 
     /* exclude almost horizontal segments that are far below the ceiling or far above the floor */
     double ceiling_threshold, floor_threshold;
@@ -410,6 +416,14 @@ void indoorTopology(char* laserFile, int minsizesegment, char* root, bool verbos
                                                           candidate_ceil_segment_vec, min_rectangle_ceil,
                                                           not_ceiling_segments_nr, not_ceil_segments_lp, false);
     //printf("not_ceiling_segments_nr size: %d \n", not_ceiling_segments_nr.size ()); // debug
+    /// debug
+    LaserPoints candidates_ceilings;
+    for(auto s_ceil : ceil_segment_byIntersection_vec){
+        candidates_ceilings.AddPoints (s_ceil);
+    }
+    strcpy (str_root,root);
+    candidates_ceilings.Write(strcat(str_root, "candidates_ceilings_byintersection.laser"), false); /// debug
+
 
 
     /// we use the same function to check floors, just the "is_floor" flag would be true
@@ -420,6 +434,13 @@ void indoorTopology(char* laserFile, int minsizesegment, char* root, bool verbos
                                                           candidate_floor_segment_vec, min_rectangle_floor,
                                                           not_floor_segments_nr, not_floor_segments_lp, true);
     //printf("not_floor_segments_nr size: %d \n", not_floor_segments_nr.size ()); // debug
+    /// debug
+    LaserPoints candidates_floor;
+    for(auto s_floor : floor_segment_byIntersection_vec){
+        candidates_floor.AddPoints (s_floor);
+    }
+    strcpy (str_root,root);
+    candidates_floor.Write(strcat(str_root, "candidates_floor_byintersection.laser"), false); /// debug
 
     LaserPoints not_floor_ceiling_byintersection;
     not_floor_ceiling_byintersection.AddPoints (not_ceil_segments_lp);
@@ -632,14 +653,14 @@ void indoorTopology(char* laserFile, int minsizesegment, char* root, bool verbos
                                      of the lower segment, then the lower segment is supporting the upper segment */
                                     //printf ("db1.minZ: %2.2f , db2.maxZ %2.2f \n", db1.Minimum ().GetZ (), db2.Maximum ().GetZ ()); //debug
                                     //printf ("db1.minZ - db2.maxZ: %2.2f \n", fabs(db1.Minimum ().GetZ ()- db2.Maximum ().GetZ ())); // debug
-                                    if(fabs(db1.Minimum ().GetZ () - db2.Maximum ().GetZ () ) <= 0.10 ) {
+                                    if(fabs(db1.Minimum ().GetZ () - db2.Maximum ().GetZ () ) <= 0.20 ) {
                                         takelabel = labelwallslantedwall;
                                     }
                                 } else { /// else center of seg2 is higher than center of seg1
                                     //printf ("ZC2 > ZC1 and \n db2.minZ: %2.2f , db1.maxZ %2.2f \n",
                                             //db2.Minimum ().GetZ (), db1.Maximum ().GetZ ()); //debug
                                     //printf ("db2.minZ - db1.maxZ: %2.2f \n", fabs(db2.Minimum ().GetZ ()- db1.Maximum ().GetZ ())); // debug
-                                    if(fabs(db2.Minimum ().GetZ () - db1.Maximum ().GetZ () ) <= 0.10) {
+                                    if(fabs(db2.Minimum ().GetZ () - db1.Maximum ().GetZ () ) <= 0.20) {
                                         takelabel = labelwallslantedwall;
                                     }
                                 }

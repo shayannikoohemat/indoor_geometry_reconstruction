@@ -86,3 +86,10 @@ std::vector<LaserPoints> PartitionLpByTag(LaserPoints const& lp, LaserPointTag i
     //cout << "Total number of partitioned points: " << total_points << endl;
     return result;
 };
+
+void LaserPoints_info (LaserPoints &laserpoints){
+    printf("LaserPoints size: %d \n", laserpoints.size ());
+    vector<int> segment_numbers;
+    segment_numbers = laserpoints.AttributeValues(SegmentNumberTag);  // vector of segment numbers
+    printf("Number of segments: %d \n", segment_numbers.size ());
+}

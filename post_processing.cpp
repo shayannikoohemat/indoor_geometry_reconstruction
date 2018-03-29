@@ -9,6 +9,7 @@
 #include "post_processing.h"
 #include "indoor_reconstruction.h"
 #include "visualization_tools.h"
+#include "LineTopology.h"
 #include <boost/foreach.hpp>
 #include <boost/geometry.hpp>
 #include <boost/geometry/core/point_type.hpp>
@@ -200,6 +201,9 @@ std::deque<boost_polygon> intersect_polygons(ObjectPoints const &poly1_corners, 
     std::deque<boost_polygon> intersected_poly;
     boost::geometry::intersection(rectangle1, rectangle2, intersected_poly);
 
+    //bool b = boost::geometry::intersects(rectangle1, rectangle2);
+    //std::cout << "Intersects: " << (b ? "YES" : "NO") << std::endl;
+
     /// area function
 /*    int i = 0;
     std::cout << "poly1 && poly2:" << std::endl;
@@ -261,6 +265,7 @@ vector<LaserPoints> filter_ceil_by_intersection(map<int, double> &horizon_segmet
                 /// check if their minimum bounding rectangles also intersect
                 ObjectPoints mbr1_corners, mbr2_corners;
                 LineTopology mbr1_edges, mbr2_edges;
+
                 /// derive corners
                 mbr1_corners = min_rectangle_ceil[i].first;
                 mbr2_corners = min_rectangle_ceil[j].first;
@@ -274,8 +279,37 @@ vector<LaserPoints> filter_ceil_by_intersection(map<int, double> &horizon_segmet
                 /// then we check for their intersection in XY plane using boost geometry
                 deque<boost_polygon> intersected_polygon;
                 intersected_polygon = intersect_polygons (mbr1_shrinked_corners, mbr2_shrinked_corners);
+
+                /* calculate the area of rectangles and the intersection polygon
+                 if the area of the lower rectangle is not almost equal to the area of the
+                 intersected polygon then we keep the lower polygon
+                 */
+/*                double interseted_poly_area=0.0001, mbr1_shrinked_area, mbr2_shrinked_area;
+                mbr1_shrinked_area = mbr1_edges.CalculateArea (mbr1_shrinked_corners);
+                mbr2_shrinked_area = mbr2_edges.CalculateArea (mbr2_shrinked_corners);
+                //printf("rect1 area %f \n", mbr1_shrinked_area); //debug
+                //printf("rect2 area %f \n", mbr2_shrinked_area); //debug
+                //boost_polygon bp;
+                //bg::convert (intersected_polygon, bp);
+                //boost::geometry::area(bp);
+                BOOST_FOREACH(boost_polygon const& p, intersected_polygon)
+                            {
+                                //std::cout << i++ << ": " << boost::geometry::area(p) << std::endl;
+                                interseted_poly_area = boost::geometry::area(p);
+                                //printf("intersection area %f \n", interseted_poly_area); //debug
+                            }
+
+                bool intersection_area_is_almostEqual_to_one_rectangle=false;
+                if(!intersected_polygon.empty ()){
+                    if(mbr1_shrinked_area * 0.9 <= interseted_poly_area || mbr2_shrinked_area * 0.9 <= interseted_poly_area){
+                        intersection_area_is_almostEqual_to_one_rectangle =true;
+                    }
+                }*/
                 /// NOTE: there is no check for the correctness of the intersection
                 if(!intersected_polygon.empty ()){
+                /// if the intersected polygon is almost equal to one of the polygons,
+                /// then we remove the lower polygon for the ceiling
+                //if(intersection_area_is_almostEqual_to_one_rectangle){
                     /// find and remove the lower segment
                     if((ceil2_centroid_height < ceil1_centroid_height) &&
                        (candidate_ceil_segment_vec[j].size () < candidate_ceil_segment_vec[i].size ())){

@@ -365,6 +365,33 @@ MLS_preprocessing.cpp.s:
 	$(MAKE) -f CMakeFiles\indoor_reconstruction.dir\build.make CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.s
 .PHONY : MLS_preprocessing.cpp.s
 
+PlaneFittingResidual.obj: PlaneFittingResidual.cpp.obj
+
+.PHONY : PlaneFittingResidual.obj
+
+# target to build an object file
+PlaneFittingResidual.cpp.obj:
+	$(MAKE) -f CMakeFiles\indoor_reconstruction.dir\build.make CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.obj
+.PHONY : PlaneFittingResidual.cpp.obj
+
+PlaneFittingResidual.i: PlaneFittingResidual.cpp.i
+
+.PHONY : PlaneFittingResidual.i
+
+# target to preprocess a source file
+PlaneFittingResidual.cpp.i:
+	$(MAKE) -f CMakeFiles\indoor_reconstruction.dir\build.make CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.i
+.PHONY : PlaneFittingResidual.cpp.i
+
+PlaneFittingResidual.s: PlaneFittingResidual.cpp.s
+
+.PHONY : PlaneFittingResidual.s
+
+# target to generate assembly for a file
+PlaneFittingResidual.cpp.s:
+	$(MAKE) -f CMakeFiles\indoor_reconstruction.dir\build.make CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.s
+.PHONY : PlaneFittingResidual.cpp.s
+
 ReadAscii.obj: ReadAscii.cpp.obj
 
 .PHONY : ReadAscii.obj
@@ -644,6 +671,9 @@ help:
 	@echo ... MLS_preprocessing.obj
 	@echo ... MLS_preprocessing.i
 	@echo ... MLS_preprocessing.s
+	@echo ... PlaneFittingResidual.obj
+	@echo ... PlaneFittingResidual.i
+	@echo ... PlaneFittingResidual.s
 	@echo ... ReadAscii.obj
 	@echo ... ReadAscii.i
 	@echo ... ReadAscii.s

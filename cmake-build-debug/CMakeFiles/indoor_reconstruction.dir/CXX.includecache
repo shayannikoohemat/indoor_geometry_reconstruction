@@ -24766,6 +24766,14 @@ D:/Mapping/Tools/indoor_geometry_reocnstruction/boost/regex.hpp
 boost/unordered_map.hpp
 -
 
+D:/Mapping/Tools/indoor_geometry_reocnstruction/PlaneFittingResidual.cpp
+LaserPoints.h
+-
+
+D:/Mapping/Tools/indoor_geometry_reocnstruction/PlaneFittingResidual.h
+LaserPoints.h
+-
+
 D:/Mapping/Tools/indoor_geometry_reocnstruction/ReadAscii.cpp
 stdlib.h
 -
@@ -24851,6 +24859,8 @@ indoor_reconstruction.h
 D:/Mapping/Tools/indoor_geometry_reocnstruction/indoor_reconstruction.h
 post_processing.h
 D:/Mapping/Tools/indoor_geometry_reocnstruction/post_processing.h
+PlaneFittingResidual.h
+D:/Mapping/Tools/indoor_geometry_reocnstruction/PlaneFittingResidual.h
 
 D:/Mapping/Tools/indoor_geometry_reocnstruction/occlusion_test.cpp
 ctime
@@ -24881,6 +24891,8 @@ indoor_reconstruction.h
 D:/Mapping/Tools/indoor_geometry_reocnstruction/indoor_reconstruction.h
 visualization_tools.h
 D:/Mapping/Tools/indoor_geometry_reocnstruction/visualization_tools.h
+LineTopology.h
+D:/Mapping/Tools/indoor_geometry_reocnstruction/LineTopology.h
 boost/foreach.hpp
 -
 boost/geometry.hpp

@@ -17,6 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj"
   "CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/MinimumRectangle3D.cpp.obj"
   "CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj"
+  "CMakeFiles/indoor_reconstruction.dir/PlaneFittingResidual.cpp.obj"
   "../Debug/indoor_reconstruction.pdb"
   "../Debug/indoor_reconstruction.exe"
   "../Debug/indoor_reconstruction.exe.manifest"

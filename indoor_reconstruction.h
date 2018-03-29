@@ -28,6 +28,19 @@ void occlusion_test(LaserPoints , const LaserPoints &, LaserPoints , Buffers , d
 /// This function use a simple binary function to find corresponding point by its trajectory point using time
 void FilterSegments_ByTimeTag(LaserPoints , LaserPoints , double , double , double );
 
+/// select a sub-section/partition of laserpoints between two given time_tag as double
+LaserPoints PartitionPointsByTime(LaserPoints &sorted_lpoints,vector<double> lpoints_v, double t_low, double t_up);
+
+/// test function for partition points by time tag
+void PartitionByTime_test_function(LaserPoints &lpoints, LaserPoints &trajectory, char* out_root= nullptr, bool sort_input=false);
+
+/// mirror points about a plane, glass_points is making the plane and reflected_points are points to be mirrored
+LaserPoints mirror_PointsToPlane(LaserPoints &glass_points, LaserPoints &reflected_points);
+
+/// test function for mirror points about a plane and visualize the result
+void mirror_PointsToPlane_test_function(LaserPoints &glass_points, LaserPoints &reflected_points,
+                                         LaserPoints &traj_points, char *out_root);
+
 /// merge segments in a defined buffer based on their geometry similarity (co-planarity, proximity,...)
 /// Buffers are result of the function in the form of renumbered segments
 Buffers GenerateWallPatches(LaserPoints lp, double dist, double angle, double dist_along_twosegments, char* root);
@@ -65,3 +78,5 @@ bool compare_lp_labeltag(const LaserPoints &lp1, const LaserPoints &lp2);
 bool compare_lp_size(const LaserPoints &lp1, const LaserPoints &lp2);
 
 bool compare_lp_label2tag(const LaserPoints &lp1, const LaserPoints &lp2);
+
+void LaserPoints_info (LaserPoints &laserpoints);
