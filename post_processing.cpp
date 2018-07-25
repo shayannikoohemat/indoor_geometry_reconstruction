@@ -216,7 +216,7 @@ std::deque<boost_polygon> intersect_polygons(ObjectPoints const &poly1_corners, 
 
 /* loop through almost horizontal segments and check if their oriented bbox overlap, if yes then check their
  * minimum bounding rectangle (MBR) intersect/overlap or not. For saftey of intersection on adjacent segments
- * we resize the MBR to a saller size of 0.98 of original size.
+ * we resize the MBR to a smaller size of 0.98 of original size.
  * If intersection check is positive then the lower segments
  * would be excluded from the list of candidate ceilings.
  * NOTE: there is no check if the minimum bounding rectangle is not null.
@@ -256,7 +256,7 @@ vector<LaserPoints> filter_ceil_by_intersection(map<int, double> &horizon_segmet
             /// check if it is already excluded or not
             std::vector<int>::iterator it2;
             it2 = find(not_ceiling_segments_nr_output.begin (), not_ceiling_segments_nr_output.end (), ceil1_segment_nr);
-            if(it2 !=not_ceiling_segments_nr_output.end ()) continue; // if it2 fount in the vector continue with the next segment
+            if(it2 !=not_ceiling_segments_nr_output.end ()) continue; // if it2 found in the vector continue with the next segment
             /// get the segment centroid height
             double ceil2_centroid_height;
             ceil2_centroid_height = horizon_segmetns_centroidheight_map.find (ceil2_segment_nr)->second;
@@ -281,32 +281,35 @@ vector<LaserPoints> filter_ceil_by_intersection(map<int, double> &horizon_segmet
                 intersected_polygon = intersect_polygons (mbr1_shrinked_corners, mbr2_shrinked_corners);
 
                 /* calculate the area of rectangles and the intersection polygon
-                 if the area of the lower rectangle is not almost equal to the area of the
-                 intersected polygon then we keep the lower polygon
+                 * the intersection area should be more than half of the one of two polygons' area to
+                 * validate the overlap as a valid overlap. Otherwise the overlap is because of noise
+                 * in the segmentation process or becasue of OBB. If the intersection is not valid then,
+                 * we keep both polygons as ceiling candidates.
                  */
-/*                double interseted_poly_area=0.0001, mbr1_shrinked_area, mbr2_shrinked_area;
+                double interseted_poly_area=0.0001, mbr1_shrinked_area, mbr2_shrinked_area;
                 mbr1_shrinked_area = mbr1_edges.CalculateArea (mbr1_shrinked_corners);
                 mbr2_shrinked_area = mbr2_edges.CalculateArea (mbr2_shrinked_corners);
-                //printf("rect1 area %f \n", mbr1_shrinked_area); //debug
-                //printf("rect2 area %f \n", mbr2_shrinked_area); //debug
+                printf("rect1 area %f \n", mbr1_shrinked_area); //debug
+                printf("rect2 area %f \n", mbr2_shrinked_area); //debug
                 //boost_polygon bp;
                 //bg::convert (intersected_polygon, bp);
                 //boost::geometry::area(bp);
                 BOOST_FOREACH(boost_polygon const& p, intersected_polygon)
                             {
-                                //std::cout << i++ << ": " << boost::geometry::area(p) << std::endl;
+                                //std::cout << i++ << ": " << boost::geometry::area(p) << std::endl; //debug
                                 interseted_poly_area = boost::geometry::area(p);
                                 //printf("intersection area %f \n", interseted_poly_area); //debug
                             }
 
-                bool intersection_area_is_almostEqual_to_one_rectangle=false;
+                bool intersection_area_is_valid=false;
                 if(!intersected_polygon.empty ()){
-                    if(mbr1_shrinked_area * 0.9 <= interseted_poly_area || mbr2_shrinked_area * 0.9 <= interseted_poly_area){
-                        intersection_area_is_almostEqual_to_one_rectangle =true;
+                    if(mbr1_shrinked_area * 0.5 <= interseted_poly_area || mbr2_shrinked_area * 0.5 <= interseted_poly_area){
+                        intersection_area_is_valid =true;
                     }
-                }*/
+                }
                 /// NOTE: there is no check for the correctness of the intersection
-                if(!intersected_polygon.empty ()){
+                /// collect list of discarded polygons as a ceiling or floor candidate
+                if(!intersected_polygon.empty () && intersection_area_is_valid){
                 /// if the intersected polygon is almost equal to one of the polygons,
                 /// then we remove the lower polygon for the ceiling
                 //if(intersection_area_is_almostEqual_to_one_rectangle){

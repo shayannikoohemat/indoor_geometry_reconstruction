@@ -40,9 +40,9 @@ LaserVoxel::LaserVoxel(LaserPoints ls, double vox_l) {
     vox_length = vox_l;
     bool verbose = 0;
 
-    //LaserPlane   dominanat_plane = FitPlane(ls);
-    //Vector3D     dominanat_plane_normal = dominanat_plane.NormalDirection();
-    //dominanat_plane_normal.Direction2D()
+    ///LaserPlane   dominanat_plane = FitPlane(ls);
+    ///Vector3D     dominanat_plane_normal = dominanat_plane.NormalDirection();
+    ///dominanat_plane_normal.Direction2D()
 
     //get the databounds from the ls
     DataBoundsLaser db = ls.DeriveDataBounds(0);
@@ -51,7 +51,7 @@ LaserVoxel::LaserVoxel(LaserPoints ls, double vox_l) {
     min_Y = db.Minimum().GetY();
     min_Z = db.Minimum().GetZ();
 
-//get the databounds from the ls TO visualize
+/*//get the databounds from the ls TO visualize
     LineTopology rect_topology;
     ObjectPoints corners;
     LineTopologies bounding_box;
@@ -85,7 +85,7 @@ LaserVoxel::LaserVoxel(LaserPoints ls, double vox_l) {
     /// write minium enclosing rectangle to the disk
     corners.Write("D:\\test\\bounding_box.objpts");
     bounding_box.insert(bounding_box.end(), rect_topology);
-    bounding_box.Write("D:\\test\\bounding_box.top", false);
+    bounding_box.Write("D:\\test\\bounding_box.top", false);*/
 
 /*    DataBounds3D corners_bounds = corners.Bounds();
 
@@ -294,7 +294,7 @@ LaserPoints LaserVoxel::export_voxel_centres(int min_points_in_vox)
 
                     LaserPoint lp(X,Y,Z);
                     lp.SetColour((int) rsum/num,(int) gsum/num, (int) bsum/num);
-                    lp.SetAttribute(LabelTag, found_points_in_vox >= min_points_in_vox ? 11 : 10);
+                    lp.SetAttribute (LabelTag, found_points_in_vox >= min_points_in_vox ? 11 : 10); // 11 occupied, 10 otherwise
 
                     l.push_back(lp);
 

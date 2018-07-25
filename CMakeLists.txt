@@ -34,6 +34,7 @@ set(SOURCE_FILES main.cpp indoorTopology.cpp setConsoleColor.cpp segment_refinem
         Laserpoint2ScanningPosition.cpp DepthMap.cpp WallAccuracy.cpp indoor_reconstruction.h MLS_preprocessing.cpp
         post_processing.cpp post_processing.h ../visualization_tools/VisualizePlane3D.cpp
         ../visualization_tools/MinimumRectangle3D.cpp LAtexTest.tex indoorTopology_v1_old.cpp
-        PlaneFittingResidual.h PlaneFittingResidual.cpp)
+        PlaneFittingResidual.h PlaneFittingResidual.cpp test_functions.cpp TrajectoryManipulation.cpp
+        TrajectoryManipulation.h space_partitioning.cpp space_partitioning.h Directory_Processing.cpp Directory_Processing.h)
 add_executable(indoor_reconstruction ${SOURCE_FILES} indoor_reconstruction.h)
 target_link_libraries(indoor_reconstruction ${Boost_LIBRARIES})

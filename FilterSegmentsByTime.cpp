@@ -7,6 +7,9 @@
 #include <ctime>
 #include <LaserPoints.h>
 #include <KNNFinder.h>
+#include <map>
+#include <sstream>
+#include "indoor_reconstruction.h"
 
 
 vector<double> GetDoubleAttribute(LaserPoints lpoints, const LaserPointTag tag) {
@@ -195,23 +198,23 @@ void FilterSegments_ByTimeTag(LaserPoints lp, LaserPoints trajectory_lp, double 
 /*
  * This function select a sub-section/partition of laserpoints between two given time_tag
  * If user needs, is possible to output the txt file of the laser points, for large datasets is expensive
+ *  lpoint_v is a vector of sorted_lpoints' timetags
  * */
 LaserPoints PartitionPointsByTime(LaserPoints &sorted_lpoints,vector<double> lpoints_v, double t1, double t2){
 
     vector<double>::iterator pFirst_it, pLast_it;
-    pFirst_it = lower_bound (lpoints_v.begin (), lpoints_v.end (), t1); /// lower_bound of lower trajectory
+    pFirst_it = lower_bound (lpoints_v.begin (), lpoints_v.end (), t1) -1; /// lower_bound of lower trajectory time
     /*NOTE: we dont return upper_bound of second trajectory time, we return the lower_bound,
      * because we are collecting laserpoints between t1 and t2*/
-    pLast_it = lower_bound (lpoints_v.begin (), lpoints_v.end (), t2); /// lower_bound of upper trajectory
+    pLast_it = lower_bound (lpoints_v.begin (), lpoints_v.end (), t2); /// lower_bound of upper trajectory time
 
     int first_bound_inx, last_bound_inx;
     first_bound_inx = pFirst_it - lpoints_v.begin ();
     last_bound_inx = pLast_it - lpoints_v.begin ();
 
-    //printf ("Traj bounds TIME_TAG: %lf < ... < %lf  \n", t1, t2); // debugger
-    //printf ("LaserPoints First, Last: ... < %lf, %lf < ... \n",
-    //        lpoints_v[first_bound_inx], lpoints_v[last_bound_inx]); // debugger
-
+    printf ("Traj bounds TIME_TAG: %lf < ... < %lf  \n", t1, t2); // debugger
+    printf ("LaserPoints First, Last: ... < %lf, %lf < ... \n",
+            lpoints_v[first_bound_inx], lpoints_v[last_bound_inx]); // debugger
 
     LaserPoints::const_iterator first = sorted_lpoints.begin() + first_bound_inx;
     LaserPoints::const_iterator last = sorted_lpoints.begin() + last_bound_inx;
@@ -222,7 +225,14 @@ LaserPoints PartitionPointsByTime(LaserPoints &sorted_lpoints,vector<double> lpo
     return lpoints_partition;
 }
 
-void PartitionByTime_test_function(LaserPoints &lpoints, LaserPoints &trajectory, char* out_root, bool sort_input){
+/*
+ * This function uses "PartitionPointsByTime" function and gets the double t1 and t2 from the
+ *  sorted trajectory. The first point.time in the traj is t1 and the last point.time is t2. Then based
+ *  on these two times select the points from the laserpoints
+ *  "SegmentNumberTag" is hardocded but it can be replaced by AttributeTag variable
+ * */
+
+void PartitionPointsByTrajecotry_test(LaserPoints &lpoints, LaserPoints &trajectory, char* out_root, bool sort_input){
 
     char str_root[500];
 
@@ -318,24 +328,130 @@ void PartitionByTime_test_function(LaserPoints &lpoints, LaserPoints &trajectory
 
 
 /*
- *  for zeb1 trajecotry: partition laser points to floors and stairs using the segmented trajecotry
+ * General function for partition laserpoints by trajectory segments
+ * segments are used to select the t(begin) and t(end) of each segment for the partitioning
+ * segment numbers are used to store the partitions in the disk
+ * the fucntion "PartitionLpByTag" does the binary search of t(begin) and t(end) in the laserpoints
+ * both laser points and trajectory points should be sorted
+ * */
+vector<LaserPoints> PartitionPointsByTrajecotry (LaserPoints &sorted_lpoints,
+                                                 LaserPoints &segmented_trajectory, char* output, bool sort_input){
+
+    //bool sort_input = false;
+
+    /// sort the points
+    if(sort_input){
+        printf("sorting laser points... wait \n");
+        sort(sorted_lpoints.begin (), sorted_lpoints.end (), compareAttribute);
+        sorted_lpoints.Write("D:/test/laserpoints_partitioning/sorted_points_.laser", false);
+    }
+
+    /// make a vector of lpoints' time_tag
+    vector<double> lpoints_v;
+    for (auto &p : sorted_lpoints){
+        lpoints_v.push_back (p.DoubleAttribute (TimeTag));
+    }
+
+    /// partition the trajectory to laserpoints of segments
+    vector <LaserPoints> traj_segments;
+    if(segmented_trajectory.HasAttribute (SegmentNumberTag)){
+        traj_segments = PartitionLpByTag (segmented_trajectory, SegmentNumberTag);
+    }
+
+    vector<LaserPoints> lp_partitions_v;
+    if(!traj_segments.empty ()){
+        /// loop through segments of the trajectory , select the first and last point time and select laserpoints
+        /// based on these timesrevit
+        int segment_nr =0;
+        for(auto &segment : traj_segments){
+            segment_nr = segment[0].Attribute (SegmentNumberTag);
+            //printf("sorting trajectory points... wait \n");
+            /// sort the trajectory segment by time
+            sort(segment.begin (), segment.end (), compareAttribute); // ascending sort
+            double t1, t2;
+            t1 = segment.front ().DoubleAttribute (TimeTag);
+            t2 = segment.back ().DoubleAttribute (TimeTag);
+            LaserPoints lp_partition;
+            lp_partition = PartitionPointsByTime (sorted_lpoints, lpoints_v, t1, t2);
+            if(lp_partition.size () > 2){
+                //if(!lp_partition.HasAttribute (SegmentNumberTag2)) {
+                    //segment_nr++;
+                    lp_partition.SetAttribute (SegmentNumberTag, segment_nr);
+                //}
+                lp_partitions_v.push_back (lp_partition);
+            }
+        }
+
+    } else printf("trajectory doesn't have segmentation \n");
+
+
+    /* write the result to check
+     * */
+    /// if there is output directory, write the partitions to the disk
+    if (output){
+        LaserPointTag int_tag;
+        int_tag = SegmentNumberTag;  // hard coded
+        printf("Write partitions based on <%s> to the disk ... \n", AttributeName(int_tag, true));
+        for (auto &lp : lp_partitions_v) {
+            int tag_nr;
+            tag_nr = 0;
+            tag_nr = (lp[1].Attribute(int_tag));
+            int tag2_nr;
+            tag2_nr = 0;
+            if(lp.HasAttribute (PlaneNumberTag)){
+                tag2_nr = (lp[1].Attribute (PlaneNumberTag));
+            }
+
+            if (lp.size() > 2){
+
+                string tmp_file;
+                std::stringstream sstm;
+                sstm << output << "/laserpoints_" << tag2_nr << "_partition_" << tag_nr << ".laser";
+                tmp_file = sstm.str();
+                lp.Write(tmp_file.c_str(), false);
+                sstm.clear();
+            }
+        }
+    }
+
+    return lp_partitions_v;
+}
+
+
+/*
+ *  for zeb1 trajecotry: partition laser points to levels and stairs using the segmented trajecotry
+ *    NOT a COMPLETED FUNCTION
  * */
 void Partition_PointsBy_Trajectory(LaserPoints &lpoints, LaserPoints &trajectory){
 
-/*    fix the trajectory over-segmentation in each floor by average Z-value
+/*    repair the trajectory over-segmentation in each floor by average Z-value
      for Zeb1 dataset
      */
     /// collect laserpoints per segment
     vector<int> segment_numbers;
     segment_numbers = lpoints.AttributeValues(SegmentNumberTag);  // vector of segment numbers
+    sort(segment_numbers.begin (), segment_numbers.end ());
+    vector<LaserPoints> segments_lpoints_v;
+    std::map<int, LaserPoints> segments_lpoints_map;
+    std::map<int, double> segments_averagZ_map;
     for(auto &segment : segment_numbers) {
         /// selecting points by segment and saving in segment_lpoints
         LaserPoints segment_lpoints;
         segment_lpoints = lpoints.SelectTagValue (SegmentNumberTag, segment);
+        segments_lpoints_v.push_back (segment_lpoints);
+        segments_lpoints_map.insert(make_pair (segment, segment_lpoints));
+        vector<double> z_coords;
+        for(auto &p : segment_lpoints) z_coords.push_back (p.GetZ ());
+        sort(z_coords.begin (), z_coords.end ());
         double min_z, max_z;
-        segment_lpoints.AttributeRange (ZCoordinateTag, min_z, max_z);
-        //segment_lpoints.SortOnCoordinates ();
+        min_z = z_coords.front ();
+        max_z = z_coords.back ();
+        double average_z;
+        average_z = (min_z + max_z) /2;
+        segments_averagZ_map.insert(make_pair (segment, average_z));
+    }
 
+    for(int i=0; i <= segment_numbers.size (); i++){
 
     }
 }
@@ -536,6 +652,42 @@ void mirror_PointsToPlane_test_function(LaserPoints &glass_points, LaserPoints &
     strcpy(str_root, out_root);
     lines.Write(strcat(str_root, "lines.top"), false);
 
+}
+
+
+
+/*  segment each trajectory based on the time gaps  */
+
+LaserPoints Segment_Trajectory_ByTime (LaserPoints trajectory, double time_threshold){
+
+    LaserPoints new_trajectory;
+
+    vector <LaserPoints> traj_segments_v;
+    traj_segments_v = PartitionLpByTag (trajectory, SegmentNumberTag);
+
+    int segment_no=0;
+    for (auto & segment: traj_segments_v){
+        sort(segment.begin (), segment.end (), compareAttribute);
+
+        /// initialize the first point
+        LaserPoint p1;
+        p1 = trajectory[0];
+
+        /// go through all points and compare the time with previous point
+        for (auto &p: segment){
+            LaserPoint p2;
+            p2 = p;
+            p2.SetAttribute (SegmentNumberTag, segment_no);
+            if(fabs((p2.DoubleAttribute (TimeTag) - p1.DoubleAttribute (TimeTag))) > time_threshold){
+                segment_no++;
+                p2.SetAttribute (SegmentNumberTag, segment_no);
+            }
+            new_trajectory.push_back (p2);
+            p1 = p2;
+        }
+    }
+
+    return new_trajectory;
 }
 
 

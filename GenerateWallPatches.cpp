@@ -156,8 +156,8 @@ Buffers GenerateWallPatches(LaserPoints lp, double dist, double angle, double di
     strcpy (str_root,root); // initialize the str_root with root string
 
     bool verbose = false;
-    bool project_segments_to_plane = true;
-    bool do_segment_refinement = true;
+    bool project_segments_to_plane = false;
+    bool do_segment_refinement = false;
     bool default_input = false;
 
 
@@ -221,6 +221,7 @@ Buffers GenerateWallPatches(LaserPoints lp, double dist, double angle, double di
             projected_segments.SetAttribute(LabelTag, 0);
         }
         //segments_lp.push_back(segment_lpoints);
+        printf(" \n ... constructing buffers ... \n");
         Buffer buffer(segment_lpoints, *segmentNr_it, buffnr);
         buffers.push_back(buffer);
     }
@@ -251,11 +252,11 @@ Buffers GenerateWallPatches(LaserPoints lp, double dist, double angle, double di
         if (verbose) printf("Buffer weight: %d \n", buffers_it->Weight());
         this_is_merged   = false;
 
-        if (verbose){
+/*        if (verbose){
             if(buffers_it->BuffSegmentNumber()==107){
                 printf("halt \n");
             }
-        }
+        }*/
 
         //check if current buffer is not already merged;
        if (std::find(mergedbuffers_nr.begin(), mergedbuffers_nr.end(), buffers_it->BuffNumber()) != mergedbuffers_nr.end()) {

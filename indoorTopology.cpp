@@ -70,9 +70,9 @@ void indoorTopology(char* laserFile, int minsizesegment, char* root, bool verbos
     if (do_segmentation){
         seg_parameter -> MaxDistanceInComponent()  = 0.3;
         seg_parameter -> SeedNeighbourhoodRadius() = 1.0;
-        seg_parameter -> MaxDistanceSeedPlane()    = 0.20; // MaX Distance to the Plane
+        seg_parameter -> MaxDistanceSeedPlane()    = 0.10; // MaX Distance to the Plane
         seg_parameter -> GrowingRadius()           = 1.0;
-        seg_parameter -> MaxDistanceSurface()      = 0.20;
+        seg_parameter -> MaxDistanceSurface()      = 0.10;
 
         /// if segmentation crashes set the compatibility of generated exe to windows7
         printf("segmentation process... \n ");
@@ -111,8 +111,8 @@ void indoorTopology(char* laserFile, int minsizesegment, char* root, bool verbos
     double                  PI;
     PI                      = 3.14159;
     double                  flat_angle, vertical_angle;
-    flat_angle              = 39.99; //50.01; //50.0;   //45.00; //
-    vertical_angle          = 50.01; //39.99; //10.0;  //45.00; //
+    flat_angle              = 10.0;//39.99;  //50.0;   //45.00; //
+    vertical_angle          = 10.0;//50.01;  //10.0;  //45.00; //
     double                  max_intersection_dist;
     max_intersection_dist   = 0.10;
 
@@ -402,8 +402,8 @@ void indoorTopology(char* laserFile, int minsizesegment, char* root, bool verbos
     //not_ceil_floor_byheight_lp.Write(strcat(str_root, "not_ceil_floor_byheight_lp.laser"), false);  /// debug
 
     /* loop through almost horizontal segments and check if their oriented bbox overlap, if yes then check their
-     * minimum bounding rectangle (MBR) intersect/overlap or not. For saftey of intersection on adjacent segments
-     * we resize the MBR to a msaller size of 0.98 of original size.
+     * minimum bounding rectangle (MBR) intersect/overlap or not. For safety of intersection on adjacent segments
+     * we resize the MBR to a smaller size of 0.98 of original size.
      * If intersection check is positive then the lower segments
      * would be excluded from the list of candidate ceilings.
      * NOTE: there is no check if the minimum bounding rectangle is not null.

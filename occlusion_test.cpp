@@ -408,7 +408,7 @@ void occlusion_test(LaserPoints laserpoints, const LaserPoints &surfacepoints,
                          LaserPoint intersectionPoint=LaserPoint(intersectionPos);
                         if (InsideSegmentBounds(intersectionPos, *seg_bounds_it)){
                             int             voxelTag, voxelIndex;
-                            /// return voxelindex anf tag of surfaces-voxel-center using knn
+                            /// return voxelindex and tag of surfaces-voxel-center using knn
                             voxelIndex      = finder.FindIndex(intersectionPoint,1, EPS_DEFAULT);
                             voxelTag        = relabeled_surfacelpoints[voxelIndex].Attribute(LabelTag);
 
