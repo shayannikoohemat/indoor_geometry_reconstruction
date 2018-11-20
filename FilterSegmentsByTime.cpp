@@ -43,18 +43,15 @@ bool compareAttribute (const LaserPoint &p1, const LaserPoint &p2)
  //@param: reflectedpoints_percentage: lower than 0.70 has the risk of losing real segments
 
 void FilterSegments_ByTimeTag(LaserPoints lp, LaserPoints trajectory_lp, double timestamp_difference,
-                               double max_dist_to_traj, double reflected_points_percentage) {
+                               double max_dist_to_traj, double reflected_points_percentage, char* output_dir) {
 
     std::clock_t start;
     double duration;
     start = std::clock();
 
-    char *laserFile;
-    //laserFile = (char *) "D://test//filterpoints//fb_crop_thinned_1cm_flcl_410k_noceiling.laser";
-    //laserFile = (char*) "D://test//occlusion_test//3rdFloor_2mil_thinned_seg3_22cm_refined//FBr_3rdfloor_122k_nofloorceiling.laser";
-    //laserFile = (char*) "D://test//filterpoints//fireBr_sub_1cm_3rdFloor_thinned_seg22cm_refinedsegments_noCeil_1mil.laser";
-    laserFile = (char*) "D://test//filterpoints//3rdFloor_thinned_rk4_3600k_seg1012cm.laser";  //FB_sub1cm_seg12cm_695k_crop_refined1.laser
-    lp.Read(laserFile);
+    char str_root[500];
+    strcpy(str_root, output_dir);
+
     printf (" input point size:  %d \n ", lp.size());
 
 /*    LaserPoints floorceiling_lp;
@@ -64,11 +61,6 @@ void FilterSegments_ByTimeTag(LaserPoints lp, LaserPoints trajectory_lp, double 
     /// Build KNN for points for later search
     //KNNFinder <LaserPoint> finder(floorceiling_lp);
 
-    /// read trajectory points (scanner positions)
-    char *trajFile;
-    trajFile = (char *) "D://test//filterpoints//trajectory3.laser";
-    //trajFile = (char*) "D://test//filterpoints//trajectory_crop.laser";
-    trajectory_lp.Read(trajFile);
     /// Build KNN for points for later search
     KNNFinder<LaserPoint> finder_traj(trajectory_lp);
 
@@ -87,9 +79,9 @@ void FilterSegments_ByTimeTag(LaserPoints lp, LaserPoints trajectory_lp, double 
     flat_angle = 10.0;
     vertical_angle = 15.0;
 
-    double z_floor, z_ceiling;
+/*    double z_floor, z_ceiling;
     z_floor = -0.75;
-    z_ceiling = 1.60;
+    z_ceiling = 1.60;*/
 
     LaserPoints modified_points, reflected_points;
     lp.SetAttribute(LabelTag, 0);
@@ -137,7 +129,7 @@ void FilterSegments_ByTimeTag(LaserPoints lp, LaserPoints trajectory_lp, double 
                 double traj_dist;
                 //traj_index = finder_traj.FindIndex(*segpoint_it, 1, EPS_DEFAULT);
                 finder_traj.FindIndexAndDistance(*segpoint_it, traj_index, traj_dist, 1, EPS_DEFAULT);
-                if (traj_dist < max_dist_to_traj){  /// this is to avoid getting finding wrong trajectories
+                if (traj_dist < max_dist_to_traj){  /// this is to avoid finding wrong trajectories
                     double traj_timetag;
                     traj_timetag = trajectory_lp[traj_index].DoubleAttribute(TimeTag);
 
@@ -186,9 +178,12 @@ void FilterSegments_ByTimeTag(LaserPoints lp, LaserPoints trajectory_lp, double 
 
     reflected_points = lp.SelectTagValue(LabelTag, 3);
 
-    lp.Write("D://test//filterpoints//fb_relabeled.laser", false);
-    modified_points.Write("D://test//filterpoints//fb_modified_points.laser", false);
-    reflected_points.Write("D://test//filterpoints//fb_reflected_points.laser", false);
+    strcpy(str_root, output_dir);
+    lp.Write(strcat(str_root, "lp_relabeled.laser"), false);
+    strcpy(str_root, output_dir);
+    modified_points.Write(strcat(str_root, "lp_modified_points.laser"), false);
+    strcpy(str_root, output_dir);
+    reflected_points.Write(strcat(str_root, "lp_reflected_points.laser"), false);
 
     duration = (std::clock() - start) / (double) CLOCKS_PER_SEC;
     std::cout << "total processing time: " << duration / 60 << "m" << '\n';
@@ -343,7 +338,13 @@ vector<LaserPoints> PartitionPointsByTrajecotry (LaserPoints &sorted_lpoints,
     if(sort_input){
         printf("sorting laser points... wait \n");
         sort(sorted_lpoints.begin (), sorted_lpoints.end (), compareAttribute);
-        sorted_lpoints.Write("D:/test/laserpoints_partitioning/sorted_points_.laser", false);
+        string tmp_file;
+        std::stringstream sstm;
+        sstm << output << "sorted_points_.laser";
+        tmp_file = sstm.str();
+        sorted_lpoints.Write(tmp_file.c_str(), false);
+        sstm.clear();
+        //sorted_lpoints.Write("D:/test/laserpoints_partitioning/sorted_points_.laser", false);
     }
 
     /// make a vector of lpoints' time_tag
@@ -361,7 +362,7 @@ vector<LaserPoints> PartitionPointsByTrajecotry (LaserPoints &sorted_lpoints,
     vector<LaserPoints> lp_partitions_v;
     if(!traj_segments.empty ()){
         /// loop through segments of the trajectory , select the first and last point time and select laserpoints
-        /// based on these timesrevit
+        /// based on these times
         int segment_nr =0;
         for(auto &segment : traj_segments){
             segment_nr = segment[0].Attribute (SegmentNumberTag);
@@ -495,6 +496,7 @@ LaserPoints mirror_PointsToPlane(LaserPoints &glass_points, LaserPoints &reflect
         LaserPoint pp;
         pp.X () = mirrored.GetX (); pp.Y () = mirrored.GetY (); pp.Z () = mirrored.GetZ ();
         mirrored_points.push_back (pp);
+
     }
 
 /*    char *out_root;

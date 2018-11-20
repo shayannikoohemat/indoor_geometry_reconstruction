@@ -22,8 +22,8 @@ void PrintUsage()
 
 void test_function(char*, char*);
 
-void VisulizePlane3D (LaserPoints segment_lp, double max_dist, ObjectPoints &plane_corners,
-                      LineTopology &plane_edges, bool verbose);
+/*void VisulizePlane3D (LaserPoints segment_lp, double max_dist, ObjectPoints &plane_corners,
+                      LineTopology &plane_edges, bool verbose);*/
 
 int main(int argc, char *argv[]) {
 

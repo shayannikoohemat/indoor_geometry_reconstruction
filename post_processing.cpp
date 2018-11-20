@@ -58,8 +58,8 @@ void intersect_segments(const LaserPoints &segmented_lp, double start_threshold,
 
         /// VisulizePlane3D is just for double check the planes
         /// can be commented later
-        VisulizePlane3D (segment, start_threshold, plane_corners, plane_edges, verbose);
-        planes_edges.push_back (plane_edges);
+       // VisulizePlane3D (segment, start_threshold, plane_corners, plane_edges, verbose);
+      //  planes_edges.push_back (plane_edges);
     }
     strcpy (str_root,output_dir);
     plane_corners.Write(strcat(str_root, "planes_corners.objpts"));
@@ -219,6 +219,7 @@ std::deque<boost_polygon> intersect_polygons(ObjectPoints const &poly1_corners, 
  * we resize the MBR to a smaller size of 0.98 of original size.
  * If intersection check is positive then the lower segments
  * would be excluded from the list of candidate ceilings.
+ * important factor: ///intersection_percentage --> 1 is complete overlap, 0 is no overlap , default is 0.5
  * NOTE: there is no check if the minimum bounding rectangle is not null.
  */
 vector<LaserPoints> filter_ceil_by_intersection(map<int, double> &horizon_segmetns_centroidheight_map,
@@ -226,6 +227,7 @@ vector<LaserPoints> filter_ceil_by_intersection(map<int, double> &horizon_segmet
                                                 const vector<pair<ObjectPoints, LineTopology>> &min_rectangle_ceil,
                                                 vector<int> &not_ceiling_segments_nr_output,
                                                 LaserPoints &not_ceiling_segments_lp_output,
+                                                double intersection_percentage,
                                                 bool is_floor) {
 
     for (int i=0; i < candidate_ceil_segment_vec.size (); i++) {
@@ -289,8 +291,8 @@ vector<LaserPoints> filter_ceil_by_intersection(map<int, double> &horizon_segmet
                 double interseted_poly_area=0.0001, mbr1_shrinked_area, mbr2_shrinked_area;
                 mbr1_shrinked_area = mbr1_edges.CalculateArea (mbr1_shrinked_corners);
                 mbr2_shrinked_area = mbr2_edges.CalculateArea (mbr2_shrinked_corners);
-                printf("rect1 area %f \n", mbr1_shrinked_area); //debug
-                printf("rect2 area %f \n", mbr2_shrinked_area); //debug
+                //printf("rect #%d area %.2f \n", ceil1_segment_nr, mbr1_shrinked_area); //debug
+                //printf("rect #%d area %.2f \n", ceil2_segment_nr, mbr2_shrinked_area); //debug
                 //boost_polygon bp;
                 //bg::convert (intersected_polygon, bp);
                 //boost::geometry::area(bp);
@@ -302,13 +304,18 @@ vector<LaserPoints> filter_ceil_by_intersection(map<int, double> &horizon_segmet
                             }
 
                 bool intersection_area_is_valid=false;
+                //double intersection_percentage = 0.6;  /// 1 is complete overlap, 0 is no overlap , default is 0.5
+                double smaller_area;
+                smaller_area = min(mbr1_shrinked_area, mbr2_shrinked_area);
                 if(!intersected_polygon.empty ()){
-                    if(mbr1_shrinked_area * 0.5 <= interseted_poly_area || mbr2_shrinked_area * 0.5 <= interseted_poly_area){
-                        intersection_area_is_valid =true;
+                    if(interseted_poly_area >= (smaller_area * intersection_percentage)){
+                        intersection_area_is_valid =true; /// valid means one of the polygons would be discarded as a valid ceiling or floor
+                        //printf ("intersected-poly/smaller-poly percentage --> %.2f >= %.2f --> there is overlap\n",
+                        //        interseted_poly_area, smaller_area * intersection_percentage);
                     }
                 }
-                /// NOTE: there is no check for the correctness of the intersection
-                /// collect list of discarded polygons as a ceiling or floor candidate
+                /*   NOTE: there is no check for the correctness of the intersection
+                 collect list of discarded polygons as a ceiling or floor candidate   */
                 if(!intersected_polygon.empty () && intersection_area_is_valid){
                 /// if the intersected polygon is almost equal to one of the polygons,
                 /// then we remove the lower polygon for the ceiling
@@ -317,12 +324,12 @@ vector<LaserPoints> filter_ceil_by_intersection(map<int, double> &horizon_segmet
                     if((ceil2_centroid_height < ceil1_centroid_height) &&
                        (candidate_ceil_segment_vec[j].size () < candidate_ceil_segment_vec[i].size ())){
                         not_ceiling_segments_nr_output.push_back (ceil2_segment_nr);
-                        //printf("ceiling candidate2 excluded: %d \n", ceil2_segment_nr); //debug
+                       // printf("ceiling candidate excluded: %d \n", ceil2_segment_nr); //debug
                     }
                     if((ceil1_centroid_height < ceil2_centroid_height) &&
                        (candidate_ceil_segment_vec[i].size () < candidate_ceil_segment_vec[j].size ())){
                         not_ceiling_segments_nr_output.push_back (ceil1_segment_nr);
-                        //printf("ceiling candidate2 excluded: %d \n", ceil2_segment_nr); //debug
+                       // printf("ceiling candidate excluded: %d \n", ceil1_segment_nr); //debug
                     }
 
                     /// if we are checking for the floor we remove the upper segment
@@ -335,7 +342,7 @@ vector<LaserPoints> filter_ceil_by_intersection(map<int, double> &horizon_segmet
                         if((ceil1_centroid_height > ceil2_centroid_height) &&
                            (candidate_ceil_segment_vec[i].size () < candidate_ceil_segment_vec[j].size ())){
                             not_ceiling_segments_nr_output.push_back (ceil1_segment_nr);
-                            //printf("floor candidate2 excluded: %d \n", ceil2_segment_nr); //debug
+                            //printf("floor candidate2 excluded: %d \n", ceil1_segment_nr); //debug
                         }
                     }
                 }
@@ -359,6 +366,104 @@ vector<LaserPoints> filter_ceil_by_intersection(map<int, double> &horizon_segmet
 
     return ceil_segment_filterbyintersect_vec;
 }
+
+
+/// for removing the points that are casued by occlusion_test process above each ceiling on the wall
+/// not finished function
+void filter_occlusion_result_by_ceiling (LaserPoints occlusion_result, LaserPoints lp_ceiling, char* root){
+
+    char str_root[500];
+    strcpy (str_root, root); // initialize the str_root with root string
+
+    vector<LaserPoints> ceiling_vec;
+    ceiling_vec = PartitionLpByTag (lp_ceiling, SegmentNumberTag);
+
+    for(auto &ceil : ceiling_vec){
+
+        ObjectPoints corners;
+        LineTopology edges;
+        LineTopologies polygon;
+        DataBoundsLaser db = ceil.DeriveDataBounds (0); /// is required for EnclosingRectangle
+        ceil.DeriveTIN ();         /// is required for EnclosingRectangle
+        ceil.EnclosingRectangle (0.10, corners, edges);
+        for(auto &cp : corners) cp.Z () = db.Maximum ().GetZ (); /// add the z value to the enclosing rectangle
+
+        /// write to disk
+        std::string poly_name_obj = "polygon_" + std::to_string (ceil[0].SegmentNumber ()) + ".objpts" ;
+        std::string poly_name_top = "polygon_" + std::to_string (ceil[0].SegmentNumber ()) + ".top" ;
+        //char c = static_cast<char> (ceil[0].SegmentNumber ());
+        polygon.push_back (edges);
+        strcpy(str_root, root);
+        corners.Write(strcat(str_root,poly_name_obj.c_str ()));
+        strcpy(str_root, root);
+        polygon.Write(strcat(str_root,poly_name_top.c_str ()), false);
+
+        DataBounds3D mbr_bounds;  /// mbr = minimum enclosing rectangle
+        mbr_bounds = corners.Bounds ();
+        double ceil_min_X, ceil_min_Y;
+        double ceil_max_X, ceil_max_Y;
+        ceil_min_X = mbr_bounds.Minimum ().GetX ();
+        ceil_min_Y = mbr_bounds.Minimum ().GetY ();
+        ceil_max_X = mbr_bounds.Maximum ().GetX ();
+        ceil_max_Y = mbr_bounds.Maximum ().GetY ();
+
+        for (auto &p : occlusion_result){
+            /// check if p is above the ceiling
+            if(p.GetZ () > mbr_bounds.Maximum ().GetZ ()){
+                /// check if p is in the bounds of the ceiling
+                if(ceil_min_X < p.GetX () && p.GetX () < ceil_max_X &&
+                   ceil_min_Y < p.GetY ()  && p.GetY () < ceil_max_Y ){
+                    p.SetAttribute (LabelTag, 14);
+                }
+            }
+        }
+    }
+    /// store result before removing tagged points
+    strcpy(str_root, root);
+    lp_ceiling.Write(strcat(str_root,"ceilings.laser"), false);
+
+    /// store result before removing tagged points
+    strcpy(str_root, root);
+    occlusion_result.Write(strcat(str_root,"occlusion_result_relabeled.laser"), false);
+    /// remove points with the label 14
+    occlusion_result.RemoveTaggedPoints (14, LabelTag);
+    strcpy(str_root, root);
+    occlusion_result.Write(strcat(str_root,"occlusion_result_cropZ.laser"), false);
+
+}
+
+
+/// check pointclouds of walls+openings and remove segments with more than 90% opening becasue they are false openings
+LaserPoints detect_false_openings (LaserPoints &wall_openings, double percentage){
+
+    LaserPoints modified_walls_openings;
+    vector <LaserPoints> lp_vec;
+    lp_vec = PartitionLpByTag (wall_openings, SegmentNumberTag);
+    for ( auto &segment : lp_vec){
+        int openings_cnt=0;
+        double false_opening_indicator = 0.0;
+        //bool false_opening_flag = false;
+        for(auto &p : segment){
+            if(p.Attribute (LabelTag) == 13) {  /// 13 is opening
+                openings_cnt ++;
+            }
+        }
+        if (!segment.empty ()){
+            false_opening_indicator = (double) openings_cnt / (double) segment.size () ;
+            printf("Percentage of opening_voxels/ segment size: %.2f / %d \n", false_opening_indicator, segment[0].Attribute (SegmentNumberTag));
+        }
+
+        if(false_opening_indicator > percentage) {
+            segment.SetAttribute (LabelTag, 16); /// relabel the the segment
+        }
+        modified_walls_openings.AddPoints (segment);
+    }
+
+    //modified_walls_openings.Write();
+    return modified_walls_openings;
+}
+
+
 
 
 /*struct TwoDPoint {

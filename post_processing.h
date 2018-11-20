@@ -21,4 +21,12 @@ vector<LaserPoints> filter_ceil_by_intersection(map<int, double> &horizon_segmet
                                                 const vector<pair<ObjectPoints, LineTopology>> &min_rectangle_ceil,
                                                 vector<int> &not_ceiling_segments_nr_output,
                                                 LaserPoints &not_ceiling_segments_lp_output,
+                                                double intersection_percentage,
                                                 bool is_floor=false);
+
+/// for removing the points that are casued by occlusion_test process above each ceiling on the wall
+/// not finished function
+void filter_occlusion_result_by_ceiling (LaserPoints occlusion_result, LaserPoints lp_ceiling, char* root);
+
+
+LaserPoints detect_false_openings (LaserPoints &wall_openings, double percentage);

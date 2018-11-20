@@ -122,6 +122,7 @@ bool read_pcd_ascii(const string &pcd_filename, LaserPoints &lp_out, char * lp_o
     return(true);
 }
 
+
 /// conversion of customized ascii files e.g. Navvis trajectory
 /// NOT complete
 /*bool read_custom_ascii (const string &custom_ascii, LaserPoints &lp_out, char * lp_outfile){

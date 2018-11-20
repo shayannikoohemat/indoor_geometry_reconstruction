@@ -156,16 +156,13 @@
 		<Unit filename="D:/Mapping/Tools/indoor_geometry_reocnstruction/indoorTopology.cpp">
 			<Option target="indoor_reconstruction"/>
 		</Unit>
-		<Unit filename="D:/Mapping/Tools/indoor_geometry_reocnstruction/indoorTopology_v1_old.cpp">
-			<Option target="indoor_reconstruction"/>
-		</Unit>
 		<Unit filename="D:/Mapping/Tools/indoor_geometry_reocnstruction/indoor_reconstruction.h">
 			<Option target="indoor_reconstruction"/>
 		</Unit>
 		<Unit filename="D:/Mapping/Tools/indoor_geometry_reocnstruction/main.cpp">
 			<Option target="indoor_reconstruction"/>
 		</Unit>
-		<Unit filename="D:/Mapping/Tools/indoor_geometry_reocnstruction/occlusion_test.cpp">
+		<Unit filename="D:/Mapping/Tools/indoor_geometry_reocnstruction/occlusion_test2.cpp">
 			<Option target="indoor_reconstruction"/>
 		</Unit>
 		<Unit filename="D:/Mapping/Tools/indoor_geometry_reocnstruction/post_processing.cpp">
@@ -190,9 +187,6 @@
 			<Option target="indoor_reconstruction"/>
 		</Unit>
 		<Unit filename="D:/Mapping/Tools/visualization_tools/MinimumRectangle3D.cpp">
-			<Option target="indoor_reconstruction"/>
-		</Unit>
-		<Unit filename="D:/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp">
 			<Option target="indoor_reconstruction"/>
 		</Unit>
 		<Unit filename="D:/Mapping/Tools/indoor_geometry_reocnstruction/CMakeLists.txt">

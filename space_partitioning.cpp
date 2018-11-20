@@ -40,6 +40,7 @@ LaserPoints Project_Spacepartions_To_2D(LaserPoints space_lp) {
 
 
 /// this function always doesn't generate correct result
+/// it is borrowed from Visualization tools and LaserScan
 /// segmented_lp is preferred for better result
 void EnclosingPolygon_test (LaserPoints lp){
 

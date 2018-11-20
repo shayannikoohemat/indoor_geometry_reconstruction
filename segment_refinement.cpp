@@ -33,12 +33,12 @@ LaserPoints segment_refinement(LaserPoints segmented_lp, int min_segment_size, d
                                                  seg_parameter->DistanceMetricDimension() == 2);
                 segment1_lpoints.LabelComponents(edges->TINEdgesRef(), SegmentNumberTag);
 
-                /// do the same for 2nd dominanat segment
+                /// do the same for 2nd dominant segment
                 int dominanat_segment_nr2, count2;
                 LaserPoints segment2_lpoints;
 
                 do {
-                    /// get the segment_number for the dominanat segment
+                    /// get the segment_number for the dominant segment
                     dominanat_segment_nr2 = segment1_lpoints.MostFrequentAttributeValue(SegmentNumberTag, count2);
                     if (count2 > min_segment_size) {
                         new_segment_number++;

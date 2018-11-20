@@ -15,6 +15,8 @@
 #include "TrajectoryManipulation.h"
 #include "space_partitioning.h"
 #include "Directory_Processing.h"
+#include "visualization_tools.h"
+#include "LaserPyramid.h"
 
 
 void test_function( char * in, char * out) {
@@ -53,9 +55,18 @@ void test_function( char * in, char * out) {
     //file_lp = (char*) "E:/Laser_data/ETH_dataset/penthouse/penthouse_ConnectComp_01_segGV_1-4mil_crop.laser";//sample_collection_furniture.laser";  //slantedwalls.laser" ;  //penthouse_seg8cm_oneblock.laser" ;
     //file_lp = (char*) "E:/Laser_data/Kadaster/test_data/level2_kadaster_crop2_newsegmentation.laser";
     //file_lp = (char*) "D:/test/sims3d/test_seri2/ceiling_floor_test.laser";       //firebrigade_3rdfloor.laser";
-    file_lp = (char*) "E:/publication_data/indoor_changeDetection/data/BR_ZebRevo_seg10.laser";
+   // file_lp = (char*) "E:/publication_data/indoor_changeDetection/data/BR_ZebRevo_seg10.laser";
+    //file_lp = (char*) "E:/publication_data/FB_dataset/data/data/3rdfloor/original_data/3rdfloor_final_buffer_segmentation_3m.laser";
+    //file_lp = (char*) "E:/publication_data/FB_dataset/test/2glassrooms.laser";
+    //file_lp = (char*) "E:/publication_data/FB_dataset/data/data/3rdfloor/occlusion_test_goodresult/modified_laserpoints.laser";
+    //file_lp = (char*) "E:/publication_data/FB_dataset/data/data/1stfloor/temp/wall19_38.laser";
+    //file_lp = (char*) "E:/publication_data/FB_dataset/images/wall_doors_floor_ceiling.laser";
+    //file_lp = (char*) "E:/publication_data/Delft_zebrevo/data/delft_2989k_1stfloor_seg20cm.laser";
+   // file_lp = (char*) "E:/publication_data/Navvis/Kadaster/data/cadastre_4m_2cm_cc_seg10cm.laser";  // //indoor_top_test
+   // file_lp = (char*) "../data/indoor_top_input.laser";  ///server path
+    file_lp = (char*) "E:/publication_data/Haaksbergen/data/second_floor_1537k_seg10.laser"; //first_floor_thinned_seg0810.laser" ; //first_floor_thinned.laser";
     LaserPoints lpoints;
-    //lpoints.Read(file_lp);
+    lpoints.Read(file_lp);
     //traj_lp.Read("E://BR_data//ZebR//traj_basement_crop.laser");
     //traj_lp.Read("E://BR_data//Diemen//process//traj_diemen1_s_rec.laser");
     //surfpoints.Read("E://BR_data//Diemen//process//out//outputlaser.laser");
@@ -74,11 +85,13 @@ void test_function( char * in, char * out) {
     //auto *root = (char*) "E:/Laser_data/ETH_dataset/penthouse/out/" ;
     //auto *root = (char*) "E:/Laser_data/Kadaster/test_data/out/";
     //auto *root = (char*) "D:/test/sims3d/test_seri2/out/";
-   // indoorTopology(file_lp, 100, root, false);
-    //Buffers bfs;
-    //traj_lp.Read("D:/test/zebrevo_ahmed/Revo_Trajectory.laser");
-    //surfpoints.Read("D:/test/zebrevo_ahmed/out/indoortopology_nobuffer/walls.laser");
-    //occlusion_test(lpoints, surfpoints, traj_lp, bfs , 0.12, root);
+    //auto *root = (char*) "E:/publication_data/FB_dataset/process/out/indoortopology/";
+   // auto *root = (char*) "E:/publication_data/FB_dataset/images/out/";
+    //auto *root = (char*) "E:/publication_data/Delft_zebrevo/indoortopology/out/";
+    //auto *root = (char*) "E:/publication_data/Navvis/Kadaster/indoor_topology/";
+    //auto *root = (char*) "../output/indoortopology/"; ///server path
+    auto *root = (char*) "E:/publication_data/Haaksbergen/indoor_topology/";
+    indoorTopology(file_lp, 1000, root, false);
 
     //LaserPoints refined_lp;
     //refined_lp = segment_refinement(lpoints, 2, 0.50);
@@ -90,6 +103,35 @@ void test_function( char * in, char * out) {
     //int label;
     //WallAccuracy(label);
     //RemoveDuplicatePoints(lpoints, lp);
+/**********************************************************************************************************************/
+    /*****   OCLUSION_TEST  ******/
+    //Buffers bfs;
+    //traj_lp.Read("D:/test/zebrevo_ahmed/Revo_Trajectory.laser");
+    //surfpoints.Read("D:/test/zebrevo_ahmed/out/indoortopology_nobuffer/walls.laser");
+    //occlusion_test(lpoints, surfpoints, traj_lp, bfs , 0.12, root);
+    //LaserPoints lp, traj_lp, wall_lp;
+    //lp.Read("E:/publication_data/FB_dataset/data/data/3rdfloor/occlusion_test_goodresult/modified_laserpoints.laser");
+    //traj_lp.Read("E:/publication_data/FB_dataset/data/data/3rdfloor/original_data/traj_3rdfloor.laser");
+    //wall_lp.Read("E:/publication_data/FB_dataset/data/data/3rdfloor/occlusion_test_goodresult/surfaces_points.laser");
+   // lp.Read("../data/laser_points1.laser"); // server path
+   // traj_lp.Read("../data/trajectory1.laser");
+   // wall_lp.Read("../data/walls1.laser");
+
+   // lp.RemoveAttribute (SegmentNumberTag); /// when the generalization is applied
+   // lp.RemoveAttribute (LabelTag); /// for Backpack data
+    //auto *root = (char*) "E:/publication_data/FB_dataset/process/out/occlusion_test/";
+    // auto *root = (char*) "../output/occlusion_test/";
+    //occlusion_test2 (lp, wall_lp, traj_lp, 0.10, root);
+
+/***********************************************************************************************************************/
+    /*  edit occlusion_test result, remove excess points above each ceiling */
+
+/*    LaserPoints lp_occ_result, lp_ceilings;
+    lp_occ_result.Read("E:/publication_data/FB_dataset/data/data/1stfloor/temp/occlusion_points.laser");
+    lp_ceilings.Read("E:/publication_data/FB_dataset/data/data/1stfloor/temp/ceiling_cropZ.laser");
+    auto *root = (char*) "E:/publication_data/FB_dataset/process/out/occlusion_test/";
+    filter_occlusion_result_by_ceiling (lp_occ_result, lp_ceilings, root);*/
+
 /**********************************************************************************************************************/
     /// post_processing test
     //auto * output = (char*) "D:/test/sims3d/out/";
@@ -118,6 +160,38 @@ void test_function( char * in, char * out) {
     }
     plane_corners.Write("E:/Laser_data/ETH_dataset/penthouse/out/plane_corners.objpts");
     planes_edges.Write("E:/Laser_data/ETH_dataset/penthouse/out/plane_edges.top", false);*/
+
+/***********************************************************************************************************************/
+    /*   Visualize a single segment */
+/*    LaserPoints segment_lp;
+    segment_lp.Read("E:/publication_data/FB_dataset/test/door.laser");
+    ObjectPoints plane_corners;
+    LineTopology plane_edge;
+    LineTopologies plane_edges;
+    VisulizePlane3D (segment_lp, 0.10, plane_corners, plane_edge, true);
+    plane_edges.push_back (plane_edge);
+    plane_corners.Write("E:/publication_data/FB_dataset/process/out/occlusion_test/plane_corners.objpts");
+    plane_edges.Write("E:/publication_data/FB_dataset/process/out/occlusion_test/plane_edges.top", false);*/
+
+/***********************************************************************************************************************/
+    /*         Partition points by segment or another attribute and store them */
+/*    LaserPoints segmented_lp;
+    segmented_lp.Read("E:/publication_data/Navvis/Kadaster/indoor_topology/walls_reseg.laser");
+    vector<LaserPoints> segments_vec;
+    char *output;
+    output = (char*) "";
+    segments_vec = PartitionLpByTag (segmented_lp, SegmentNumberTag);
+
+    /// sort by size if required
+    //sort(segments_vec.begin (), segments_vec.end (), compare_lp_size );
+
+    /// remove small segment if required
+    LaserPoints reduced_lp;
+    for (auto &s : segments_vec){
+        if (s.size () > 2000) reduced_lp.AddPoints (s);
+    }
+    reduced_lp.Write("E:/publication_data/Navvis/Kadaster/indoor_topology/walls_reduced.laser", false);*/
+
 
 /***********************************************************************************************************************/
     /* testing boost geometry library for intersecting minimum rectangles
@@ -276,9 +350,10 @@ void test_function( char * in, char * out) {
     /* first Resegment trajectory by Time*/
     /*   segment trajectory by time */
 /*    LaserPoints segmented_traj, trajectory;
-    trajectory.Read("E:/publication_data/FB_dataset/data/trajectory/trajectory_final.laser");
+    //trajectory.Read("E:/publication_data/FB_dataset/data/trajectory/trajectory_final.laser");
+    trajectory.Read("E:/publication_data/Delft_zebrevo/trajectory/traj_1st_ground_resegmented.laser");
     segmented_traj = Segment_Trajectory_ByTime (trajectory, 1.0);
-    segmented_traj.Write("E:/publication_data/FB_dataset/data/trajectory/trajectory_final_ResegmentedT2.laser", false);*/
+    segmented_traj.Write("E:/publication_data/Delft_zebrevo/trajectory/traj_1st_ground_resegmentedbytime.laser", false);*/
 
 /*    LaserPoints lp1, lp2, lp3, lp4, lp5, lp6, lp7, all_lp, trajectory_resegmented;
     //lp1.Read("E:/publication_data/FB_dataset/data/raw_data/all_convertedBy_MappingLib_001.laser");       //cc_time_Z_partitioned.laser");
@@ -312,6 +387,14 @@ void test_function( char * in, char * out) {
          partitions = PartitionPointsByTrajecotry (lp7, trajectory_resegmented, output, false); /// we use output files
      //}*/
 
+/*    LaserPoints traj_segmented, lp;
+    vector<LaserPoints> partitions;
+    auto * output = (char*) "E:/publication_data/Delft_zebrevo/partitions/out/";
+    traj_segmented.Read("E:/publication_data/Delft_zebrevo/trajectory/traj_test.laser");
+    lp.Read("E:/publication_data/Delft_zebrevo/data/delft_1853k_cc.laser");
+    partitions = PartitionPointsByTrajecotry (lp, traj_segmented, output, true);*/
+
+    
 /***********************************************************************************************************************/
 
     /* directory processing */
@@ -485,8 +568,6 @@ void test_function( char * in, char * out) {
 
     read_custom_ascii (ascii_file, lp_out, lp_outfile);*/
 
-
-
 /***********************************************************************************************************************/
 
 /*    LaserPoints trajectory;
@@ -499,19 +580,34 @@ void test_function( char * in, char * out) {
     traj_polyline.Write("D:/test/laserpoints_partitioning/traj_stair_1_left_modified.top", false);
     vertices.Write("D:/test/laserpoints_partitioning/traj_stair_1_left_modified.objpts");*/
 
-
-
 /***********************************************************************************************************************/
-/*        *//* space partitioning file *//*
-    *//*  intersection between space partitions and the trajectory *//*
-    LaserPoints lp_partitions;
-    lp_partitions.Read("D:/test/space_parititioning/spacepartitions_modified.laser");
+/*         space partitioning file
+      intersection between space partitions and the trajectory */
+/*    LaserPoints lp_partitions;
+    //lp_partitions.Read("E:/publication_data/FB_dataset/data/data/3rdfloor/space_partitioning/result/vox_centers_dilate_unoccupied_resegment_final.laser");
+    lp_partitions.Read("E:/publication_data/BR_backpack/space_partitions/spaces/spaces_resegmented_final.laser");
     LaserPoints lp_traj;
-    lp_traj.Read ("D:/test/space_parititioning/trajectory3.laser");
+    //lp_traj.Read ("E:/publication_data/FB_dataset/data/trajectory/final_traj_segmentation/traj_3rdfloor.laser");
+    lp_traj.Read("E:/publication_data/BR_backpack/data/traj_diemen1_s_rec.laser");
     LaserPoints valid_partitions;
     //projected_lp = Project_Spacepartions_To_2D (lp);
     valid_partitions = Intersect_Spacepartitions_Trajectory (lp_partitions, lp_traj, 0.20);
-    valid_partitions.Write("D:/test/space_parititioning/valid_partitions.laser", false);*/
+    valid_partitions.Write("E:/publication_data/BR_backpack/space_partitions/spaces//valid_partitions.laser", false);*/
+
+/**********************************************************************************************************************/
+    /*  Filter reflected points by timetag */
+    //LaserPoints lpoints;
+    //lpoints.Read ("E:/publication_data/FB_dataset/data/data/3rdfloor/3rdfloor_sub2cm_seg_mergedbuffer.laser");
+/*    lpoints.Read("E:/publication_data/FB_dataset/process/out/indoortopology2_nobuffer/walls.laser");
+
+    LaserPoints traj_lp;
+    traj_lp.Read ("E:/publication_data/FB_dataset/data/trajectory/final_traj_segmentation/traj_3rdfloor.laser");
+
+    char *output;
+    //output = (char*) "E:/publication_data/FB_dataset/data/data/3rdfloor/";
+    output = (char*) "E:/publication_data/FB_dataset/process/out/indoortopology2_nobuffer/reflection_correction/";
+
+    FilterSegments_ByTimeTag(lpoints, traj_lp, 150.0 , 10.0, 0.60, output);*/
 
 /***********************************************************************************************************************/
 
@@ -555,26 +651,29 @@ void test_function( char * in, char * out) {
     printf("laser points size: %d \n", lp.size ());
     lp.Write(out, false);*/
 /***********************************************************************************************************************/
-
+    /***   Segmentation: surface growing for single file ***/
 /*    SegmentationParameters *seg_parameter;
     seg_parameter = new SegmentationParameters;
     /// segmenting laserpoints
-    seg_parameter -> MaxDistanceInComponent()  = 0.3;
+    //seg_parameter -> MaxDistanceInComponent()  = 0.3;
     seg_parameter -> SeedNeighbourhoodRadius() = 1.0;
     seg_parameter -> MaxDistanceSeedPlane()    = 0.10; // MaX Distance to the Plane
     seg_parameter -> GrowingRadius()           = 1.0;
     seg_parameter -> MaxDistanceSurface()      = 0.12;
+    seg_parameter -> SurfacesCompete () = true;
 
     /// if segmentation crashes set the compatibility of generated exe to windows7
     printf("segmentation process... \n ");
     LaserPoints lp;
-    lp.Read("E:/publication_data/FB_dataset/data/data/3rdfloor_14m.laser");
+    //lp.Read("E:/publication_data/FB_dataset/data/data/3rdfloor_4m_sorted_sub2cm.laser");
+    lp.Read("../data/segmentation_input.laser"); // server path
     lp.SurfaceGrowing(*seg_parameter);
     vector<int> segment_nu_v;
     segment_nu_v = lp.AttributeValues (SegmentNumberTag);
     printf("Number of segments: %d \n", segment_nu_v.size ());
 
-    lp.Write("E:/publication_data/FB_dataset/data/data/3rdfloor_14m_segmented.laser", false);*/
+    lp.Write("../output/segmentation/segmented_lp.laser", false);*/
+    //lp.Write("E:/publication_data/FB_dataset/data/data/3rdfloor_4m_sorted_sub2cm_segmented.laser", false);
 
     //LaserPoints lp;
     //lp.Read("E:/publication_data/FB_dataset/data/data/3rdfloor_14m_segmented.laser");
@@ -583,18 +682,20 @@ void test_function( char * in, char * out) {
 
 /**********************************************************************************************************************/
 
-    /***    Generate wall patches  ****/
+    /***    Generate wall patches (BUFFER) ****/
 /*    LaserPoints laserpoints;
-    laserpoints.Read ("E:/publication_data/FB_dataset/data/data/3rdfloor_14m_segmented_sorted.laser");
+    //laserpoints.Read ("E:/publication_data/FB_dataset/process/out/buffer/walls_buffer/final_segmentation.laser");
+    laserpoints.Read ("../data/generalization_input.laser");  // server path
     Buffers   segment_buffers;
-    char* root = (char*) "E:/publication_data/FB_dataset/data/data/buffer/";
-    segment_buffers = GenerateWallPatches(laserpoints, 0.70, 20.0, 0.40, root);
+    char* out_root = (char*) "../output/buffer/";
+    //char* out_root = (char*) "E:/publication_data/FB_dataset/process/out/buffer/";
+    segment_buffers = GenerateWallPatches(laserpoints, 0.60, 10.0, 0.40, out_root);
 
     LaserPoints buffer_points;
     buffer_points = segment_buffers.Buffers_laserpoints();
     buffer_points.SetAttribute(LabelTag, 0);
-    laserpoints = buffer_points; // this initializes pointnumbers (because of pointnumbers bug)
-    laserpoints.Write("E:/publication_data/FB_dataset/data/data/3rdfloor_14m_resegmented_mergebuffers.laser", false);*/
+    laserpoints = buffer_points; // this initializes pointnumbers (because of pointnumbers bug)*/
+    //laserpoints.Write("3rdfloor_thin_3m_mergebuffers.laser", false);
 /***********************************************************************************************************************/
     /***  change detection operations ***/
 /*    LaserPoints lp, changes_lp;
@@ -615,24 +716,84 @@ void test_function( char * in, char * out) {
 
     merge_lp_segmented (input_directory, out_file);*/
 
+
+/***********************************************************************************************************************/
+
+    /*   renumber segment numbers  from 1 to n */
+/*    LaserPoints lp_segmented, lp_renumbered;
+    lp_segmented.Read("E:/publication_data/BR_backpack/door_detection/19doors_goodresult/top_door_lp_segmented_manaual_removedduplicate.laser");
+    vector<LaserPoints> lp_segments;
+    lp_segments = PartitionLpByTag (lp_segmented, SegmentNumberTag);
+    int segment_nr =0;
+    for(auto &segment : lp_segments){
+        segment.SetAttribute (SegmentNumberTag, segment_nr++);
+        lp_renumbered.AddPoints (segment);
+    }
+
+    lp_renumbered.Write("E:/publication_data/BR_backpack/door_detection/19doors_goodresult/top_door_lp_renumbered_manaual_removedduplicate.laser", false);*/
+
+
 /***********************************************************************************************************************/
 /*    LaserPoints lp1, lp2;
-    lp1.Read("E:/publication_data/FB_dataset/data/data/process_segmentation/segmentation/1stfloor/laserpoints_4_partition_23_thin.laser");
-    lp2.Read("E:/publication_data/FB_dataset/data/data/process_segmentation/segmentation/1stfloor/laserpoints_5_partition_23_thin.laser");
+    lp1.Read("E:/publication_data/FB_dataset/data/raw_data/partitions/laserpoints_4_partition_23.laser");
+    lp2.Read("E:/publication_data/FB_dataset/data/raw_data/partitions/laserpoints_5_partition_23.laser");
 
     lp1.AddPoints (lp2);
-    lp1.Write ("E:/publication_data/FB_dataset/data/data/process_segmentation/segmentation/1stfloor/1stfloor.laser");
+    lp1.Write ("E:/publication_data/FB_dataset/data/data/1stfloor/1stfloor.laser", false);
     printf ("# of points: %d \n", lp1.size ());*/
 
 /**********************************************************************************************************************/
     /* trim and recover the time_tag for conversion and operation in cloudcompare*/
 
-    LaserPoints lp;
-    lp.Read("E:/publication_data/FB_dataset/data/data/3rdfloor_4m_segmented_sorted_Ttrimmed2_sub2cm.laser");
-    //Trim_doubleTag (lp, TimeTag, 1444729700.0);
-    add_to_doubleTag (lp, TimeTag, 1444729700.0);
-    lp.Write("E:/publication_data/FB_dataset/data/data/3rdfloor_4m_segmented_sorted_sub2cm.laser", false);
-    printf("# of points: %d \n", lp.size ());
+/*    LaserPoints lp;
+    lp.Read("E:/publication_data/Delft_zebrevo/data/delft_sub5cm_3279k_cc_1stfloorTtrimmed.laser");
+
+    char *ascii_out = (char*) "E:/publication_data/Delft_zebrevo/data/delft_3279k_1stfloor.txt";
+    Trim_doubleTag (lp, TimeTag, 1481000000.0, ascii_out, true);    /// zeb1:1444729700.0 zebrevo: 1481000000.0
+    //add_to_doubleTag (lp, TimeTag, 1444729700.0);
+    lp.Write("E:/publication_data/Delft_zebrevo/data/delft_3279k_1stfloor.laser", false);
+    printf("# of points: %d \n", lp.size ());*/
+
+
+/***********************************************************************************************************************/
+    /* trim ascii file time_tag for cloudcompare operations*/
+
+/*    std::string ascii_in = "E:/publication_data/Delft_zebrevo/data/delft_sub2cm_16m_cc.txt";
+    std::string ascii_out = "E:/publication_data/Delft_zebrevo/data/delft_sub2cm_16m_cc_Ttrimmed.txt";
+
+    Trim_doubleTag (ascii_in, 3, 1481000000.0, ascii_out);*/
+
+/**********************************************************************************************************************/
+
+    /* crop the points of floor and ceiling for a given average height */
+/*    LaserPoints lp, lp_croped;
+    lp.Read("E:/publication_data/FB_dataset/data/data/1stfloor/1stfloor_goodresult2/walls.laser");
+    double z_value = -0.85; /// z_value normally is the floor of the next level
+    for(auto &p : lp) {
+        if(p.GetZ () < z_value) lp_croped.push_back (p);
+    }
+    lp_croped.Write("E:/publication_data/FB_dataset/data/data/1stfloor/1stfloor_goodresult2/manual_labeled/walls_cropZ.laser", false);*/
+
+/***********************************************************************************************************************/
+/*    LaserPoints lp;
+    lp.Read("E:/publication_data/BR_backpack/door_detection/19doors_goodresult/top_door_lp_segmented_manaual.laser");
+    //int dominant_segment_nr, count;
+    //dominant_segment_nr = lp.MostFrequentAttributeValue (SegmentNumberTag, count);
+    //lp.RemoveTaggedPoints (dominant_segment_nr, SegmentNumberTag);
+
+    lp.RemoveDoublePoints (false);
+    lp.Write("E:/publication_data/BR_backpack/door_detection/19doors_goodresult/top_door_lp_segmented_removeduplicate.laser", false);*/
+
+/***********************************************************************************************************************/
+/*  detect false openings */
+
+/*    LaserPoints lp_in, lp_out;
+    lp_in.Read("E:/publication_data/FB_dataset/data/data/1stfloor/space_partitioning/occ_op.laser");
+    lp_out = detect_false_openings (lp_in, 0.70);
+
+    lp_out.Write("E:/publication_data/FB_dataset/data/data/1stfloor/space_partitioning/wall_false_openings.laser", false);*/
+
+
 
 } /// no code after here
 

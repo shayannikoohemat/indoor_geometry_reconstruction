@@ -154,83 +154,6 @@ CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/Minimu
 CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/MinimumRectangle3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/viff.h
 CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/MinimumRectangle3D.cpp.obj: D:/Mapping/Tools/visualization_tools/MinimumRectangle3D.cpp
 
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/LaserScan/include/BNF_io.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/LaserScan/include/DataBoundsLaser.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/LaserScan/include/ImagedData.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserDataFiles.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserDataTypes.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserMetaFile.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserPatch.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserPatches.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserPoint.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserPoints.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserPointsInfo.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserScanner.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserScannerCalibration.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserScannerOrientation.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/LaserScan/include/OutliningParameters.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/LaserScan/include/SegmentationParameters.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/AttributeTypes.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Circle2D.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Covariance2D.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Covariance3D.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/DataBounds2D.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/DataBounds3D.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/DataGrid.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Database4Cpp.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ExteriorOrientation.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Face.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/FeatureNumber.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Histogram.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/HoughSpace.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Image.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ImageGrid.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ImagePoint.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ImagePointPlain.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ImagePoints.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/LSStructs.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Line2D.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Line3D.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/LineNumber.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/LineSegment3D.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/LineSegments3D.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/LineTopologies.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/LineTopology.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Matrix3.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/MeshNumber.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ObjectPoint.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ObjectPoints.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Orientation3D.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/PixelPosition.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Plane.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Planes.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Point3D.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Point3DPlain.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/PointNumber.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/PointNumberList.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/PointNumberLists.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Position2D.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Position3D.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Positions2D.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Positions3D.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Rotation2D.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Rotation3D.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/TIN.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/TINEdgeSet.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/TINEdges.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/TINMesh.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Vector2D.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Vector3D.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/VectorPoint.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/digphot_arch.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/file_id.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/sortStruct.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/vMatrix.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/vMatrix.tcc
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/vRecord.tcc
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Library/Photogrammetry/include/viff.h
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj: D:/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp
-
 CMakeFiles/indoor_reconstruction.dir/DepthMap.cpp.obj: D:/Mapping/Library/LaserScan/include/BNF_io.h
 CMakeFiles/indoor_reconstruction.dir/DepthMap.cpp.obj: D:/Mapping/Library/LaserScan/include/DataBoundsLaser.h
 CMakeFiles/indoor_reconstruction.dir/DepthMap.cpp.obj: D:/Mapping/Library/LaserScan/include/ImagedData.h
@@ -1154,9 +1077,62 @@ CMakeFiles/indoor_reconstruction.dir/Laservoxel.cpp.obj: D:/Mapping/Library/Phot
 CMakeFiles/indoor_reconstruction.dir/Laservoxel.cpp.obj: ../Laservoxel.cpp
 CMakeFiles/indoor_reconstruction.dir/Laservoxel.cpp.obj: ../Laservoxel.h
 
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/case_conv.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/classification.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/compare.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/concept.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/config.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/constants.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/case_conv.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/classification.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/find_format.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/find_format_all.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/find_format_store.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/find_iterator.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/finder.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/formatter.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/predicate.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/replace_storage.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/sequence.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/trim.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/util.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/erase.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/find.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/find_format.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/find_iterator.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/finder.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/formatter.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/iter_find.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/join.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/predicate.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/predicate_facade.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/replace.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/sequence_traits.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/split.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/std/list_traits.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/std/slist_traits.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/std/string_traits.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/std_containers_traits.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/trim.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/yes_no_type.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/assert.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/bind/mem_fn.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/bind/mem_fn_cc.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/bind/mem_fn_template.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/bind/mem_fn_vw.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/cerrno.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/checked_delete.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/concept/assert.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/concept/detail/backward_compatibility.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/concept/detail/borland.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/concept/detail/concept_def.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/concept/detail/concept_undef.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/concept/detail/general.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/concept/detail/has_constraints.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/concept/detail/msvc.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/concept/usage.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/concept_check.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/config.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/config/abi_prefix.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/config/abi_suffix.hpp
@@ -1185,6 +1161,7 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ File
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/config/compiler/vacpp.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/config/compiler/visualc.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/config/no_tr1/cmath.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/config/no_tr1/functional.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/config/no_tr1/memory.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/config/no_tr1/utility.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/config/platform/aix.hpp
@@ -1260,6 +1237,24 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ File
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/filesystem/path.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/filesystem/path_traits.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/filesystem/string_file.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/function.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/function/detail/maybe_include.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/function/detail/prologue.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/function/function0.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/function/function1.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/function/function10.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/function/function2.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/function/function3.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/function/function4.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/function/function5.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/function/function6.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/function/function7.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/function/function8.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/function/function9.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/function/function_base.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/function/function_fwd.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/function/function_template.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/function_equal.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/functional/hash.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/functional/hash/detail/float_functions.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/functional/hash/detail/hash_float.hpp
@@ -1268,6 +1263,7 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ File
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/functional/hash/hash.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/functional/hash/hash_fwd.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/functional/hash_fwd.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/get_pointer.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/integer.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/integer/static_log2.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/integer_fwd.hpp
@@ -1289,10 +1285,15 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ File
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/iterator/detail/enable_if.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/iterator/detail/facade_iterator_category.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/iterator/interoperable.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/iterator/iterator_adaptor.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/iterator/iterator_categories.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/iterator/iterator_concepts.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/iterator/iterator_facade.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/iterator/iterator_traits.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/iterator/reverse_iterator.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/iterator/transform_iterator.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/limits.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/mem_fn.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/move/algo/move.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/move/algorithm.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/move/core.hpp
@@ -1403,6 +1404,7 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ File
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/mpl/lambda.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/mpl/lambda_fwd.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/mpl/limits/arity.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/mpl/logical.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/mpl/next.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/mpl/next_prior.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/mpl/not.hpp
@@ -1412,6 +1414,7 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ File
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/mpl/quote.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/mpl/void.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/mpl/void_fwd.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/next_prior.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/noncopyable.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/pointer_to_other.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/predef.h
@@ -1541,15 +1544,19 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ File
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/predef/version_number.h
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/arithmetic/add.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/arithmetic/dec.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/arithmetic/detail/div_base.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/arithmetic/inc.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/arithmetic/mod.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/arithmetic/sub.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/array/data.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/array/elem.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/array/size.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/cat.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/comma_if.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/comparison/less_equal.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/comparison/not_equal.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/config/config.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/control/deduce_d.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/control/detail/dmc/while.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/control/detail/edg/while.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/control/detail/msvc/while.hpp
@@ -1567,12 +1574,15 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ File
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/detail/is_binary.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/detail/split.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/empty.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/enum.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/enum_params.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/enum_shifted_params.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/expr_if.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/facilities/detail/is_empty.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/facilities/empty.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/facilities/expand.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/facilities/identity.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/facilities/intercept.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/facilities/is_1.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/facilities/is_empty.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/facilities/is_empty_variadic.hpp
@@ -1595,6 +1605,7 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ File
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/logical/bitand.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/logical/bool.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/logical/compl.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/logical/not.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/punctuation/comma.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/punctuation/comma_if.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/punctuation/detail/is_begin_parens.hpp
@@ -1612,16 +1623,19 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ File
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/repetition/for.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/repetition/repeat.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/repetition/repeat_from_to.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/cat.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/detail/is_empty.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/detail/split.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/elem.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/enum.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/first_n.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/fold_left.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/for_each_i.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/rest_n.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/seq.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/size.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/subseq.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/transform.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/slot/detail/def.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/slot/slot.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/stringize.hpp
@@ -1633,12 +1647,46 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ File
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/tuple/to_list.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/variadic/elem.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/variadic/size.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/algorithm/equal.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/as_literal.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/begin.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/concepts.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/config.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/const_iterator.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/as_literal.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/begin.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/common.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/detail_str.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/end.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/extract_optional_type.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/has_member_size.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/implementation_help.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/misc_concept.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/msvc_has_iterator_workaround.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/remove_extent.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/safe_bool.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/sfinae.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/size_type.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/str_types.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/value_type.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/difference_type.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/distance.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/empty.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/end.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/functions.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/has_range_iterator.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/iterator.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/iterator_range.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/iterator_range_core.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/iterator_range_io.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/mutable_iterator.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/range_fwd.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/rbegin.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/rend.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/reverse_iterator.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/size.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/size_type.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/range/value_type.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/ref.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/regex.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/regex/config.hpp
@@ -1746,6 +1794,13 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ File
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/throw_exception.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/tuple/detail/tuple_basic.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/tuple/tuple.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_index.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_index/ctti_type_index.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_index/detail/compile_time_type_info.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_index/detail/ctti_register_class.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_index/detail/stl_register_class.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_index/stl_type_index.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_index/type_index_facade.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/add_const.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/add_cv.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/add_lvalue_reference.hpp
@@ -1755,30 +1810,40 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ File
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/add_volatile.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/aligned_storage.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/alignment_of.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/composite_traits.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/conditional.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/conversion_traits.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/cv_traits.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/decay.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/declval.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/detail/config.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/detail/has_binary_operator.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/detail/is_function_ptr_helper.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/detail/is_function_ptr_tester.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/detail/is_mem_fun_pointer_tester.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/detail/yes_no_type.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/function_traits.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/has_minus.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/has_minus_assign.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/has_nothrow_assign.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/has_nothrow_copy.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/has_plus.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/has_plus_assign.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/has_trivial_assign.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/has_trivial_copy.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/has_trivial_destructor.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/has_trivial_move_assign.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/has_trivial_move_constructor.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/integral_constant.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/integral_promotion.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/intrinsics.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_abstract.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_arithmetic.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_array.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_assignable.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_base_and_derived.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_base_of.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_class.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_const.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_constructible.hpp
@@ -1790,6 +1855,7 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ File
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_enum.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_floating_point.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_function.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_fundamental.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_integral.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_lvalue_reference.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_member_function_pointer.hpp
@@ -1808,6 +1874,7 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ File
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_unsigned.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_void.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_volatile.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/make_signed.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/make_unsigned.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/remove_bounds.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/remove_const.hpp
@@ -1823,8 +1890,14 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ File
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/unordered/unordered_map.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/unordered/unordered_map_fwd.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/unordered_map.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/utility.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/utility/addressof.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/utility/base_from_member.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/utility/binary.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/utility/declval.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/utility/enable_if.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/utility/identity_type.hpp
+CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/utility/result_of.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/utility/swap.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/version.hpp
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj: D:/Mapping/Foreign/ANN/include/ANN/ANN.h
@@ -3223,7 +3296,6 @@ CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.obj: C:/Program\ Files/b
 CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/differential_quantities.hpp
 CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/flattening.hpp
 CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/result_inverse.hpp
-CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/sjoberg_intersection.hpp
 CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/spherical.hpp
 CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/thomas_inverse.hpp
 CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/vertex_latitude.hpp
@@ -4620,85 +4692,6 @@ CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.obj: ../indoorTopology.c
 CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.obj: ../indoor_reconstruction.h
 CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.obj: ../post_processing.h
 
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/LaserScan/include/BNF_io.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/LaserScan/include/DataBoundsLaser.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/LaserScan/include/ImagedData.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserDataFiles.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserDataTypes.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserMetaFile.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserPatch.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserPatches.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserPoint.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserPoints.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserPointsInfo.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserScanner.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserScannerCalibration.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserScannerOrientation.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/LaserScan/include/OutliningParameters.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/LaserScan/include/SegmentationParameters.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/AttributeTypes.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Circle2D.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Covariance2D.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Covariance3D.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/DataBounds2D.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/DataBounds3D.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/DataGrid.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Database4Cpp.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ExteriorOrientation.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/FeatureNumber.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Histogram.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/HoughSpace.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Image.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ImageGrid.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ImagePoint.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ImagePointPlain.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ImagePoints.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/LSStructs.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Line2D.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Line3D.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/LineNumber.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/LineSegment3D.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/LineSegments3D.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/LineTopologies.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/LineTopology.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Matrix3.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/MeshNumber.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ObjectPoint.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ObjectPoints.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Orientation3D.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/PixelPosition.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Plane.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Planes.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Point3D.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Point3DPlain.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/PointNumber.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/PointNumberList.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/PointNumberLists.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Position2D.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Position3D.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Positions2D.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Positions3D.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Rotation2D.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Rotation3D.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/TIN.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/TINEdgeSet.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/TINEdges.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/TINMesh.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Vector2D.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Vector3D.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/VectorPoint.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/digphot_arch.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/file_id.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/sortStruct.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/vMatrix.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/vMatrix.tcc
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/vRecord.tcc
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: D:/Mapping/Library/Photogrammetry/include/viff.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: ../Buffer.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: ../Buffers.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: ../indoorTopology_v1_old.cpp
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj: ../indoor_reconstruction.h
-
 CMakeFiles/indoor_reconstruction.dir/main.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/minmax_element.hpp
 CMakeFiles/indoor_reconstruction.dir/main.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string.hpp
 CMakeFiles/indoor_reconstruction.dir/main.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/case_conv.hpp
@@ -5206,7 +5199,6 @@ CMakeFiles/indoor_reconstruction.dir/main.cpp.obj: C:/Program\ Files/boost_gcc4.
 CMakeFiles/indoor_reconstruction.dir/main.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/differential_quantities.hpp
 CMakeFiles/indoor_reconstruction.dir/main.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/flattening.hpp
 CMakeFiles/indoor_reconstruction.dir/main.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/result_inverse.hpp
-CMakeFiles/indoor_reconstruction.dir/main.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/sjoberg_intersection.hpp
 CMakeFiles/indoor_reconstruction.dir/main.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/spherical.hpp
 CMakeFiles/indoor_reconstruction.dir/main.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/thomas_inverse.hpp
 CMakeFiles/indoor_reconstruction.dir/main.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/vertex_latitude.hpp
@@ -6608,86 +6600,87 @@ CMakeFiles/indoor_reconstruction.dir/main.cpp.obj: ../indoor_reconstruction.h
 CMakeFiles/indoor_reconstruction.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/indoor_reconstruction.dir/main.cpp.obj: ../post_processing.h
 
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Foreign/ANN/include/ANN/ANN.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/LaserScan/include/BNF_io.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/LaserScan/include/DataBoundsLaser.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/LaserScan/include/ImagedData.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/LaserScan/include/KNNFinder.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserDataFiles.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserDataTypes.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserMetaFile.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserPatch.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserPatches.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserPoint.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserPoints.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserPointsInfo.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserScanner.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserScannerCalibration.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserScannerOrientation.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/LaserScan/include/OutliningParameters.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/LaserScan/include/SegmentationParameters.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/AttributeTypes.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Circle2D.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Covariance2D.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Covariance3D.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/DataBounds2D.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/DataBounds3D.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/DataGrid.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Database4Cpp.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ExteriorOrientation.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/FeatureNumber.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Histogram.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/HoughSpace.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Image.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ImageGrid.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ImagePoint.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ImagePointPlain.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ImagePoints.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/LSStructs.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Line2D.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Line3D.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/LineNumber.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/LineSegment3D.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/LineSegments3D.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/LineTopologies.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/LineTopology.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Matrix3.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/MeshNumber.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ObjectPoint.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ObjectPoints.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Orientation3D.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/PixelPosition.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Plane.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Planes.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Point3D.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Point3DPlain.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/PointNumber.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/PointNumberList.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/PointNumberLists.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Position2D.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Position3D.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Positions2D.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Positions3D.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Rotation2D.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Rotation3D.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/TIN.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/TINEdgeSet.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/TINEdges.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/TINMesh.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Vector2D.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Vector3D.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/VectorPoint.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/digphot_arch.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/file_id.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/sortStruct.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/vMatrix.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/vMatrix.tcc
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/vRecord.tcc
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: D:/Mapping/Library/Photogrammetry/include/viff.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: ../Buffer.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: ../Buffers.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: ../Laservoxel.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj: ../occlusion_test.cpp
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Foreign/ANN/include/ANN/ANN.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/LaserScan/include/BNF_io.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/LaserScan/include/DataBoundsLaser.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/LaserScan/include/ImagedData.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/LaserScan/include/KNNFinder.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserDataFiles.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserDataTypes.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserMetaFile.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserPatch.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserPatches.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserPoint.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserPoints.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserPointsInfo.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserScanner.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserScannerCalibration.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserScannerOrientation.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/LaserScan/include/OutliningParameters.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/LaserScan/include/SegmentationParameters.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/AttributeTypes.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Circle2D.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Covariance2D.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Covariance3D.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/DataBounds2D.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/DataBounds3D.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/DataGrid.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Database4Cpp.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ExteriorOrientation.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/FeatureNumber.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Histogram.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/HoughSpace.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Image.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ImageGrid.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ImagePoint.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ImagePointPlain.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ImagePoints.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/LSStructs.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Line2D.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Line3D.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/LineNumber.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/LineSegment3D.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/LineSegments3D.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/LineTopologies.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/LineTopology.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Matrix3.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/MeshNumber.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ObjectPoint.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ObjectPoints.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Orientation3D.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/PixelPosition.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Plane.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Planes.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Point3D.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Point3DPlain.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/PointNumber.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/PointNumberList.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/PointNumberLists.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Position2D.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Position3D.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Positions2D.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Positions3D.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Rotation2D.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Rotation3D.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/TIN.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/TINEdgeSet.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/TINEdges.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/TINMesh.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Vector2D.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Vector3D.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/VectorPoint.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/digphot_arch.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/file_id.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/sortStruct.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/vMatrix.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/vMatrix.tcc
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/vRecord.tcc
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: D:/Mapping/Library/Photogrammetry/include/viff.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: ../Buffer.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: ../Buffers.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: ../Laservoxel.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: ../indoor_reconstruction.h
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj: ../occlusion_test2.cpp
 
 CMakeFiles/indoor_reconstruction.dir/post_processing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/minmax_element.hpp
 CMakeFiles/indoor_reconstruction.dir/post_processing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string.hpp
@@ -7198,7 +7191,6 @@ CMakeFiles/indoor_reconstruction.dir/post_processing.cpp.obj: C:/Program\ Files/
 CMakeFiles/indoor_reconstruction.dir/post_processing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/differential_quantities.hpp
 CMakeFiles/indoor_reconstruction.dir/post_processing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/flattening.hpp
 CMakeFiles/indoor_reconstruction.dir/post_processing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/result_inverse.hpp
-CMakeFiles/indoor_reconstruction.dir/post_processing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/sjoberg_intersection.hpp
 CMakeFiles/indoor_reconstruction.dir/post_processing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/spherical.hpp
 CMakeFiles/indoor_reconstruction.dir/post_processing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/thomas_inverse.hpp
 CMakeFiles/indoor_reconstruction.dir/post_processing.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/vertex_latitude.hpp
@@ -9284,7 +9276,6 @@ CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: C:/Program\ Files/b
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/differential_quantities.hpp
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/flattening.hpp
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/result_inverse.hpp
-CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/sjoberg_intersection.hpp
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/spherical.hpp
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/thomas_inverse.hpp
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: C:/Program\ Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/vertex_latitude.hpp
@@ -10655,6 +10646,7 @@ CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/LaserScan/include/DataBoundsLaser.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/LaserScan/include/ImagedData.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/LaserScan/include/KNNFinder.h
+CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserBlock.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserDataFiles.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserDataTypes.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserMetaFile.h
@@ -10663,13 +10655,24 @@ CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserPoint.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserPoints.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserPointsInfo.h
+CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserPyramid.h
+CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserScanLine.h
+CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserScanLines.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserScanner.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserScannerCalibration.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserScannerOrientation.h
+CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserSubUnit.h
+CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserTilePtrVector.h
+CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/LaserScan/include/LaserUnit.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/LaserScan/include/OutliningParameters.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/LaserScan/include/SegmentationParameters.h
+CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/LaserScan/include/StripErrors.h
+CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/LaserScan/include/StripOrientation.h
+CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/LaserScan/include/StripTransform.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/AttributeTypes.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Circle2D.h
+CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ControlPoint.h
+CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ControlPoints.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Covariance2D.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Covariance3D.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/DataBounds2D.h
@@ -10697,11 +10700,15 @@ CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Matrix3.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/MeshNumber.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ObjectPoint.h
+CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ObjectPoint2D.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ObjectPoints.h
+CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/ObjectPoints2D.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Orientation3D.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/PixelPosition.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Plane.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Planes.h
+CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Point2D.h
+CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Point2DPlain.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Point3D.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Point3DPlain.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/PointNumber.h
@@ -10713,6 +10720,7 @@ CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Positions3D.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Rotation2D.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/Rotation3D.h
+CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/RotationParameter.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/TIN.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/TINEdgeSet.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Library/Photogrammetry/include/TINEdges.h
@@ -10737,4 +10745,5 @@ CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: ../indoor_reconstru
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: ../post_processing.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: ../space_partitioning.h
 CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: ../test_functions.cpp
+CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj: D:/Mapping/Tools/visualization_tools/visualization_tools.h
 

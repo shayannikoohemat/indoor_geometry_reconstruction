@@ -2,14 +2,16 @@
 // Created by NikoohematS on 1-9-2017.
 //
 
-#include <iostream>
-#include <string>
+#include <cstdlib>
+#include <cstring>
 #include "LaserPoints.h"
 #include "boost/filesystem.hpp"
 #include "boost/regex.hpp"
 #include <boost/unordered_map.hpp>
 #include <KNNFinder.h>
 #include "Directory_Processing.h"
+#include <boost/algorithm/string.hpp>
+#include <iomanip>
 
 bool compare_lp_segmenttag(const LaserPoints &lp1, const LaserPoints &lp2) {
     return lp1.begin()->Attribute(SegmentNumberTag) < lp2.begin()->Attribute(SegmentNumberTag);
@@ -101,21 +103,139 @@ void LaserPoints_info (LaserPoints &laserpoints){
     printf("Number of segments: %d \n", segment_numbers.size ());
 }
 
-int Trim_doubleTag (LaserPoints &laserpoints, LaserPointTag double_tag, double trim_value){
+/// fast for large files
+int Trim_doubleTag (LaserPoints &laserpoints, LaserPointTag double_tag, double trim_value, char* ascii_out, bool add_value){
+
+    FILE *trimmed_file;
+    //char str_root[500];
+    //strcpy (str_root,root);
+    //trimmed_file = fopen(strcat(str_root, "Ttrimmed.txt"),"w");
+    trimmed_file = fopen(ascii_out, "w");
+    fprintf(trimmed_file, "// x, y, z, time \n");
 
     int n_points = 0;
    /// trim_value = 1444700000.0; /// zeb1_timetag
     for(auto &p : laserpoints){
+        printf("points counter: %d \r", n_points);
         if (p.HasAttribute (double_tag)){
             double tag_value, trimmed_tag;
             tag_value = p.DoubleAttribute (double_tag);
-            trimmed_tag = tag_value - trim_value;
+            if(add_value){
+                trimmed_tag = tag_value + trim_value;
+            }else trimmed_tag = tag_value - trim_value;
             p.SetDoubleAttribute (double_tag, trimmed_tag);
             n_points++;
         }
+        fprintf(trimmed_file ,"%.3f,%.3f,%.3f,%.4f \n", p.X (), p.Y (), p.Z (), p.DoubleAttribute (double_tag));
     }
     return  n_points;
 }
+
+/// slow for large files
+int Trim_doubleTag (const string &ascii_infile, int trim_column, double trim_value, const string &ascii_outfile, bool add_value){
+    std::ifstream fs;
+    fs.open (ascii_infile.c_str (), std::ifstream::in);
+    if (!fs.is_open () || fs.fail ())
+    {
+        printf("Could not open file '%s'! Error : %s\n", ascii_infile.c_str (), strerror (errno));
+        fs.close ();
+        return (false);
+    }
+
+    /// open output file
+    std::ofstream fs_out;
+    fs_out.open (ascii_outfile.c_str (), std::ofstream::out);
+    if (!fs_out.is_open () || fs_out.fail ())
+    {
+        printf("Could not open file '%s'! Error : %s\n", ascii_outfile.c_str (), strerror (errno));
+        fs_out.close ();
+        return (false);
+    }
+
+    string line;
+    vector<string> st;
+
+    /// skip file headers
+    for (int i=0; i<1; i++){
+        getline (fs, line);
+    }
+
+    int n_points =0;
+    while (!fs.eof ()) {
+        n_points++;
+        printf("points counter: %d \r", n_points);
+
+        getline(fs, line);
+        // Ignore empty lines
+        if (line.empty ())
+            continue;
+
+        // Tokenize the line
+        boost::trim (line);
+        boost::split (st, line, boost::is_any_of ("\t\r , "), boost::token_compress_on);
+
+        if(st.size() < 3)
+            continue;
+
+        /// read x, y,z
+        double x, y, z;
+        x = float (atof (st[0].c_str ()));
+        y = float (atof (st[1].c_str ()));
+        z = float (atof (st[2].c_str ()));
+
+        /// read the time and trim it
+        char *ptr;
+        double time;
+        if (st[trim_column].c_str ()){
+            time =  strtod (st[trim_column].c_str (), &ptr);
+        }
+
+
+        double trimmed_time;
+        if(add_value){
+            trimmed_time = time + trim_value;
+        } else trimmed_time = time - trim_value;
+
+
+
+        /// write to the file
+        fs_out << std::fixed << std::setprecision(3) << x << ",";
+        fs_out << std::fixed << std::setprecision(3) << y << ",";
+        fs_out << std::fixed << std::setprecision(3) << z << ",";
+        /// trimmed time
+        fs_out << std::fixed << std::setprecision(4) << trimmed_time << std::endl;
+
+
+        /// this is for conversion to laser format
+        /// NOTE: there is no check if there is color or not
+/*        int r, g, b;
+        r = atoi (st[3].c_str ());
+        g = atoi (st[4].c_str ());
+        b = atoi (st[5].c_str ());
+
+        LaserPoint p;
+        p.X() = float (atof (st[0].c_str ()));
+        p.Y() = float (atof (st[1].c_str ()));
+        p.Z() = float (atof (st[2].c_str ()));
+
+        if (st[3].c_str ()){
+            p.SegmentNumber() = atoi (st[3].c_str ());
+        }
+
+        lp_out.push_back(p);*/
+
+    }
+    fs.close();
+    fs_out.close ();
+
+    printf ("# of points %d \n", n_points);
+
+
+    /// debug
+    //lp_out.Write(lp_outfile, false);
+    return n_points;
+}
+
 
 int add_to_doubleTag (LaserPoints &laserpoints, LaserPointTag double_tag, double add_value){
 
@@ -311,7 +431,7 @@ LaserPoints relabel_changed_points (LaserPoints &detected_changes, LaserPoints &
     return relabeled_changes;
 }
 
-/// merge segmented point clouds and resegment them
+/// merge segmented point clouds from a directory into one file and resegment them
 void merge_lp_segmented (char *input_directory, char *output_file){
 
     std::vector<std::pair<string, string>> files_v;
@@ -359,4 +479,17 @@ void merge_lp_segmented (char *input_directory, char *output_file){
     printf("Total number of segments: %d \n", segment_nu_v.size ());
     printf("Total number of points: %d \n", lp_master.size ());
     lp_master.Write(output_file, false);
+}
+
+/*   renumber segment numbers  from 1 to n
+ * This function is similar to ReTag function */
+LaserPoints Renumber_points_byTag (LaserPoints &laserPoints, LaserPointTag laserPointTag, int start_number){
+    LaserPoints lp_renumbered;
+    vector<LaserPoints> lp_Tag_vec;
+    lp_Tag_vec = PartitionLpByTag (laserPoints, laserPointTag);
+    int tag_nr =start_number;
+    for(auto &tag_points : lp_Tag_vec){
+        tag_points.SetAttribute (laserPointTag, tag_nr++);
+        lp_renumbered.AddPoints (tag_points);
+    }
 }

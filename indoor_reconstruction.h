@@ -24,16 +24,20 @@ void indoorTopology_v1_old(char *laserFile, int minsizesegment, char* root_dir, 
 /// outputs are openings, occlusion and occupied in the form of labeled center voxels
 void occlusion_test(LaserPoints , const LaserPoints &, LaserPoints , Buffers , double , char *);
 
-/// DepricATED FUNCTION, replaced with boost::unordered::multimap
-/// This function use a simple binary function to find corresponding point by its trajectory point using time
-void FilterSegments_ByTimeTag(LaserPoints , LaserPoints , double , double , double );
-
+/// occlusion test2 is without using the buffers, or buffers are calculted before
+/// buffers are merged segments that compose wall patches
+void occlusion_test2(LaserPoints laserpoints, const LaserPoints &surface_points, LaserPoints trajectory, double , char *);
 
 /// ReadAscii.cpp
 LaserPoints read_ascii(char *ascii_file);
 
 /// conversion of customized ascii files e.g. Navvis trajectory
 bool read_custom_ascii (const string &custom_ascii_file, LaserPoints &lp_out, char * lp_outfile);
+
+/// filter reflected points based on the percentage of reflected points in the segments and time difference
+/// with the trajectory
+void FilterSegments_ByTimeTag(LaserPoints lp, LaserPoints trajectory_lp, double timestamp_difference,
+                              double max_dist_to_traj, double reflected_points_percentage, char* output_dir);
 
 
 /// select a sub-section/partition of laserpoints between two given time_tag as double
@@ -57,6 +61,11 @@ LaserPoints Segment_Trajectory_ByTime (LaserPoints trajectory, double time_thres
 /// merge segments in a defined buffer based on their geometry similarity (co-planarity, proximity,...)
 /// Buffers are result of the function in the form of renumbered segments
 Buffers GenerateWallPatches(LaserPoints lp, double dist, double angle, double dist_along_twosegments, char* root);
+
+/// this function is similar to GenerateWallPatches.cpp but faster and for any arbitrary surface
+void Mergesurfaces (const LaserPoints &segmented_lp, double max_dist_between_planes, double max_angle_between_normals,
+                    double max_dist, int min_segment_size, char *root,
+                    double max_second_dist_between_planes);
 
 /// reshpae segments with strange shapes with calculating TIN. expensive function
 LaserPoints segment_refinement(LaserPoints , int , double );
@@ -98,7 +107,11 @@ void LaserPoints_info (LaserPoints &laserpoints);
 
 /// trim the long float of a DoubleTag e.g. time, used for conversion to and from CloudCompare
 /// the function is not tested
-int Trim_doubleTag (LaserPoints &laserpoints, LaserPointTag double_tag, double trim_value);
+int Trim_doubleTag (LaserPoints &laserpoints, LaserPointTag double_tag, double trim_value, char* ascii_out, bool add_value);
+
+/// trim time in ascii file, if add_value is true then instead of trim it add the value to the time
+int Trim_doubleTag (const string &ascii_infile, int trim_column, double trim_value,
+                    const string &ascii_outfile, bool add_value = false);
 
 /// add value the long float of a DoubleTag e.g. time,
 /// the function is not tested

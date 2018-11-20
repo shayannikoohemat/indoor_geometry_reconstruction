@@ -206,6 +206,7 @@ Buffers GenerateWallPatches(LaserPoints lp, double dist, double angle, double di
     vector<Buffer> buffers;
     vector<int>::iterator segmentNr_it;
     int buffnr = 0;
+    printf(" \n Constructing buffers ... \n");
     for (segmentNr_it = segment_numbers.begin(); segmentNr_it != segment_numbers.end(); segmentNr_it++) {
         buffnr++;
         LaserPoints segment_lpoints;
@@ -221,7 +222,6 @@ Buffers GenerateWallPatches(LaserPoints lp, double dist, double angle, double di
             projected_segments.SetAttribute(LabelTag, 0);
         }
         //segments_lp.push_back(segment_lpoints);
-        printf(" \n ... constructing buffers ... \n");
         Buffer buffer(segment_lpoints, *segmentNr_it, buffnr);
         buffers.push_back(buffer);
     }
@@ -232,7 +232,7 @@ Buffers GenerateWallPatches(LaserPoints lp, double dist, double angle, double di
 
      /** Check for merging buffers
      * */
-    printf(" \n ... merging process ... \n");
+    printf(" \n Merging process ... \n");
     std::sort(buffers.begin(), buffers.end(), compareweight);
 
     /// print sorted buffers' weight for check
@@ -329,8 +329,9 @@ Buffers GenerateWallPatches(LaserPoints lp, double dist, double angle, double di
     new_merged_segmentation.Write(strcat(str_root, "merged_segmentation.laser"), false);
 
     /* Check for including buffers in merged buffers
+     * NOTE: include doesnt update the current buffer's plane and weight, just number of laserpoints and bounds will change
      * */
-    printf(" \n ... including process ... \n");
+    printf(" \n Including process ... \n");
     vector <Buffer>::iterator mergedbuffers_it;
     vector <int> includebuffers_nr;
     vector <int> not_includedsegments;

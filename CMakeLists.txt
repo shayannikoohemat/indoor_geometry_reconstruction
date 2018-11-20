@@ -28,13 +28,13 @@ include_directories(D:/Mapping/Tools/visualization_tools)
 link_directories(${MAPPING_LIB_DIR})
 link_libraries(-lLaserScan -lPhotogrammetry -lBuildings -lEispack -lLinpack -lANN -lnewmat -lgfortran -g3 -llas)
 
-
 set(SOURCE_FILES main.cpp indoorTopology.cpp setConsoleColor.cpp segment_refinement.cpp FilterSegmentsByTime.cpp
-          Buffer.cpp Buffers.h GenerateWallPatches.cpp occlusion_test.cpp ReadAscii.cpp Laservoxel.cpp
+          Buffer.cpp Buffers.h GenerateWallPatches.cpp ReadAscii.cpp Laservoxel.cpp
         Laserpoint2ScanningPosition.cpp DepthMap.cpp WallAccuracy.cpp indoor_reconstruction.h MLS_preprocessing.cpp
-        post_processing.cpp post_processing.h ../visualization_tools/VisualizePlane3D.cpp
-        ../visualization_tools/MinimumRectangle3D.cpp LAtexTest.tex indoorTopology_v1_old.cpp
+        post_processing.cpp post_processing.h #../visualization_tools/VisualizePlane3D.cpp
+        ../visualization_tools/MinimumRectangle3D.cpp LAtexTest.tex
         PlaneFittingResidual.h PlaneFittingResidual.cpp test_functions.cpp TrajectoryManipulation.cpp
-        TrajectoryManipulation.h space_partitioning.cpp space_partitioning.h Directory_Processing.cpp Directory_Processing.h)
+        TrajectoryManipulation.h space_partitioning.cpp space_partitioning.h Directory_Processing.cpp
+        Directory_Processing.h occlusion_test2.cpp )#MergeSurfaces.cpp)
 add_executable(indoor_reconstruction ${SOURCE_FILES} indoor_reconstruction.h)
 target_link_libraries(indoor_reconstruction ${Boost_LIBRARIES})

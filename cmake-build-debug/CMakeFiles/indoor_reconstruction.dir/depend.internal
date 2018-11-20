@@ -154,83 +154,6 @@ CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/Minimu
  D:/Mapping/Library/Photogrammetry/include/vRecord.tcc
  D:/Mapping/Library/Photogrammetry/include/viff.h
  D:/Mapping/Tools/visualization_tools/MinimumRectangle3D.cpp
-CMakeFiles/indoor_reconstruction.dir/D_/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp.obj
- D:/Mapping/Library/LaserScan/include/BNF_io.h
- D:/Mapping/Library/LaserScan/include/DataBoundsLaser.h
- D:/Mapping/Library/LaserScan/include/ImagedData.h
- D:/Mapping/Library/LaserScan/include/LaserDataFiles.h
- D:/Mapping/Library/LaserScan/include/LaserDataTypes.h
- D:/Mapping/Library/LaserScan/include/LaserMetaFile.h
- D:/Mapping/Library/LaserScan/include/LaserPatch.h
- D:/Mapping/Library/LaserScan/include/LaserPatches.h
- D:/Mapping/Library/LaserScan/include/LaserPoint.h
- D:/Mapping/Library/LaserScan/include/LaserPoints.h
- D:/Mapping/Library/LaserScan/include/LaserPointsInfo.h
- D:/Mapping/Library/LaserScan/include/LaserScanner.h
- D:/Mapping/Library/LaserScan/include/LaserScannerCalibration.h
- D:/Mapping/Library/LaserScan/include/LaserScannerOrientation.h
- D:/Mapping/Library/LaserScan/include/OutliningParameters.h
- D:/Mapping/Library/LaserScan/include/SegmentationParameters.h
- D:/Mapping/Library/Photogrammetry/include/AttributeTypes.h
- D:/Mapping/Library/Photogrammetry/include/Circle2D.h
- D:/Mapping/Library/Photogrammetry/include/Covariance2D.h
- D:/Mapping/Library/Photogrammetry/include/Covariance3D.h
- D:/Mapping/Library/Photogrammetry/include/DataBounds2D.h
- D:/Mapping/Library/Photogrammetry/include/DataBounds3D.h
- D:/Mapping/Library/Photogrammetry/include/DataGrid.h
- D:/Mapping/Library/Photogrammetry/include/Database4Cpp.h
- D:/Mapping/Library/Photogrammetry/include/ExteriorOrientation.h
- D:/Mapping/Library/Photogrammetry/include/Face.h
- D:/Mapping/Library/Photogrammetry/include/FeatureNumber.h
- D:/Mapping/Library/Photogrammetry/include/Histogram.h
- D:/Mapping/Library/Photogrammetry/include/HoughSpace.h
- D:/Mapping/Library/Photogrammetry/include/Image.h
- D:/Mapping/Library/Photogrammetry/include/ImageGrid.h
- D:/Mapping/Library/Photogrammetry/include/ImagePoint.h
- D:/Mapping/Library/Photogrammetry/include/ImagePointPlain.h
- D:/Mapping/Library/Photogrammetry/include/ImagePoints.h
- D:/Mapping/Library/Photogrammetry/include/LSStructs.h
- D:/Mapping/Library/Photogrammetry/include/Line2D.h
- D:/Mapping/Library/Photogrammetry/include/Line3D.h
- D:/Mapping/Library/Photogrammetry/include/LineNumber.h
- D:/Mapping/Library/Photogrammetry/include/LineSegment3D.h
- D:/Mapping/Library/Photogrammetry/include/LineSegments3D.h
- D:/Mapping/Library/Photogrammetry/include/LineTopologies.h
- D:/Mapping/Library/Photogrammetry/include/LineTopology.h
- D:/Mapping/Library/Photogrammetry/include/Matrix3.h
- D:/Mapping/Library/Photogrammetry/include/MeshNumber.h
- D:/Mapping/Library/Photogrammetry/include/ObjectPoint.h
- D:/Mapping/Library/Photogrammetry/include/ObjectPoints.h
- D:/Mapping/Library/Photogrammetry/include/Orientation3D.h
- D:/Mapping/Library/Photogrammetry/include/PixelPosition.h
- D:/Mapping/Library/Photogrammetry/include/Plane.h
- D:/Mapping/Library/Photogrammetry/include/Planes.h
- D:/Mapping/Library/Photogrammetry/include/Point3D.h
- D:/Mapping/Library/Photogrammetry/include/Point3DPlain.h
- D:/Mapping/Library/Photogrammetry/include/PointNumber.h
- D:/Mapping/Library/Photogrammetry/include/PointNumberList.h
- D:/Mapping/Library/Photogrammetry/include/PointNumberLists.h
- D:/Mapping/Library/Photogrammetry/include/Position2D.h
- D:/Mapping/Library/Photogrammetry/include/Position3D.h
- D:/Mapping/Library/Photogrammetry/include/Positions2D.h
- D:/Mapping/Library/Photogrammetry/include/Positions3D.h
- D:/Mapping/Library/Photogrammetry/include/Rotation2D.h
- D:/Mapping/Library/Photogrammetry/include/Rotation3D.h
- D:/Mapping/Library/Photogrammetry/include/TIN.h
- D:/Mapping/Library/Photogrammetry/include/TINEdgeSet.h
- D:/Mapping/Library/Photogrammetry/include/TINEdges.h
- D:/Mapping/Library/Photogrammetry/include/TINMesh.h
- D:/Mapping/Library/Photogrammetry/include/Vector2D.h
- D:/Mapping/Library/Photogrammetry/include/Vector3D.h
- D:/Mapping/Library/Photogrammetry/include/VectorPoint.h
- D:/Mapping/Library/Photogrammetry/include/digphot_arch.h
- D:/Mapping/Library/Photogrammetry/include/file_id.h
- D:/Mapping/Library/Photogrammetry/include/sortStruct.h
- D:/Mapping/Library/Photogrammetry/include/vMatrix.h
- D:/Mapping/Library/Photogrammetry/include/vMatrix.tcc
- D:/Mapping/Library/Photogrammetry/include/vRecord.tcc
- D:/Mapping/Library/Photogrammetry/include/viff.h
- D:/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp
 CMakeFiles/indoor_reconstruction.dir/DepthMap.cpp.obj
  D:/Mapping/Library/LaserScan/include/BNF_io.h
  D:/Mapping/Library/LaserScan/include/DataBoundsLaser.h
@@ -1155,9 +1078,62 @@ CMakeFiles/indoor_reconstruction.dir/Laservoxel.cpp.obj
  D:/Mapping/Tools/indoor_geometry_reocnstruction/Laservoxel.cpp
  D:/Mapping/Tools/indoor_geometry_reocnstruction/Laservoxel.h
 CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/case_conv.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/classification.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/compare.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/concept.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/config.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/constants.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/case_conv.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/classification.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/find_format.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/find_format_all.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/find_format_store.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/find_iterator.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/finder.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/formatter.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/predicate.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/replace_storage.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/sequence.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/trim.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/detail/util.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/erase.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/find.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/find_format.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/find_iterator.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/finder.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/formatter.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/iter_find.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/join.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/predicate.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/predicate_facade.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/replace.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/sequence_traits.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/split.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/std/list_traits.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/std/slist_traits.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/std/string_traits.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/std_containers_traits.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/trim.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string/yes_no_type.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/assert.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/bind/mem_fn.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/bind/mem_fn_cc.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/bind/mem_fn_template.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/bind/mem_fn_vw.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/cerrno.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/checked_delete.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/concept/assert.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/concept/detail/backward_compatibility.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/concept/detail/borland.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/concept/detail/concept_def.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/concept/detail/concept_undef.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/concept/detail/general.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/concept/detail/has_constraints.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/concept/detail/msvc.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/concept/usage.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/concept_check.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/config.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/config/abi_prefix.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/config/abi_suffix.hpp
@@ -1186,6 +1162,7 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/config/compiler/vacpp.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/config/compiler/visualc.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/config/no_tr1/cmath.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/config/no_tr1/functional.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/config/no_tr1/memory.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/config/no_tr1/utility.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/config/platform/aix.hpp
@@ -1261,6 +1238,24 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/filesystem/path.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/filesystem/path_traits.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/filesystem/string_file.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/function.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/function/detail/maybe_include.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/function/detail/prologue.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/function/function0.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/function/function1.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/function/function10.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/function/function2.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/function/function3.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/function/function4.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/function/function5.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/function/function6.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/function/function7.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/function/function8.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/function/function9.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/function/function_base.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/function/function_fwd.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/function/function_template.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/function_equal.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/functional/hash.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/functional/hash/detail/float_functions.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/functional/hash/detail/hash_float.hpp
@@ -1269,6 +1264,7 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/functional/hash/hash.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/functional/hash/hash_fwd.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/functional/hash_fwd.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/get_pointer.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/integer.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/integer/static_log2.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/integer_fwd.hpp
@@ -1290,10 +1286,15 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/iterator/detail/enable_if.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/iterator/detail/facade_iterator_category.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/iterator/interoperable.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/iterator/iterator_adaptor.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/iterator/iterator_categories.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/iterator/iterator_concepts.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/iterator/iterator_facade.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/iterator/iterator_traits.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/iterator/reverse_iterator.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/iterator/transform_iterator.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/limits.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/mem_fn.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/move/algo/move.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/move/algorithm.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/move/core.hpp
@@ -1404,6 +1405,7 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/mpl/lambda.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/mpl/lambda_fwd.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/mpl/limits/arity.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/mpl/logical.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/mpl/next.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/mpl/next_prior.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/mpl/not.hpp
@@ -1413,6 +1415,7 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/mpl/quote.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/mpl/void.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/mpl/void_fwd.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/next_prior.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/noncopyable.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/pointer_to_other.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/predef.h
@@ -1542,15 +1545,19 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/predef/version_number.h
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/arithmetic/add.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/arithmetic/dec.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/arithmetic/detail/div_base.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/arithmetic/inc.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/arithmetic/mod.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/arithmetic/sub.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/array/data.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/array/elem.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/array/size.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/cat.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/comma_if.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/comparison/less_equal.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/comparison/not_equal.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/config/config.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/control/deduce_d.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/control/detail/dmc/while.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/control/detail/edg/while.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/control/detail/msvc/while.hpp
@@ -1568,12 +1575,15 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/detail/is_binary.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/detail/split.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/empty.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/enum.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/enum_params.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/enum_shifted_params.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/expr_if.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/facilities/detail/is_empty.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/facilities/empty.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/facilities/expand.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/facilities/identity.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/facilities/intercept.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/facilities/is_1.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/facilities/is_empty.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/facilities/is_empty_variadic.hpp
@@ -1596,6 +1606,7 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/logical/bitand.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/logical/bool.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/logical/compl.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/logical/not.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/punctuation/comma.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/punctuation/comma_if.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/punctuation/detail/is_begin_parens.hpp
@@ -1613,16 +1624,19 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/repetition/for.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/repetition/repeat.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/repetition/repeat_from_to.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/cat.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/detail/is_empty.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/detail/split.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/elem.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/enum.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/first_n.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/fold_left.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/for_each_i.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/rest_n.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/seq.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/size.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/subseq.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/seq/transform.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/slot/detail/def.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/slot/slot.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/stringize.hpp
@@ -1634,12 +1648,46 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/tuple/to_list.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/variadic/elem.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/preprocessor/variadic/size.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/algorithm/equal.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/as_literal.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/begin.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/concepts.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/config.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/const_iterator.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/as_literal.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/begin.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/common.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/detail_str.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/end.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/extract_optional_type.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/has_member_size.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/implementation_help.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/misc_concept.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/msvc_has_iterator_workaround.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/remove_extent.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/safe_bool.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/sfinae.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/size_type.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/str_types.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/detail/value_type.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/difference_type.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/distance.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/empty.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/end.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/functions.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/has_range_iterator.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/iterator.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/iterator_range.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/iterator_range_core.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/iterator_range_io.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/mutable_iterator.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/range_fwd.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/rbegin.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/rend.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/reverse_iterator.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/size.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/size_type.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/range/value_type.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/ref.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/regex.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/regex/config.hpp
@@ -1747,6 +1795,13 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/throw_exception.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/tuple/detail/tuple_basic.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/tuple/tuple.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_index.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_index/ctti_type_index.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_index/detail/compile_time_type_info.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_index/detail/ctti_register_class.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_index/detail/stl_register_class.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_index/stl_type_index.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_index/type_index_facade.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/add_const.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/add_cv.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/add_lvalue_reference.hpp
@@ -1756,30 +1811,40 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/add_volatile.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/aligned_storage.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/alignment_of.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/composite_traits.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/conditional.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/conversion_traits.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/cv_traits.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/decay.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/declval.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/detail/config.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/detail/has_binary_operator.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/detail/is_function_ptr_helper.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/detail/is_function_ptr_tester.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/detail/is_mem_fun_pointer_tester.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/detail/yes_no_type.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/function_traits.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/has_minus.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/has_minus_assign.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/has_nothrow_assign.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/has_nothrow_copy.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/has_plus.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/has_plus_assign.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/has_trivial_assign.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/has_trivial_copy.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/has_trivial_destructor.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/has_trivial_move_assign.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/has_trivial_move_constructor.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/integral_constant.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/integral_promotion.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/intrinsics.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_abstract.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_arithmetic.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_array.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_assignable.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_base_and_derived.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_base_of.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_class.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_const.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_constructible.hpp
@@ -1791,6 +1856,7 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_enum.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_floating_point.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_function.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_fundamental.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_integral.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_lvalue_reference.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_member_function_pointer.hpp
@@ -1809,6 +1875,7 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_unsigned.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_void.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/is_volatile.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/make_signed.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/make_unsigned.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/remove_bounds.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/type_traits/remove_const.hpp
@@ -1824,8 +1891,14 @@ CMakeFiles/indoor_reconstruction.dir/MLS_preprocessing.cpp.obj
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/unordered/unordered_map.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/unordered/unordered_map_fwd.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/unordered_map.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/utility.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/utility/addressof.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/utility/base_from_member.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/utility/binary.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/utility/declval.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/utility/enable_if.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/utility/identity_type.hpp
+ C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/utility/result_of.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/utility/swap.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/version.hpp
  D:/Mapping/Foreign/ANN/include/ANN/ANN.h
@@ -3224,7 +3297,6 @@ CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.obj
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/differential_quantities.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/flattening.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/result_inverse.hpp
- C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/sjoberg_intersection.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/spherical.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/thomas_inverse.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/vertex_latitude.hpp
@@ -4620,85 +4692,6 @@ CMakeFiles/indoor_reconstruction.dir/indoorTopology.cpp.obj
  D:/Mapping/Tools/indoor_geometry_reocnstruction/indoorTopology.cpp
  D:/Mapping/Tools/indoor_geometry_reocnstruction/indoor_reconstruction.h
  D:/Mapping/Tools/indoor_geometry_reocnstruction/post_processing.h
-CMakeFiles/indoor_reconstruction.dir/indoorTopology_v1_old.cpp.obj
- D:/Mapping/Library/LaserScan/include/BNF_io.h
- D:/Mapping/Library/LaserScan/include/DataBoundsLaser.h
- D:/Mapping/Library/LaserScan/include/ImagedData.h
- D:/Mapping/Library/LaserScan/include/LaserDataFiles.h
- D:/Mapping/Library/LaserScan/include/LaserDataTypes.h
- D:/Mapping/Library/LaserScan/include/LaserMetaFile.h
- D:/Mapping/Library/LaserScan/include/LaserPatch.h
- D:/Mapping/Library/LaserScan/include/LaserPatches.h
- D:/Mapping/Library/LaserScan/include/LaserPoint.h
- D:/Mapping/Library/LaserScan/include/LaserPoints.h
- D:/Mapping/Library/LaserScan/include/LaserPointsInfo.h
- D:/Mapping/Library/LaserScan/include/LaserScanner.h
- D:/Mapping/Library/LaserScan/include/LaserScannerCalibration.h
- D:/Mapping/Library/LaserScan/include/LaserScannerOrientation.h
- D:/Mapping/Library/LaserScan/include/OutliningParameters.h
- D:/Mapping/Library/LaserScan/include/SegmentationParameters.h
- D:/Mapping/Library/Photogrammetry/include/AttributeTypes.h
- D:/Mapping/Library/Photogrammetry/include/Circle2D.h
- D:/Mapping/Library/Photogrammetry/include/Covariance2D.h
- D:/Mapping/Library/Photogrammetry/include/Covariance3D.h
- D:/Mapping/Library/Photogrammetry/include/DataBounds2D.h
- D:/Mapping/Library/Photogrammetry/include/DataBounds3D.h
- D:/Mapping/Library/Photogrammetry/include/DataGrid.h
- D:/Mapping/Library/Photogrammetry/include/Database4Cpp.h
- D:/Mapping/Library/Photogrammetry/include/ExteriorOrientation.h
- D:/Mapping/Library/Photogrammetry/include/FeatureNumber.h
- D:/Mapping/Library/Photogrammetry/include/Histogram.h
- D:/Mapping/Library/Photogrammetry/include/HoughSpace.h
- D:/Mapping/Library/Photogrammetry/include/Image.h
- D:/Mapping/Library/Photogrammetry/include/ImageGrid.h
- D:/Mapping/Library/Photogrammetry/include/ImagePoint.h
- D:/Mapping/Library/Photogrammetry/include/ImagePointPlain.h
- D:/Mapping/Library/Photogrammetry/include/ImagePoints.h
- D:/Mapping/Library/Photogrammetry/include/LSStructs.h
- D:/Mapping/Library/Photogrammetry/include/Line2D.h
- D:/Mapping/Library/Photogrammetry/include/Line3D.h
- D:/Mapping/Library/Photogrammetry/include/LineNumber.h
- D:/Mapping/Library/Photogrammetry/include/LineSegment3D.h
- D:/Mapping/Library/Photogrammetry/include/LineSegments3D.h
- D:/Mapping/Library/Photogrammetry/include/LineTopologies.h
- D:/Mapping/Library/Photogrammetry/include/LineTopology.h
- D:/Mapping/Library/Photogrammetry/include/Matrix3.h
- D:/Mapping/Library/Photogrammetry/include/MeshNumber.h
- D:/Mapping/Library/Photogrammetry/include/ObjectPoint.h
- D:/Mapping/Library/Photogrammetry/include/ObjectPoints.h
- D:/Mapping/Library/Photogrammetry/include/Orientation3D.h
- D:/Mapping/Library/Photogrammetry/include/PixelPosition.h
- D:/Mapping/Library/Photogrammetry/include/Plane.h
- D:/Mapping/Library/Photogrammetry/include/Planes.h
- D:/Mapping/Library/Photogrammetry/include/Point3D.h
- D:/Mapping/Library/Photogrammetry/include/Point3DPlain.h
- D:/Mapping/Library/Photogrammetry/include/PointNumber.h
- D:/Mapping/Library/Photogrammetry/include/PointNumberList.h
- D:/Mapping/Library/Photogrammetry/include/PointNumberLists.h
- D:/Mapping/Library/Photogrammetry/include/Position2D.h
- D:/Mapping/Library/Photogrammetry/include/Position3D.h
- D:/Mapping/Library/Photogrammetry/include/Positions2D.h
- D:/Mapping/Library/Photogrammetry/include/Positions3D.h
- D:/Mapping/Library/Photogrammetry/include/Rotation2D.h
- D:/Mapping/Library/Photogrammetry/include/Rotation3D.h
- D:/Mapping/Library/Photogrammetry/include/TIN.h
- D:/Mapping/Library/Photogrammetry/include/TINEdgeSet.h
- D:/Mapping/Library/Photogrammetry/include/TINEdges.h
- D:/Mapping/Library/Photogrammetry/include/TINMesh.h
- D:/Mapping/Library/Photogrammetry/include/Vector2D.h
- D:/Mapping/Library/Photogrammetry/include/Vector3D.h
- D:/Mapping/Library/Photogrammetry/include/VectorPoint.h
- D:/Mapping/Library/Photogrammetry/include/digphot_arch.h
- D:/Mapping/Library/Photogrammetry/include/file_id.h
- D:/Mapping/Library/Photogrammetry/include/sortStruct.h
- D:/Mapping/Library/Photogrammetry/include/vMatrix.h
- D:/Mapping/Library/Photogrammetry/include/vMatrix.tcc
- D:/Mapping/Library/Photogrammetry/include/vRecord.tcc
- D:/Mapping/Library/Photogrammetry/include/viff.h
- D:/Mapping/Tools/indoor_geometry_reocnstruction/Buffer.h
- D:/Mapping/Tools/indoor_geometry_reocnstruction/Buffers.h
- D:/Mapping/Tools/indoor_geometry_reocnstruction/indoorTopology_v1_old.cpp
- D:/Mapping/Tools/indoor_geometry_reocnstruction/indoor_reconstruction.h
 CMakeFiles/indoor_reconstruction.dir/main.cpp.obj
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/minmax_element.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string.hpp
@@ -5207,7 +5200,6 @@ CMakeFiles/indoor_reconstruction.dir/main.cpp.obj
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/differential_quantities.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/flattening.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/result_inverse.hpp
- C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/sjoberg_intersection.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/spherical.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/thomas_inverse.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/vertex_latitude.hpp
@@ -6608,7 +6600,7 @@ CMakeFiles/indoor_reconstruction.dir/main.cpp.obj
  D:/Mapping/Tools/indoor_geometry_reocnstruction/indoor_reconstruction.h
  D:/Mapping/Tools/indoor_geometry_reocnstruction/main.cpp
  D:/Mapping/Tools/indoor_geometry_reocnstruction/post_processing.h
-CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj
+CMakeFiles/indoor_reconstruction.dir/occlusion_test2.cpp.obj
  D:/Mapping/Foreign/ANN/include/ANN/ANN.h
  D:/Mapping/Library/LaserScan/include/BNF_io.h
  D:/Mapping/Library/LaserScan/include/DataBoundsLaser.h
@@ -6688,7 +6680,8 @@ CMakeFiles/indoor_reconstruction.dir/occlusion_test.cpp.obj
  D:/Mapping/Tools/indoor_geometry_reocnstruction/Buffer.h
  D:/Mapping/Tools/indoor_geometry_reocnstruction/Buffers.h
  D:/Mapping/Tools/indoor_geometry_reocnstruction/Laservoxel.h
- D:/Mapping/Tools/indoor_geometry_reocnstruction/occlusion_test.cpp
+ D:/Mapping/Tools/indoor_geometry_reocnstruction/indoor_reconstruction.h
+ D:/Mapping/Tools/indoor_geometry_reocnstruction/occlusion_test2.cpp
 CMakeFiles/indoor_reconstruction.dir/post_processing.cpp.obj
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/minmax_element.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/algorithm/string.hpp
@@ -7199,7 +7192,6 @@ CMakeFiles/indoor_reconstruction.dir/post_processing.cpp.obj
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/differential_quantities.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/flattening.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/result_inverse.hpp
- C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/sjoberg_intersection.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/spherical.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/thomas_inverse.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/vertex_latitude.hpp
@@ -9285,7 +9277,6 @@ CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/differential_quantities.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/flattening.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/result_inverse.hpp
- C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/sjoberg_intersection.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/spherical.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/thomas_inverse.hpp
  C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/vertex_latitude.hpp
@@ -10656,6 +10647,7 @@ CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj
  D:/Mapping/Library/LaserScan/include/DataBoundsLaser.h
  D:/Mapping/Library/LaserScan/include/ImagedData.h
  D:/Mapping/Library/LaserScan/include/KNNFinder.h
+ D:/Mapping/Library/LaserScan/include/LaserBlock.h
  D:/Mapping/Library/LaserScan/include/LaserDataFiles.h
  D:/Mapping/Library/LaserScan/include/LaserDataTypes.h
  D:/Mapping/Library/LaserScan/include/LaserMetaFile.h
@@ -10664,13 +10656,24 @@ CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj
  D:/Mapping/Library/LaserScan/include/LaserPoint.h
  D:/Mapping/Library/LaserScan/include/LaserPoints.h
  D:/Mapping/Library/LaserScan/include/LaserPointsInfo.h
+ D:/Mapping/Library/LaserScan/include/LaserPyramid.h
+ D:/Mapping/Library/LaserScan/include/LaserScanLine.h
+ D:/Mapping/Library/LaserScan/include/LaserScanLines.h
  D:/Mapping/Library/LaserScan/include/LaserScanner.h
  D:/Mapping/Library/LaserScan/include/LaserScannerCalibration.h
  D:/Mapping/Library/LaserScan/include/LaserScannerOrientation.h
+ D:/Mapping/Library/LaserScan/include/LaserSubUnit.h
+ D:/Mapping/Library/LaserScan/include/LaserTilePtrVector.h
+ D:/Mapping/Library/LaserScan/include/LaserUnit.h
  D:/Mapping/Library/LaserScan/include/OutliningParameters.h
  D:/Mapping/Library/LaserScan/include/SegmentationParameters.h
+ D:/Mapping/Library/LaserScan/include/StripErrors.h
+ D:/Mapping/Library/LaserScan/include/StripOrientation.h
+ D:/Mapping/Library/LaserScan/include/StripTransform.h
  D:/Mapping/Library/Photogrammetry/include/AttributeTypes.h
  D:/Mapping/Library/Photogrammetry/include/Circle2D.h
+ D:/Mapping/Library/Photogrammetry/include/ControlPoint.h
+ D:/Mapping/Library/Photogrammetry/include/ControlPoints.h
  D:/Mapping/Library/Photogrammetry/include/Covariance2D.h
  D:/Mapping/Library/Photogrammetry/include/Covariance3D.h
  D:/Mapping/Library/Photogrammetry/include/DataBounds2D.h
@@ -10698,11 +10701,15 @@ CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj
  D:/Mapping/Library/Photogrammetry/include/Matrix3.h
  D:/Mapping/Library/Photogrammetry/include/MeshNumber.h
  D:/Mapping/Library/Photogrammetry/include/ObjectPoint.h
+ D:/Mapping/Library/Photogrammetry/include/ObjectPoint2D.h
  D:/Mapping/Library/Photogrammetry/include/ObjectPoints.h
+ D:/Mapping/Library/Photogrammetry/include/ObjectPoints2D.h
  D:/Mapping/Library/Photogrammetry/include/Orientation3D.h
  D:/Mapping/Library/Photogrammetry/include/PixelPosition.h
  D:/Mapping/Library/Photogrammetry/include/Plane.h
  D:/Mapping/Library/Photogrammetry/include/Planes.h
+ D:/Mapping/Library/Photogrammetry/include/Point2D.h
+ D:/Mapping/Library/Photogrammetry/include/Point2DPlain.h
  D:/Mapping/Library/Photogrammetry/include/Point3D.h
  D:/Mapping/Library/Photogrammetry/include/Point3DPlain.h
  D:/Mapping/Library/Photogrammetry/include/PointNumber.h
@@ -10714,6 +10721,7 @@ CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj
  D:/Mapping/Library/Photogrammetry/include/Positions3D.h
  D:/Mapping/Library/Photogrammetry/include/Rotation2D.h
  D:/Mapping/Library/Photogrammetry/include/Rotation3D.h
+ D:/Mapping/Library/Photogrammetry/include/RotationParameter.h
  D:/Mapping/Library/Photogrammetry/include/TIN.h
  D:/Mapping/Library/Photogrammetry/include/TINEdgeSet.h
  D:/Mapping/Library/Photogrammetry/include/TINEdges.h
@@ -10738,3 +10746,4 @@ CMakeFiles/indoor_reconstruction.dir/test_functions.cpp.obj
  D:/Mapping/Tools/indoor_geometry_reocnstruction/post_processing.h
  D:/Mapping/Tools/indoor_geometry_reocnstruction/space_partitioning.h
  D:/Mapping/Tools/indoor_geometry_reocnstruction/test_functions.cpp
+ D:/Mapping/Tools/visualization_tools/visualization_tools.h

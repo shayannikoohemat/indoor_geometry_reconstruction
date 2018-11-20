@@ -8152,22 +8152,6 @@ boost/geometry/algorithms/not_implemented.hpp
 
 C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/result_inverse.hpp
 
-C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/sjoberg_intersection.hpp
-boost/math/constants/constants.hpp
--
-boost/geometry/core/radius.hpp
--
-boost/geometry/core/srs.hpp
--
-boost/geometry/util/condition.hpp
--
-boost/geometry/util/math.hpp
--
-boost/geometry/formulas/flattening.hpp
--
-boost/geometry/formulas/spherical.hpp
--
-
 C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/formulas/spherical.hpp
 boost/geometry/core/coordinate_system.hpp
 -
@@ -10836,38 +10820,6 @@ boost/geometry/algorithms/detail/assign_values.hpp
 boost/geometry/algorithms/detail/assign_indexed_point.hpp
 -
 boost/geometry/algorithms/detail/equals/point_point.hpp
--
-boost/geometry/algorithms/detail/recalculate.hpp
--
-boost/geometry/formulas/andoyer_inverse.hpp
--
-boost/geometry/formulas/sjoberg_intersection.hpp
--
-boost/geometry/formulas/spherical.hpp
--
-boost/geometry/geometries/concepts/point_concept.hpp
--
-boost/geometry/geometries/concepts/segment_concept.hpp
--
-boost/geometry/policies/robustness/segment_ratio.hpp
--
-boost/geometry/strategies/geographic/area.hpp
--
-boost/geometry/strategies/geographic/distance.hpp
--
-boost/geometry/strategies/geographic/parameters.hpp
--
-boost/geometry/strategies/geographic/side.hpp
--
-boost/geometry/strategies/intersection.hpp
--
-boost/geometry/strategies/intersection_result.hpp
--
-boost/geometry/strategies/side_info.hpp
--
-boost/geometry/util/math.hpp
--
-boost/geometry/util/select_calculation_type.hpp
 -
 
 C:/Program Files/boost_gcc4.7/include/boost-1_64/boost/geometry/strategies/geographic/parameters.hpp
@@ -24100,6 +24052,18 @@ ANN.h
 vector
 -
 
+D:/Mapping/Library/LaserScan/include/LaserBlock.h
+vector
+-
+LaserUnit.h
+D:/Mapping/Library/LaserScan/include/LaserUnit.h
+ControlPoints.h
+D:/Mapping/Library/LaserScan/include/ControlPoints.h
+DataBounds2D.h
+D:/Mapping/Library/LaserScan/include/DataBounds2D.h
+LaserTilePtrVector.h
+D:/Mapping/Library/LaserScan/include/LaserTilePtrVector.h
+
 D:/Mapping/Library/LaserScan/include/LaserDataFiles.h
 LaserMetaFile.h
 D:/Mapping/Library/LaserScan/include/LaserMetaFile.h
@@ -24206,6 +24170,24 @@ D:/Mapping/Library/LaserScan/include/ImagedData.h
 DataBoundsLaser.h
 D:/Mapping/Library/LaserScan/include/DataBoundsLaser.h
 
+D:/Mapping/Library/LaserScan/include/LaserPyramid.h
+vector
+-
+LaserBlock.h
+D:/Mapping/Library/LaserScan/include/LaserBlock.h
+
+D:/Mapping/Library/LaserScan/include/LaserScanLine.h
+PointNumber.h
+D:/Mapping/Library/LaserScan/include/PointNumber.h
+LaserPoints.h
+D:/Mapping/Library/LaserScan/include/LaserPoints.h
+
+D:/Mapping/Library/LaserScan/include/LaserScanLines.h
+vector
+-
+LaserScanLine.h
+D:/Mapping/Library/LaserScan/include/LaserScanLine.h
+
 D:/Mapping/Library/LaserScan/include/LaserScanner.h
 LaserScannerCalibration.h
 D:/Mapping/Library/LaserScan/include/LaserScannerCalibration.h
@@ -24221,6 +24203,38 @@ Orientation3D.h
 D:/Mapping/Library/LaserScan/include/Orientation3D.h
 BNF_io.h
 D:/Mapping/Library/LaserScan/include/BNF_io.h
+
+D:/Mapping/Library/LaserScan/include/LaserSubUnit.h
+LaserPoints.h
+D:/Mapping/Library/LaserScan/include/LaserPoints.h
+LaserScanLines.h
+D:/Mapping/Library/LaserScan/include/LaserScanLines.h
+ObjectPoints2D.h
+D:/Mapping/Library/LaserScan/include/ObjectPoints2D.h
+LineTopologies.h
+D:/Mapping/Library/LaserScan/include/LineTopologies.h
+
+D:/Mapping/Library/LaserScan/include/LaserTilePtrVector.h
+vector
+-
+LaserSubUnit.h
+D:/Mapping/Library/LaserScan/include/LaserSubUnit.h
+
+D:/Mapping/Library/LaserScan/include/LaserUnit.h
+vector
+-
+LaserSubUnit.h
+D:/Mapping/Library/LaserScan/include/LaserSubUnit.h
+Positions3D.h
+D:/Mapping/Library/LaserScan/include/Positions3D.h
+ObjectPoints.h
+D:/Mapping/Library/LaserScan/include/ObjectPoints.h
+LaserScanLines.h
+D:/Mapping/Library/LaserScan/include/LaserScanLines.h
+StripTransform.h
+D:/Mapping/Library/LaserScan/include/StripTransform.h
+vMatrix.h
+D:/Mapping/Library/LaserScan/include/vMatrix.h
 
 D:/Mapping/Library/LaserScan/include/OutliningParameters.h
 stdio.h
@@ -24240,6 +24254,30 @@ string.h
 LaserPoint.h
 D:/Mapping/Library/LaserScan/include/LaserPoint.h
 
+D:/Mapping/Library/LaserScan/include/StripErrors.h
+vMatrix.h
+D:/Mapping/Library/LaserScan/include/vMatrix.h
+Vector3D.h
+D:/Mapping/Library/LaserScan/include/Vector3D.h
+ObjectPoint.h
+D:/Mapping/Library/LaserScan/include/ObjectPoint.h
+RotationParameter.h
+D:/Mapping/Library/LaserScan/include/RotationParameter.h
+
+D:/Mapping/Library/LaserScan/include/StripOrientation.h
+Orientation3D.h
+D:/Mapping/Library/LaserScan/include/Orientation3D.h
+ObjectPoint.h
+D:/Mapping/Library/LaserScan/include/ObjectPoint.h
+Positions3D.h
+D:/Mapping/Library/LaserScan/include/Positions3D.h
+
+D:/Mapping/Library/LaserScan/include/StripTransform.h
+StripOrientation.h
+D:/Mapping/Library/LaserScan/include/StripOrientation.h
+StripErrors.h
+D:/Mapping/Library/LaserScan/include/StripErrors.h
+
 D:/Mapping/Library/Photogrammetry/include/AttributeTypes.h
 
 D:/Mapping/Library/Photogrammetry/include/Circle2D.h
@@ -24253,6 +24291,20 @@ ObjectPoints.h
 D:/Mapping/Library/Photogrammetry/include/ObjectPoints.h
 LineTopology.h
 D:/Mapping/Library/Photogrammetry/include/LineTopology.h
+
+D:/Mapping/Library/Photogrammetry/include/ControlPoint.h
+Point3DPlain.h
+D:/Mapping/Library/Photogrammetry/include/Point3DPlain.h
+Database4Cpp.h
+D:/Mapping/Library/Photogrammetry/include/Database4Cpp.h
+
+D:/Mapping/Library/Photogrammetry/include/ControlPoints.h
+VectorPoint.h
+D:/Mapping/Library/Photogrammetry/include/VectorPoint.h
+ControlPoint.h
+D:/Mapping/Library/Photogrammetry/include/ControlPoint.h
+Database4Cpp.h
+D:/Mapping/Library/Photogrammetry/include/Database4Cpp.h
 
 D:/Mapping/Library/Photogrammetry/include/Covariance2D.h
 
@@ -24291,14 +24343,6 @@ Orientation3D.h
 D:/Mapping/Library/Photogrammetry/include/Orientation3D.h
 Database4Cpp.h
 D:/Mapping/Library/Photogrammetry/include/Database4Cpp.h
-
-D:/Mapping/Library/Photogrammetry/include/Face.h
-vector
--
-Position3D.h
-D:/Mapping/Library/Photogrammetry/include/Position3D.h
-Plane.h
-D:/Mapping/Library/Photogrammetry/include/Plane.h
 
 D:/Mapping/Library/Photogrammetry/include/FeatureNumber.h
 
@@ -24424,6 +24468,12 @@ D:/Mapping/Library/Photogrammetry/include/Point3D.h
 Database4Cpp.h
 D:/Mapping/Library/Photogrammetry/include/Database4Cpp.h
 
+D:/Mapping/Library/Photogrammetry/include/ObjectPoint2D.h
+Point2D.h
+D:/Mapping/Library/Photogrammetry/include/Point2D.h
+Database4Cpp.h
+D:/Mapping/Library/Photogrammetry/include/Database4Cpp.h
+
 D:/Mapping/Library/Photogrammetry/include/ObjectPoints.h
 VectorPoint.h
 D:/Mapping/Library/Photogrammetry/include/VectorPoint.h
@@ -24437,6 +24487,18 @@ DataBounds3D.h
 D:/Mapping/Library/Photogrammetry/include/DataBounds3D.h
 Positions3D.h
 D:/Mapping/Library/Photogrammetry/include/Positions3D.h
+
+D:/Mapping/Library/Photogrammetry/include/ObjectPoints2D.h
+VectorPoint.h
+D:/Mapping/Library/Photogrammetry/include/VectorPoint.h
+ObjectPoint2D.h
+D:/Mapping/Library/Photogrammetry/include/ObjectPoint2D.h
+ImagePoints.h
+D:/Mapping/Library/Photogrammetry/include/ImagePoints.h
+ImageGrid.h
+D:/Mapping/Library/Photogrammetry/include/ImageGrid.h
+Database4Cpp.h
+D:/Mapping/Library/Photogrammetry/include/Database4Cpp.h
 
 D:/Mapping/Library/Photogrammetry/include/Orientation3D.h
 stdlib.h
@@ -24473,6 +24535,18 @@ vector
 -
 Plane.h
 D:/Mapping/Library/Photogrammetry/include/Plane.h
+
+D:/Mapping/Library/Photogrammetry/include/Point2D.h
+Point2DPlain.h
+D:/Mapping/Library/Photogrammetry/include/Point2DPlain.h
+Covariance2D.h
+D:/Mapping/Library/Photogrammetry/include/Covariance2D.h
+
+D:/Mapping/Library/Photogrammetry/include/Point2DPlain.h
+Position2D.h
+D:/Mapping/Library/Photogrammetry/include/Position2D.h
+PointNumber.h
+D:/Mapping/Library/Photogrammetry/include/PointNumber.h
 
 D:/Mapping/Library/Photogrammetry/include/Point3D.h
 Point3DPlain.h
@@ -24549,6 +24623,18 @@ list
 -
 Vector3D.h
 D:/Mapping/Library/Photogrammetry/include/Vector3D.h
+
+D:/Mapping/Library/Photogrammetry/include/RotationParameter.h
+stdlib.h
+-
+limits.h
+-
+math.h
+-
+iostream
+-
+Rotation3D.h
+D:/Mapping/Library/Photogrammetry/include/Rotation3D.h
 
 D:/Mapping/Library/Photogrammetry/include/TIN.h
 TINMesh.h
@@ -24771,9 +24857,9 @@ KNNFinder.h
 -
 
 D:/Mapping/Tools/indoor_geometry_reocnstruction/MLS_preprocessing.cpp
-iostream
+cstdlib
 -
-string
+cstring
 -
 LaserPoints.h
 D:/Mapping/Tools/indoor_geometry_reocnstruction/LaserPoints.h
@@ -24787,6 +24873,10 @@ KNNFinder.h
 -
 Directory_Processing.h
 D:/Mapping/Tools/indoor_geometry_reocnstruction/Directory_Processing.h
+boost/algorithm/string.hpp
+-
+iomanip
+-
 
 D:/Mapping/Tools/indoor_geometry_reocnstruction/PlaneFittingResidual.cpp
 LaserPoints.h
@@ -24852,24 +24942,6 @@ D:/Mapping/Tools/indoor_geometry_reocnstruction/indoor_reconstruction.h
 post_processing.h
 D:/Mapping/Tools/indoor_geometry_reocnstruction/post_processing.h
 
-D:/Mapping/Tools/indoor_geometry_reocnstruction/indoorTopology_v1_old.cpp
-iostream
--
-cstdlib
--
-ctime
--
-LaserPoints.h
--
-map
--
-Buffer.h
-D:/Mapping/Tools/indoor_geometry_reocnstruction/Buffer.h
-Buffers.h
-D:/Mapping/Tools/indoor_geometry_reocnstruction/Buffers.h
-indoor_reconstruction.h
-D:/Mapping/Tools/indoor_geometry_reocnstruction/indoor_reconstruction.h
-
 D:/Mapping/Tools/indoor_geometry_reocnstruction/indoor_reconstruction.h
 iostream
 -
@@ -24906,7 +24978,7 @@ D:/Mapping/Tools/indoor_geometry_reocnstruction/PlaneFittingResidual.h
 Laservoxel.h
 D:/Mapping/Tools/indoor_geometry_reocnstruction/Laservoxel.h
 
-D:/Mapping/Tools/indoor_geometry_reocnstruction/occlusion_test.cpp
+D:/Mapping/Tools/indoor_geometry_reocnstruction/occlusion_test2.cpp
 ctime
 -
 iostream
@@ -24919,6 +24991,8 @@ Buffers.h
 D:/Mapping/Tools/indoor_geometry_reocnstruction/Buffers.h
 cassert
 -
+indoor_reconstruction.h
+D:/Mapping/Tools/indoor_geometry_reocnstruction/indoor_reconstruction.h
 
 D:/Mapping/Tools/indoor_geometry_reocnstruction/post_processing.cpp
 iostream
@@ -25007,6 +25081,10 @@ space_partitioning.h
 D:/Mapping/Tools/indoor_geometry_reocnstruction/space_partitioning.h
 Directory_Processing.h
 D:/Mapping/Tools/indoor_geometry_reocnstruction/Directory_Processing.h
+visualization_tools.h
+D:/Mapping/Tools/indoor_geometry_reocnstruction/visualization_tools.h
+LaserPyramid.h
+D:/Mapping/Tools/indoor_geometry_reocnstruction/LaserPyramid.h
 
 D:/Mapping/Tools/visualization_tools/MinimumRectangle3D.cpp
 iostream
@@ -25017,16 +25095,6 @@ LaserPoints.h
 D:/Mapping/Tools/visualization_tools/LaserPoints.h
 LaserPoint.h
 D:/Mapping/Tools/visualization_tools/LaserPoint.h
-
-D:/Mapping/Tools/visualization_tools/VisualizePlane3D.cpp
-iostream
--
-vector
--
-LaserPoints.h
-D:/Mapping/Tools/visualization_tools/LaserPoints.h
-Face.h
-D:/Mapping/Tools/visualization_tools/Face.h
 
 D:/Mapping/Tools/visualization_tools/visualization_tools.h
 LaserPoints.h
